@@ -1,0 +1,1001 @@
+hostname,ip,mac,os,ram_gb,cpu_cores,disk_gb,department,role,status,last_patch,purchase_date,admin_email
+srv-fin-0001,10.1.114.36,34:2c:d8:10:0f:2f,Ubuntu 22.04 LTS,8,4,250,Finanzas,ldap,degradado,2026-05-23,2022-04-13,amontesinos@example.org
+srv-mar-0002,10.1.229.151,8e:03:51:d8:ae:8e,Windows Server 2016,32,4,250,Marketing,monitor,activo,2026-04-19,2023-04-19,fcardenas@example.net
+srv-fin-0003,10.4.135.207,16:eb:3f:c1:28:96,RHEL 9,16,16,1000,Finanzas,monitor,degradado,2026-02-27,2021-06-24,agapitofrias@example.org
+srv-fin-0004,10.2.40.219,77:33:c2:8e:e8:ba,Ubuntu 22.04 LTS,8,4,500,Finanzas,monitor,activo,2025-06-27,2023-12-07,ecervera@example.net
+srv-fin-0005,10.1.236.98,8a:70:a6:1c:75:10,Debian 12,8,4,500,Finanzas,backup,activo,2026-02-17,2022-04-01,abautista@example.net
+srv-seg-0006,10.3.234.37,87:47:7e:86:db:cc,CentOS 7,64,4,250,Seguridad,mail,degradado,2025-09-26,2024-12-01,macarioblazquez@example.com
+srv-des-0007,10.5.81.203,d8:20:c5:c3:ef:80,Ubuntu 20.04 LTS,4,8,100,Desarrollo,db,degradado,2026-01-20,2021-11-01,escolanocarmela@example.com
+srv-seg-0008,10.3.80.117,01:86:5b:36:98:65,Ubuntu 20.04 LTS,8,4,500,Seguridad,mail,degradado,2025-09-07,2025-06-04,padillapacifica@example.org
+srv-seg-0009,10.0.185.225,9d:7a:1d:7b:28:2b,Windows Server 2019,2,16,500,Seguridad,db,degradado,2026-04-02,2024-09-16,imeldaalcantara@example.com
+srv-i+d-0010,10.2.216.247,6c:66:9f:cc:bf:e0,Windows Server 2016,4,8,500,I+D,db,activo,2026-02-10,2025-01-25,sergioverdugo@example.org
+srv-seg-0011,10.4.112.2,24:1e:75:22:10:a9,Ubuntu 22.04 LTS,8,2,1000,Seguridad,proxy,activo,2025-06-28,2022-09-15,aramburusaturnino@example.com
+srv-mar-0012,10.5.242.63,f2:d0:61:30:31:dc,Windows Server 2016,4,4,500,Marketing,dns,mantenimiento,2026-05-09,2021-08-26,reigeufemia@example.com
+srv-fin-0013,10.5.173.205,37:7f:62:61:e5:47,Ubuntu 22.04 LTS,32,8,250,Finanzas,backup,mantenimiento,2026-01-29,2025-01-02,enrique28@example.net
+srv-i+d-0014,10.0.7.249,2f:79:55:d0:f8:f6,Windows Server 2016,4,4,500,I+D,web,activo,2025-11-23,2025-06-01,qpadilla@example.net
+srv-inf-0015,10.2.216.179,f9:4f:61:97:6f:1d,Rocky Linux 9,64,8,2000,Infraestructura,ldap,activo,2025-12-27,2025-02-08,patinoveronica@example.com
+srv-des-0016,10.0.41.218,5f:23:22:78:ce:3d,Windows Server 2019,4,8,250,Desarrollo,ci-cd,degradado,2026-05-16,2021-12-15,orios@example.com
+srv-fin-0017,10.2.104.172,a0:7a:87:ca:43:99,Windows Server 2022,16,8,500,Finanzas,db,activo,2025-10-14,2021-12-11,carla40@example.com
+srv-fin-0018,10.4.135.34,b2:23:7d:bd:91:50,Ubuntu 20.04 LTS,8,8,1000,Finanzas,backup,degradado,2025-07-06,2022-06-18,xmir@example.org
+srv-des-0019,10.5.53.241,44:87:3b:36:4f:8b,Windows Server 2016,8,4,1000,Desarrollo,proxy,activo,2026-02-21,2021-07-29,severianouriarte@example.net
+srv-ope-0020,10.2.26.24,d8:8d:16:01:aa:42,Windows Server 2016,64,16,500,Operaciones,mail,mantenimiento,2025-08-27,2021-06-21,manoloparra@example.net
+srv-inf-0021,10.0.38.242,4c:12:bd:4b:dc:41,Windows Server 2016,2,2,500,Infraestructura,monitor,activo,2025-12-04,2024-04-01,consuela88@example.org
+srv-mar-0022,10.4.208.250,4f:79:53:5a:d3:0c,Ubuntu 20.04 LTS,16,4,2000,Marketing,monitor,mantenimiento,2025-06-28,2024-01-14,jenaro10@example.com
+srv-ope-0023,10.3.19.220,f0:71:66:eb:b3:9c,Debian 12,4,4,250,Operaciones,web,activo,2025-11-13,2023-08-03,snovoa@example.com
+srv-ope-0024,10.2.204.174,a9:0e:3b:85:5b:87,Ubuntu 20.04 LTS,8,2,100,Operaciones,ci-cd,mantenimiento,2025-12-11,2023-09-02,oguitart@example.org
+srv-inf-0025,10.3.97.66,16:df:00:64:ba:dc,Windows Server 2016,4,2,2000,Infraestructura,monitor,degradado,2025-12-27,2021-09-16,mariapatino@example.org
+srv-fin-0026,10.5.209.84,ce:97:41:62:d7:c2,Rocky Linux 9,8,16,2000,Finanzas,mail,degradado,2025-08-18,2023-09-28,montserrat75@example.com
+srv-inf-0027,10.2.146.54,dc:a4:ee:e2:e2:6d,Windows Server 2016,2,8,500,Infraestructura,mail,activo,2026-01-11,2022-07-16,jpalacio@example.net
+srv-seg-0028,10.5.158.58,65:4b:0c:17:7d:f3,Ubuntu 20.04 LTS,8,8,100,Seguridad,nfs,mantenimiento,2025-07-18,2022-03-15,roxanaarcos@example.org
+srv-mar-0029,10.3.124.38,02:36:d9:70:5a:ed,Windows Server 2022,64,2,1000,Marketing,proxy,activo,2025-10-15,2024-09-05,nayara81@example.org
+srv-i+d-0030,10.3.218.213,e4:51:f3:e6:84:7e,Windows Server 2016,16,16,500,I+D,ldap,mantenimiento,2025-07-20,2024-02-02,cesar01@example.com
+srv-ope-0031,10.5.146.61,8b:ab:a3:29:46:4d,Windows Server 2019,4,4,500,Operaciones,mail,activo,2026-05-04,2023-02-07,leandro95@example.com
+srv-inf-0032,10.3.31.53,d7:c7:0a:c2:f4:03,RHEL 9,64,4,500,Infraestructura,dns,mantenimiento,2025-09-03,2022-05-14,ruperto25@example.org
+srv-mar-0033,10.2.223.125,0e:c7:ac:cf:54:ef,Windows Server 2019,8,4,1000,Marketing,ldap,activo,2025-11-16,2022-02-09,cabrerotrini@example.net
+srv-des-0034,10.1.236.47,19:85:c2:a7:6c:e8,Ubuntu 20.04 LTS,32,4,500,Desarrollo,dns,activo,2025-11-02,2024-01-06,ymoreno@example.org
+srv-fin-0035,10.5.26.244,b3:72:23:14:0f:7e,Windows Server 2019,2,4,100,Finanzas,ci-cd,activo,2026-02-03,2024-09-20,emiliano68@example.com
+srv-i+d-0036,10.3.131.197,bc:55:3a:53:9f:37,Ubuntu 20.04 LTS,8,8,100,I+D,backup,degradado,2025-06-24,2023-04-29,hectorheredia@example.com
+srv-inf-0037,10.4.124.27,9a:3d:15:b1:db:bd,CentOS 7,4,2,1000,Infraestructura,monitor,activo,2025-11-02,2022-09-06,pascuala22@example.com
+srv-fin-0038,10.5.235.182,4e:de:5a:8a:f7:ee,Windows Server 2022,16,8,2000,Finanzas,ci-cd,activo,2025-12-22,2024-01-20,amadajodar@example.com
+srv-fin-0039,10.1.237.146,c2:ac:0e:fd:a6:5d,Rocky Linux 9,64,8,250,Finanzas,monitor,activo,2025-12-13,2023-11-11,friasmarciano@example.org
+srv-ope-0040,10.4.97.22,7b:d0:fa:7b:f3:fb,Windows Server 2016,2,8,100,Operaciones,db,activo,2026-02-12,2023-02-28,melchor73@example.org
+srv-mar-0041,10.3.176.109,a9:b4:e8:8a:9c:80,Rocky Linux 9,16,4,100,Marketing,proxy,activo,2026-04-05,2022-06-04,chelomorales@example.com
+srv-rrh-0042,10.5.247.71,90:33:63:97:74:b8,CentOS 7,8,4,500,RRHH,web,degradado,2026-04-02,2023-11-22,irisherrera@example.org
+srv-des-0043,10.5.64.164,fb:34:06:91:f0:f5,Ubuntu 22.04 LTS,8,8,500,Desarrollo,mail,activo,2026-01-27,2022-10-01,encarnita08@example.com
+srv-fin-0044,10.3.37.148,1b:4d:4c:9b:2b:7f,Ubuntu 20.04 LTS,32,2,1000,Finanzas,dns,degradado,2025-08-04,2021-12-17,arellanovaleria@example.net
+srv-mar-0045,10.3.226.77,db:9c:1e:32:6a:6c,Windows Server 2016,32,4,2000,Marketing,db,activo,2026-02-03,2024-06-15,loreto78@example.org
+srv-fin-0046,10.3.230.177,f0:95:10:76:93:90,Debian 12,2,16,500,Finanzas,db,activo,2026-01-21,2021-12-03,palmaroque@example.org
+srv-mar-0047,10.4.115.166,4c:88:48:24:1e:54,Windows Server 2022,4,4,1000,Marketing,ci-cd,activo,2025-10-24,2024-09-24,claudiomatas@example.com
+srv-i+d-0048,10.2.252.113,29:14:dd:a5:80:0d,Rocky Linux 9,32,2,250,I+D,ci-cd,degradado,2026-05-26,2021-08-29,gayaandres-felipe@example.com
+srv-ope-0049,10.3.226.235,8e:5c:df:fb:2e:f0,Ubuntu 22.04 LTS,4,4,500,Operaciones,monitor,activo,2025-06-27,2024-11-03,melania39@example.net
+srv-rrh-0050,10.5.253.74,cd:12:e8:2d:a1:81,RHEL 9,32,4,100,RRHH,dns,degradado,2026-06-05,2021-09-28,corderosantiago@example.net
+srv-i+d-0051,10.1.185.160,ff:e2:1a:68:88:43,Windows Server 2022,2,4,500,I+D,nfs,activo,2026-05-22,2021-11-23,fernandaroig@example.org
+srv-mar-0052,10.4.7.142,d0:2f:73:3a:ec:3c,Debian 12,8,16,250,Marketing,nfs,activo,2025-09-18,2021-06-22,regulo95@example.net
+srv-ope-0053,10.3.124.117,4a:c4:61:45:23:8d,Windows Server 2022,64,8,500,Operaciones,ldap,activo,2026-06-04,2023-11-04,villenasusana@example.com
+srv-ope-0054,10.3.247.89,aa:c1:e9:a4:60:7a,Windows Server 2019,4,8,500,Operaciones,proxy,mantenimiento,2026-05-14,2023-08-24,sainzprimitivo@example.com
+srv-i+d-0055,10.5.77.127,12:40:a9:33:e1:33,Windows Server 2022,32,8,500,I+D,web,activo,2025-11-08,2021-10-04,calistacollado@example.com
+srv-rrh-0056,10.2.173.160,cb:29:a8:c2:a2:f9,Ubuntu 20.04 LTS,64,8,100,RRHH,ci-cd,activo,2026-02-05,2021-11-21,eulaliacabanas@example.net
+srv-ope-0057,10.3.50.195,33:e3:55:99:0e:17,CentOS 7,4,4,100,Operaciones,backup,activo,2025-11-26,2023-01-05,landasilvestre@example.net
+srv-rrh-0058,10.4.92.44,59:28:c3:7b:fe:49,CentOS 7,32,4,500,RRHH,backup,mantenimiento,2026-01-26,2021-09-09,montalbancamilo@example.net
+srv-des-0059,10.5.80.19,e2:b0:99:d9:80:e9,Windows Server 2019,8,4,250,Desarrollo,dns,mantenimiento,2026-04-12,2024-02-06,angelcanovas@example.org
+srv-inf-0060,10.5.151.6,ca:8c:04:19:fe:92,RHEL 9,8,4,1000,Infraestructura,monitor,activo,2025-07-15,2024-05-12,olmomaxi@example.com
+srv-ope-0061,10.5.20.80,e1:11:ba:43:2e:97,Debian 12,4,4,2000,Operaciones,dns,activo,2026-02-23,2024-09-08,ligiasastre@example.org
+srv-seg-0062,10.1.131.234,f6:97:ad:3a:ef:26,Windows Server 2016,8,4,250,Seguridad,dns,degradado,2025-11-30,2024-12-03,lromeu@example.com
+srv-inf-0063,10.4.63.117,bc:86:c3:be:37:77,Ubuntu 22.04 LTS,8,8,100,Infraestructura,ci-cd,degradado,2025-12-20,2022-01-03,fabiolaleon@example.org
+srv-mar-0064,10.5.154.167,d1:3b:47:17:13:9b,Ubuntu 20.04 LTS,64,8,100,Marketing,db,activo,2025-09-03,2024-09-01,giglesia@example.net
+srv-inf-0065,10.5.214.151,4f:d4:32:fa:d0:8f,Windows Server 2019,16,2,2000,Infraestructura,monitor,activo,2025-10-21,2022-12-08,maxipellicer@example.net
+srv-mar-0066,10.5.188.140,b7:1f:cb:8d:61:3e,RHEL 9,4,8,100,Marketing,proxy,degradado,2026-05-26,2025-02-22,yessicapomares@example.com
+srv-seg-0067,10.4.105.18,6a:6e:77:a8:4b:01,CentOS 7,4,4,250,Seguridad,mail,degradado,2026-01-28,2024-06-13,aureliatorrijos@example.org
+srv-fin-0068,10.0.183.203,79:a5:08:59:87:1a,Ubuntu 22.04 LTS,4,4,2000,Finanzas,dns,degradado,2026-04-08,2025-01-26,carolina20@example.com
+srv-i+d-0069,10.4.55.116,71:16:9a:ea:0f:1f,Windows Server 2019,16,8,500,I+D,dns,activo,2025-09-27,2021-06-08,gastonroyo@example.org
+srv-i+d-0070,10.2.75.17,40:8c:a6:c3:96:e8,Ubuntu 20.04 LTS,4,8,1000,I+D,dns,activo,2025-06-11,2024-10-14,inigo34@example.com
+srv-mar-0071,10.1.211.87,e8:cc:d4:30:a0:da,Windows Server 2022,64,4,2000,Marketing,backup,activo,2026-03-19,2021-07-30,agueda08@example.org
+srv-i+d-0072,10.0.47.111,31:be:42:1e:a8:3e,Ubuntu 20.04 LTS,4,8,500,I+D,dns,activo,2026-01-09,2022-01-23,rodriguezlope@example.org
+srv-ope-0073,10.4.108.40,f6:72:37:b3:bc:3a,RHEL 9,4,4,1000,Operaciones,proxy,mantenimiento,2025-08-22,2021-12-10,corderoencarnacion@example.net
+srv-des-0074,10.1.139.180,9e:ad:b3:03:5c:49,Rocky Linux 9,2,8,2000,Desarrollo,dns,activo,2026-03-25,2021-11-17,roselljose-manuel@example.org
+srv-des-0075,10.3.214.117,ae:50:bd:9f:a6:2b,Ubuntu 20.04 LTS,8,2,250,Desarrollo,mail,degradado,2026-05-11,2021-08-25,jose-carlos84@example.org
+srv-fin-0076,10.5.217.125,e2:d4:8b:6e:3a:b0,Rocky Linux 9,64,8,100,Finanzas,backup,degradado,2025-09-29,2022-06-22,teodosioramirez@example.com
+srv-ope-0077,10.3.28.2,68:9a:6c:46:82:94,Ubuntu 22.04 LTS,8,4,100,Operaciones,web,mantenimiento,2025-10-28,2024-06-11,ildefonsomarino@example.org
+srv-rrh-0078,10.4.181.19,cb:15:df:09:eb:27,Windows Server 2022,8,4,1000,RRHH,dns,degradado,2025-11-10,2021-06-13,ciprianopol@example.com
+srv-inf-0079,10.3.10.248,a6:57:eb:b9:2d:df,Rocky Linux 9,4,2,250,Infraestructura,dns,degradado,2025-11-12,2022-06-28,rafavidal@example.org
+srv-fin-0080,10.5.173.57,aa:56:27:3a:63:b2,Windows Server 2022,8,4,2000,Finanzas,mail,activo,2026-04-14,2024-08-10,fulgencioblanch@example.com
+srv-ope-0081,10.4.78.195,26:5a:fc:ed:e5:a5,CentOS 7,4,16,500,Operaciones,mail,mantenimiento,2026-05-02,2022-10-19,tecla02@example.net
+srv-i+d-0082,10.4.28.91,25:9e:ec:e7:13:1d,Rocky Linux 9,8,4,500,I+D,db,activo,2025-07-26,2022-02-05,jesus81@example.net
+srv-inf-0083,10.3.96.83,f3:4d:1f:e6:34:af,Windows Server 2019,2,16,100,Infraestructura,ldap,activo,2026-05-16,2024-01-15,vicensdavid@example.org
+srv-i+d-0084,10.2.190.235,90:c6:d1:ad:1a:ab,Windows Server 2019,4,2,500,I+D,db,degradado,2025-06-23,2023-04-06,xferrandez@example.org
+srv-ope-0085,10.2.41.150,48:b3:9e:c8:42:2b,Rocky Linux 9,4,4,1000,Operaciones,dns,activo,2026-04-01,2021-09-02,solisflorina@example.com
+srv-fin-0086,10.0.185.80,5c:6d:ae:f8:62:73,Windows Server 2022,16,4,250,Finanzas,db,activo,2026-04-15,2022-08-01,paredesvanesa@example.com
+srv-des-0087,10.4.192.40,53:5c:54:e0:16:d2,RHEL 9,4,4,2000,Desarrollo,proxy,mantenimiento,2025-07-28,2023-10-31,danilofonseca@example.net
+srv-i+d-0088,10.2.240.232,63:bc:e1:ec:90:c3,CentOS 7,8,8,1000,I+D,dns,activo,2026-02-23,2022-01-14,hnavarro@example.org
+srv-rrh-0089,10.5.246.224,be:34:3f:91:2a:52,Rocky Linux 9,2,4,500,RRHH,ldap,activo,2025-10-25,2024-11-30,xiomarapelayo@example.com
+srv-mar-0090,10.0.212.14,ca:bf:78:c5:29:bf,Windows Server 2019,16,4,100,Marketing,monitor,activo,2025-06-05,2021-10-13,ppinol@example.net
+srv-seg-0091,10.0.146.235,f1:47:f0:e5:02:28,Debian 12,4,2,500,Seguridad,proxy,activo,2025-08-29,2022-01-06,edmundoarranz@example.com
+srv-inf-0092,10.1.154.32,18:7a:d6:ea:20:38,Ubuntu 20.04 LTS,8,8,1000,Infraestructura,ldap,activo,2025-07-17,2022-07-16,antonioheredia@example.net
+srv-mar-0093,10.3.0.158,b4:7b:d5:5f:2b:b8,Debian 12,8,2,1000,Marketing,ldap,degradado,2025-09-19,2022-04-28,rioseulalia@example.com
+srv-des-0094,10.0.198.252,bf:81:08:b6:22:b0,Windows Server 2022,64,4,2000,Desarrollo,db,degradado,2025-12-17,2024-09-05,njara@example.net
+srv-des-0095,10.5.89.213,ed:f5:5d:45:20:ea,RHEL 9,16,2,500,Desarrollo,proxy,activo,2026-02-23,2025-03-12,gustavosamper@example.net
+srv-seg-0096,10.4.242.65,12:61:92:b6:18:a9,Rocky Linux 9,32,4,100,Seguridad,monitor,mantenimiento,2025-11-13,2022-12-18,pedrocampillo@example.com
+srv-inf-0097,10.3.254.95,88:2a:d9:28:dc:5c,RHEL 9,4,8,500,Infraestructura,monitor,activo,2026-04-26,2023-08-04,atilio36@example.org
+srv-ope-0098,10.4.218.43,e3:b3:e4:15:b4:de,Rocky Linux 9,64,4,2000,Operaciones,web,activo,2025-06-27,2021-11-08,zabaletamatilde@example.com
+srv-inf-0099,10.0.73.218,e0:11:40:22:78:bb,RHEL 9,4,4,500,Infraestructura,ci-cd,activo,2025-07-31,2024-07-26,tbaez@example.com
+srv-i+d-0100,10.3.39.147,46:bb:cb:a0:8e:7f,RHEL 9,16,2,100,I+D,mail,mantenimiento,2025-09-13,2023-04-05,arsenioescobar@example.org
+srv-fin-0101,10.5.228.55,92:fb:66:3e:45:25,Rocky Linux 9,8,8,250,Finanzas,nfs,activo,2025-06-21,2023-08-21,francisco72@example.net
+srv-seg-0102,10.2.80.183,59:b9:72:3e:66:47,Ubuntu 20.04 LTS,8,4,500,Seguridad,web,activo,2025-08-26,2022-03-21,clotildeochoa@example.net
+srv-seg-0103,10.4.44.17,9e:cb:f5:d2:d1:25,Windows Server 2019,4,4,500,Seguridad,db,mantenimiento,2025-10-10,2021-08-13,pvilanova@example.com
+srv-seg-0104,10.1.221.129,1c:3f:4e:9b:54:52,Debian 12,4,4,2000,Seguridad,proxy,activo,2025-09-13,2023-11-02,cebrianfigueroa@example.net
+srv-fin-0105,10.5.140.33,9b:2f:56:4e:57:ac,Rocky Linux 9,8,8,100,Finanzas,web,activo,2026-05-13,2021-10-31,barralvera@example.org
+srv-ope-0106,10.4.15.128,94:9a:f7:7d:cf:98,CentOS 7,32,8,100,Operaciones,web,activo,2025-10-23,2023-02-05,iramirez@example.com
+srv-i+d-0107,10.2.73.81,a3:b0:cc:42:bd:36,Windows Server 2019,8,4,250,I+D,nfs,activo,2026-01-20,2022-11-28,mcabezas@example.net
+srv-mar-0108,10.0.148.243,c4:d6:7f:51:a7:a0,Debian 12,4,4,250,Marketing,nfs,degradado,2025-10-09,2022-08-19,greal@example.org
+srv-ope-0109,10.0.201.130,ea:7b:6e:b4:18:19,Windows Server 2019,2,4,500,Operaciones,ci-cd,mantenimiento,2026-01-10,2022-06-02,hocana@example.com
+srv-des-0110,10.1.135.187,bb:ce:bb:17:cd:1a,Ubuntu 20.04 LTS,32,8,1000,Desarrollo,proxy,activo,2025-08-26,2023-10-23,elvira16@example.org
+srv-fin-0111,10.4.143.212,3c:41:31:c9:bf:ad,Windows Server 2022,64,8,500,Finanzas,mail,activo,2025-08-01,2022-07-29,pintoreusebia@example.net
+srv-inf-0112,10.0.19.36,aa:f2:e9:4c:47:a7,Windows Server 2016,2,8,500,Infraestructura,mail,mantenimiento,2025-07-25,2023-10-02,arteagalope@example.org
+srv-seg-0113,10.5.153.122,08:bc:a9:38:d5:9d,Windows Server 2016,64,16,2000,Seguridad,web,degradado,2025-10-06,2023-12-10,raimundorosado@example.net
+srv-mar-0114,10.1.194.38,7c:10:38:61:09:e1,Ubuntu 22.04 LTS,64,4,500,Marketing,mail,mantenimiento,2025-06-17,2024-04-14,nunezpaola@example.org
+srv-inf-0115,10.5.31.181,46:6a:a6:f4:c0:a0,Windows Server 2016,64,4,500,Infraestructura,ldap,activo,2025-08-30,2023-06-11,aitanaisern@example.org
+srv-ope-0116,10.1.142.143,98:73:98:93:6a:fa,Windows Server 2019,8,4,500,Operaciones,monitor,degradado,2026-01-16,2023-10-25,jaimecamacho@example.net
+srv-fin-0117,10.3.176.245,4a:94:15:93:28:b1,Windows Server 2016,32,8,2000,Finanzas,backup,mantenimiento,2026-02-16,2024-04-18,velascomarc@example.org
+srv-ope-0118,10.1.55.158,7a:7c:19:73:77:1a,Windows Server 2016,8,2,500,Operaciones,monitor,mantenimiento,2026-04-15,2021-08-10,jandreu@example.net
+srv-rrh-0119,10.3.243.123,66:93:a4:92:1e:2d,Ubuntu 22.04 LTS,4,16,1000,RRHH,proxy,degradado,2026-05-17,2024-06-12,egeaamada@example.org
+srv-inf-0120,10.3.253.48,94:13:04:98:36:ab,Debian 12,2,4,500,Infraestructura,ldap,degradado,2025-09-26,2024-09-04,dexposito@example.com
+srv-i+d-0121,10.0.169.42,ea:83:5f:07:ac:97,Rocky Linux 9,8,8,2000,I+D,proxy,activo,2025-07-28,2021-11-05,zaida30@example.org
+srv-inf-0122,10.0.205.172,30:5e:47:f4:a5:7f,Windows Server 2022,16,2,500,Infraestructura,dns,activo,2025-10-20,2023-12-07,candelaria44@example.net
+srv-seg-0123,10.2.184.178,78:1f:3c:ee:9d:51,Rocky Linux 9,2,8,2000,Seguridad,ldap,activo,2025-06-17,2024-10-08,albino67@example.org
+srv-ope-0124,10.1.68.123,4e:e8:bf:d4:f1:6f,RHEL 9,8,4,2000,Operaciones,ci-cd,activo,2025-09-09,2022-12-04,aragonesnicodemo@example.org
+srv-seg-0125,10.0.103.147,4c:54:a7:e2:3b:69,Ubuntu 20.04 LTS,4,16,1000,Seguridad,nfs,activo,2025-09-17,2022-12-06,dalila88@example.com
+srv-des-0126,10.4.212.117,1d:ec:9d:0b:ca:82,Windows Server 2019,4,2,2000,Desarrollo,proxy,degradado,2026-04-29,2025-03-05,vyanez@example.org
+srv-inf-0127,10.4.30.240,23:f1:10:92:d1:5c,RHEL 9,4,4,2000,Infraestructura,dns,activo,2025-11-22,2022-11-30,doller@example.org
+srv-inf-0128,10.5.68.168,b2:3c:5b:c9:41:72,Windows Server 2022,4,2,100,Infraestructura,backup,mantenimiento,2025-06-26,2022-05-17,sroura@example.org
+srv-inf-0129,10.1.126.118,b1:4f:8d:60:39:10,Windows Server 2016,32,16,500,Infraestructura,ci-cd,activo,2026-02-02,2024-04-09,acolomer@example.com
+srv-fin-0130,10.3.24.63,16:cd:e0:77:6f:1c,Ubuntu 20.04 LTS,2,4,1000,Finanzas,backup,activo,2025-08-15,2023-08-22,manolosolis@example.org
+srv-seg-0131,10.1.113.106,99:8c:1f:59:da:fd,CentOS 7,8,2,500,Seguridad,dns,degradado,2025-12-24,2021-07-10,rmurcia@example.org
+srv-inf-0132,10.2.192.48,f2:7b:73:99:49:ed,Windows Server 2022,4,2,1000,Infraestructura,dns,mantenimiento,2025-08-24,2022-06-16,josefafuster@example.net
+srv-rrh-0133,10.2.104.85,28:e6:bd:2f:61:1a,Windows Server 2022,8,4,500,RRHH,ci-cd,degradado,2026-05-16,2025-01-07,galangabriel@example.net
+srv-mar-0134,10.3.106.223,aa:9b:07:6c:61:3c,Windows Server 2016,8,16,500,Marketing,proxy,degradado,2025-06-10,2024-04-13,ssaavedra@example.net
+srv-inf-0135,10.2.194.120,b7:9d:85:b8:fe:ee,CentOS 7,16,2,2000,Infraestructura,nfs,activo,2026-02-21,2023-05-08,titochamorro@example.com
+srv-seg-0136,10.4.113.190,4a:08:85:d5:97:4e,Windows Server 2022,2,4,500,Seguridad,proxy,mantenimiento,2025-08-18,2024-01-19,roldaniban@example.org
+srv-i+d-0137,10.2.250.248,fb:eb:56:b4:56:47,Windows Server 2016,16,16,1000,I+D,nfs,activo,2025-09-01,2021-10-30,otamayo@example.org
+srv-des-0138,10.0.24.196,03:d3:46:76:22:4d,Windows Server 2016,2,2,250,Desarrollo,ldap,mantenimiento,2025-11-26,2025-02-02,qvinas@example.com
+srv-i+d-0139,10.0.210.4,08:8c:92:08:dc:5b,Windows Server 2019,2,2,100,I+D,ldap,activo,2026-02-02,2024-05-08,eva-maria52@example.com
+srv-ope-0140,10.3.40.96,cf:eb:7c:73:99:29,RHEL 9,8,16,2000,Operaciones,web,activo,2025-11-10,2023-04-21,ghernando@example.com
+srv-inf-0141,10.0.4.180,57:2a:ff:de:a9:30,Windows Server 2016,64,8,100,Infraestructura,proxy,activo,2025-06-16,2022-04-02,penalalo@example.net
+srv-i+d-0142,10.0.143.231,10:5b:a1:08:6a:49,Rocky Linux 9,2,16,500,I+D,db,activo,2026-03-14,2022-04-08,cmanzanares@example.org
+srv-mar-0143,10.3.71.203,28:b1:1b:32:df:76,Windows Server 2022,16,2,500,Marketing,ci-cd,degradado,2025-08-05,2023-03-16,cordobaelisabet@example.net
+srv-seg-0144,10.3.251.59,b6:c0:dd:5f:c2:2b,Ubuntu 22.04 LTS,8,8,500,Seguridad,proxy,activo,2026-04-24,2023-12-05,crivas@example.com
+srv-rrh-0145,10.5.199.82,b8:36:2e:02:9d:e3,Windows Server 2022,4,4,500,RRHH,db,activo,2026-04-22,2024-05-18,albert79@example.org
+srv-inf-0146,10.0.13.23,b5:2f:a6:c5:06:95,Windows Server 2019,32,8,500,Infraestructura,db,degradado,2026-02-01,2022-03-22,robertaparejo@example.org
+srv-rrh-0147,10.1.137.78,89:fc:4a:20:55:de,Windows Server 2022,4,4,500,RRHH,backup,mantenimiento,2026-04-27,2023-05-28,benignoariza@example.com
+srv-ope-0148,10.4.100.118,36:45:9b:03:ca:aa,CentOS 7,64,8,500,Operaciones,monitor,mantenimiento,2025-12-16,2023-01-06,calistofernandez@example.org
+srv-rrh-0149,10.4.102.123,a0:5a:cb:a3:95:fb,Rocky Linux 9,16,8,250,RRHH,monitor,mantenimiento,2026-01-13,2023-03-24,sergio17@example.net
+srv-seg-0150,10.4.92.175,0d:ec:6b:e0:95:23,Ubuntu 20.04 LTS,8,8,2000,Seguridad,nfs,activo,2025-07-16,2023-09-24,anacleto70@example.net
+srv-mar-0151,10.5.216.203,c1:25:e5:f5:cd:d6,Rocky Linux 9,4,8,100,Marketing,monitor,degradado,2025-08-05,2021-11-07,jacintofernandez@example.org
+srv-fin-0152,10.5.181.43,16:cc:a9:dc:36:05,Ubuntu 20.04 LTS,8,2,500,Finanzas,proxy,degradado,2025-09-13,2022-04-20,morenoaurelio@example.org
+srv-mar-0153,10.3.237.198,4d:b0:0c:f7:35:97,Windows Server 2019,16,8,100,Marketing,db,activo,2025-12-09,2023-09-06,hmarquez@example.net
+srv-seg-0154,10.4.247.90,f3:31:e0:e7:a3:22,Windows Server 2019,8,4,100,Seguridad,db,activo,2025-12-12,2021-10-17,auroraamigo@example.net
+srv-fin-0155,10.4.89.142,51:a9:da:ec:76:cf,Debian 12,8,16,250,Finanzas,mail,mantenimiento,2025-11-15,2025-04-07,zverdu@example.com
+srv-mar-0156,10.3.2.181,6d:69:8e:20:34:5f,Windows Server 2019,32,4,500,Marketing,proxy,mantenimiento,2026-04-08,2023-12-16,aarteaga@example.org
+srv-i+d-0157,10.4.198.157,c8:3a:b2:b4:ea:58,Windows Server 2016,16,16,2000,I+D,backup,degradado,2025-08-07,2024-12-14,rgimenez@example.org
+srv-rrh-0158,10.1.156.30,5d:bf:48:c6:d6:46,RHEL 9,4,8,500,RRHH,dns,activo,2025-09-29,2021-11-12,vgrande@example.net
+srv-rrh-0159,10.3.147.36,5f:a1:e6:1b:b7:04,Windows Server 2016,4,8,250,RRHH,proxy,mantenimiento,2025-08-22,2022-08-05,perlita08@example.com
+srv-i+d-0160,10.3.227.126,55:2a:0f:70:95:10,Windows Server 2022,64,4,250,I+D,ldap,activo,2026-03-11,2022-11-12,nydia62@example.net
+srv-i+d-0161,10.4.58.69,bb:15:e1:6f:d9:34,Windows Server 2016,4,16,2000,I+D,proxy,activo,2026-05-20,2022-11-27,carrojose-carlos@example.org
+srv-ope-0162,10.3.60.199,79:6b:b3:db:54:47,RHEL 9,4,4,250,Operaciones,web,degradado,2025-12-08,2022-06-11,vvalverde@example.net
+srv-ope-0163,10.2.149.75,88:30:45:d2:1e:8d,Windows Server 2016,4,16,250,Operaciones,mail,activo,2026-03-23,2021-06-10,adriana22@example.org
+srv-seg-0164,10.3.72.148,89:d4:c0:e7:26:2f,CentOS 7,32,8,1000,Seguridad,backup,activo,2025-10-16,2022-09-10,franciscoalex@example.net
+srv-seg-0165,10.5.234.163,b7:20:cb:6f:db:6c,Ubuntu 22.04 LTS,4,8,500,Seguridad,monitor,activo,2025-12-15,2022-05-12,barrosocayetana@example.com
+srv-rrh-0166,10.5.24.12,32:eb:08:3f:50:e1,Windows Server 2019,16,8,100,RRHH,dns,activo,2025-06-18,2024-09-08,elisagaray@example.net
+srv-ope-0167,10.0.184.65,2a:be:54:1a:ca:9c,Debian 12,8,16,2000,Operaciones,proxy,mantenimiento,2025-07-05,2024-12-01,macario85@example.com
+srv-fin-0168,10.3.39.34,73:e3:04:04:af:3d,Ubuntu 22.04 LTS,8,8,2000,Finanzas,mail,mantenimiento,2026-04-30,2024-02-23,talaveraemelina@example.net
+srv-inf-0169,10.0.160.95,99:46:c3:44:49:23,Ubuntu 20.04 LTS,4,8,1000,Infraestructura,web,degradado,2025-07-08,2024-07-04,robertagilabert@example.com
+srv-i+d-0170,10.5.77.236,d2:e2:6f:2c:33:47,RHEL 9,8,2,1000,I+D,dns,activo,2025-10-29,2023-08-31,crescenciaabellan@example.com
+srv-rrh-0171,10.5.43.64,91:0d:9a:69:60:c8,CentOS 7,8,4,2000,RRHH,web,activo,2025-09-25,2023-04-07,claudiaduenas@example.net
+srv-fin-0172,10.5.36.136,06:b8:a2:43:c6:d7,CentOS 7,64,4,1000,Finanzas,mail,mantenimiento,2026-04-29,2025-05-02,opallares@example.net
+srv-fin-0173,10.1.20.237,1e:cb:92:d4:d8:cd,Ubuntu 22.04 LTS,8,2,2000,Finanzas,ldap,degradado,2025-07-25,2024-07-28,gastontudela@example.org
+srv-ope-0174,10.0.104.250,4f:a7:c8:21:9e:df,Ubuntu 20.04 LTS,8,16,250,Operaciones,web,activo,2026-04-22,2022-12-29,mbatalla@example.net
+srv-fin-0175,10.2.89.31,06:46:05:53:fe:b1,Windows Server 2019,2,8,1000,Finanzas,backup,activo,2025-11-27,2024-09-19,paloma03@example.net
+srv-ope-0176,10.2.219.70,20:86:27:fe:e9:b8,Ubuntu 20.04 LTS,2,2,500,Operaciones,ci-cd,activo,2025-11-29,2024-07-18,manuelasevilla@example.net
+srv-ope-0177,10.1.1.12,06:7d:17:f1:ba:c4,Ubuntu 20.04 LTS,4,4,250,Operaciones,web,degradado,2025-06-05,2021-10-02,ritapaez@example.org
+srv-inf-0178,10.1.213.235,a3:8a:27:be:3d:1a,CentOS 7,16,4,250,Infraestructura,ldap,activo,2025-11-12,2025-01-15,celestinalarrea@example.net
+srv-i+d-0179,10.2.44.142,e9:04:bc:66:95:9b,Rocky Linux 9,8,16,1000,I+D,proxy,mantenimiento,2025-11-29,2022-02-10,wpatino@example.com
+srv-i+d-0180,10.1.3.239,d1:0c:77:b1:04:ab,CentOS 7,8,2,2000,I+D,dns,activo,2026-04-13,2024-04-11,montserraturena@example.net
+srv-mar-0181,10.0.72.183,8f:2f:16:76:d3:be,Windows Server 2022,64,8,2000,Marketing,db,degradado,2026-04-18,2022-08-05,hernan93@example.com
+srv-rrh-0182,10.4.31.112,42:79:95:85:a1:c9,Windows Server 2022,4,16,2000,RRHH,monitor,activo,2025-10-17,2023-11-27,batallaflavio@example.net
+srv-mar-0183,10.1.55.40,36:54:e6:ee:a0:d0,Ubuntu 20.04 LTS,8,2,1000,Marketing,monitor,activo,2025-10-17,2023-09-13,amormenendez@example.net
+srv-i+d-0184,10.0.80.207,9b:14:6e:a7:4b:2e,Rocky Linux 9,4,16,250,I+D,monitor,mantenimiento,2025-09-16,2025-02-25,valderramaadelardo@example.com
+srv-ope-0185,10.0.207.219,e7:7f:30:ec:34:47,Rocky Linux 9,4,2,100,Operaciones,web,activo,2026-03-31,2024-04-26,asenjoariel@example.com
+srv-inf-0186,10.4.132.235,26:0b:21:65:e3:41,RHEL 9,4,2,500,Infraestructura,db,activo,2025-10-12,2025-02-22,ypatino@example.com
+srv-rrh-0187,10.3.15.98,da:58:b5:6d:5f:8c,Windows Server 2022,32,4,500,RRHH,mail,activo,2025-07-26,2021-12-15,joelbenavente@example.com
+srv-mar-0188,10.3.245.16,2c:8f:c4:46:d6:66,Rocky Linux 9,64,16,1000,Marketing,proxy,degradado,2026-05-27,2023-04-14,linocardona@example.net
+srv-seg-0189,10.2.164.100,8a:5c:0d:a3:70:0f,Windows Server 2019,64,4,100,Seguridad,nfs,degradado,2025-12-04,2022-02-25,qcamps@example.com
+srv-mar-0190,10.1.123.69,1c:70:c6:b5:58:5a,Debian 12,4,4,1000,Marketing,monitor,activo,2025-08-07,2025-04-09,kalberto@example.net
+srv-seg-0191,10.3.158.45,fb:13:2e:1c:77:70,Debian 12,8,2,1000,Seguridad,nfs,activo,2025-12-18,2021-12-26,luis-angel03@example.com
+srv-mar-0192,10.5.90.236,a5:1e:0b:4b:48:38,Debian 12,16,8,500,Marketing,db,activo,2025-06-10,2021-09-18,caparrosariel@example.org
+srv-inf-0193,10.2.165.35,50:df:f9:a2:59:b6,Ubuntu 20.04 LTS,16,4,2000,Infraestructura,ci-cd,activo,2025-11-24,2023-09-16,soniadieguez@example.com
+srv-ope-0194,10.5.0.243,c8:10:5d:a2:71:35,Debian 12,4,8,250,Operaciones,monitor,activo,2026-02-04,2023-06-26,higueraspilar@example.net
+srv-seg-0195,10.5.171.115,05:87:6b:7f:22:b3,Debian 12,4,4,100,Seguridad,web,activo,2025-11-20,2022-12-21,roldanzaira@example.net
+srv-inf-0196,10.3.193.90,c0:33:f5:73:53:e7,Debian 12,32,2,100,Infraestructura,backup,activo,2025-12-24,2023-12-19,pastora81@example.org
+srv-fin-0197,10.1.192.42,26:2f:ad:f7:0f:dc,Ubuntu 20.04 LTS,16,16,250,Finanzas,ci-cd,mantenimiento,2026-03-17,2025-02-16,primitiva65@example.com
+srv-fin-0198,10.1.209.179,87:90:98:79:31:19,RHEL 9,8,8,1000,Finanzas,ldap,mantenimiento,2026-03-19,2025-02-14,nacho89@example.com
+srv-seg-0199,10.0.150.211,f5:66:31:0d:69:57,Ubuntu 22.04 LTS,32,16,500,Seguridad,db,mantenimiento,2026-04-07,2023-09-13,aristides11@example.com
+srv-inf-0200,10.5.135.24,c6:5e:bd:c3:bd:5f,Windows Server 2019,64,8,100,Infraestructura,backup,mantenimiento,2025-10-10,2023-12-14,amaldonado@example.com
+srv-mar-0201,10.1.49.22,b0:d3:74:1f:c6:d6,Rocky Linux 9,2,8,2000,Marketing,nfs,degradado,2026-02-05,2022-10-04,soleravictor@example.com
+srv-ope-0202,10.5.17.129,4b:3d:e5:58:55:6c,Ubuntu 20.04 LTS,32,4,250,Operaciones,web,mantenimiento,2026-04-26,2021-08-06,arsenio28@example.net
+srv-inf-0203,10.4.132.82,22:2c:c6:cb:a6:8d,CentOS 7,4,8,500,Infraestructura,web,degradado,2025-08-09,2022-07-01,flavio51@example.org
+srv-inf-0204,10.1.75.146,33:36:33:92:b0:d2,Ubuntu 20.04 LTS,32,4,500,Infraestructura,nfs,degradado,2025-07-29,2022-10-11,curro25@example.org
+srv-des-0205,10.3.73.159,cd:13:ca:a9:79:19,Debian 12,8,16,500,Desarrollo,backup,activo,2026-05-26,2023-07-15,macariavaquero@example.org
+srv-ope-0206,10.3.50.249,74:44:99:e2:a4:89,Rocky Linux 9,8,16,500,Operaciones,ci-cd,activo,2026-03-01,2022-12-14,eligiorodriguez@example.com
+srv-mar-0207,10.4.191.211,1c:51:21:9f:ce:45,Windows Server 2022,64,8,1000,Marketing,web,activo,2026-02-27,2024-04-20,tmoles@example.net
+srv-des-0208,10.3.25.236,b8:65:8c:bc:ed:cb,CentOS 7,2,16,100,Desarrollo,web,activo,2025-11-27,2022-09-08,rhuerta@example.org
+srv-i+d-0209,10.4.179.89,53:84:2e:91:0e:c5,Debian 12,64,2,250,I+D,ci-cd,activo,2026-02-12,2021-10-19,mayoralcrescencia@example.org
+srv-mar-0210,10.5.209.132,0a:04:f2:43:58:04,CentOS 7,8,4,500,Marketing,ci-cd,activo,2025-06-06,2021-06-14,jose-angeltovar@example.com
+srv-ope-0211,10.2.235.65,6f:ee:9a:cb:34:03,Windows Server 2022,32,8,2000,Operaciones,monitor,degradado,2025-07-09,2022-02-05,chuybeltran@example.com
+srv-ope-0212,10.3.32.87,8d:a6:8d:85:98:60,Rocky Linux 9,4,4,1000,Operaciones,proxy,activo,2025-08-02,2023-03-01,ahoz@example.net
+srv-seg-0213,10.5.254.76,84:d6:cf:c6:12:61,Debian 12,2,4,2000,Seguridad,proxy,degradado,2025-07-14,2022-10-05,riospili@example.com
+srv-seg-0214,10.1.92.76,31:f1:41:84:5d:ab,Windows Server 2016,8,16,100,Seguridad,proxy,activo,2026-02-11,2023-09-16,zaida92@example.net
+srv-inf-0215,10.2.150.119,3c:f0:1b:24:f1:63,RHEL 9,16,8,100,Infraestructura,dns,degradado,2026-01-04,2023-02-10,aguedapalacios@example.org
+srv-des-0216,10.1.175.105,ea:49:a1:5c:29:f9,Debian 12,4,4,2000,Desarrollo,mail,activo,2025-07-16,2025-02-07,rufinabayona@example.org
+srv-des-0217,10.1.86.148,51:fa:2d:42:de:db,Windows Server 2019,8,8,500,Desarrollo,nfs,mantenimiento,2026-06-03,2025-03-20,oliverasnilo@example.net
+srv-mar-0218,10.2.97.5,02:7f:73:b0:9f:42,RHEL 9,2,2,500,Marketing,ldap,degradado,2025-12-31,2024-06-28,zleal@example.net
+srv-fin-0219,10.2.233.187,ac:de:44:af:fa:b7,Ubuntu 22.04 LTS,8,4,250,Finanzas,dns,activo,2026-02-09,2024-03-03,etorralba@example.org
+srv-rrh-0220,10.4.86.32,bb:13:c0:82:18:18,CentOS 7,2,16,100,RRHH,web,activo,2025-06-17,2024-10-11,mariscalfelipe@example.net
+srv-inf-0221,10.0.129.122,4e:69:04:9a:d7:33,Windows Server 2019,32,16,1000,Infraestructura,backup,degradado,2025-07-30,2021-07-01,siriarte@example.org
+srv-rrh-0222,10.4.60.73,3a:36:fe:65:66:86,Windows Server 2022,4,8,250,RRHH,monitor,mantenimiento,2026-01-05,2024-07-12,seguinicodemo@example.com
+srv-des-0223,10.1.246.85,78:01:06:2d:38:fc,Windows Server 2016,64,4,100,Desarrollo,ldap,activo,2026-04-15,2023-12-29,albertalberdi@example.com
+srv-mar-0224,10.2.237.13,33:59:14:94:b8:a0,Windows Server 2019,8,8,2000,Marketing,db,activo,2026-05-13,2025-05-17,alcalatrinidad@example.com
+srv-rrh-0225,10.2.224.245,89:2f:be:af:5d:3a,Debian 12,16,8,500,RRHH,nfs,activo,2025-11-20,2021-07-24,sofia41@example.org
+srv-i+d-0226,10.0.67.179,1e:51:35:d5:f7:e0,Windows Server 2022,4,4,1000,I+D,dns,activo,2025-07-27,2025-04-07,alamojosep@example.net
+srv-rrh-0227,10.0.210.113,17:20:85:a0:06:72,Windows Server 2019,64,16,500,RRHH,ldap,degradado,2025-06-18,2021-07-02,nbanos@example.org
+srv-fin-0228,10.3.177.170,c5:4c:1b:05:50:f0,Windows Server 2022,8,8,250,Finanzas,db,mantenimiento,2025-12-23,2024-01-29,bautistasalva@example.org
+srv-seg-0229,10.4.114.141,c1:ce:78:28:eb:e3,Rocky Linux 9,2,8,500,Seguridad,db,mantenimiento,2025-10-20,2023-08-28,tormocarina@example.net
+srv-fin-0230,10.0.206.106,12:00:2e:9b:69:e9,Windows Server 2019,2,4,500,Finanzas,web,activo,2025-10-16,2023-07-27,baldomero35@example.net
+srv-i+d-0231,10.0.49.195,71:01:ae:b5:95:bf,RHEL 9,64,16,100,I+D,web,activo,2025-09-26,2024-08-22,zvillaverde@example.net
+srv-inf-0232,10.4.100.49,3d:c9:6e:ea:61:ad,Ubuntu 20.04 LTS,8,2,500,Infraestructura,web,degradado,2026-04-03,2022-11-26,currosureda@example.com
+srv-i+d-0233,10.3.2.136,18:dd:f7:5a:58:41,Windows Server 2016,4,2,500,I+D,ci-cd,degradado,2025-12-23,2022-08-08,consuelo67@example.org
+srv-inf-0234,10.2.203.247,af:96:e7:44:46:d3,Windows Server 2022,8,8,2000,Infraestructura,ldap,activo,2025-06-11,2022-05-11,mvazquez@example.org
+srv-seg-0235,10.1.107.160,94:b0:43:5b:a5:3b,Windows Server 2016,8,4,1000,Seguridad,nfs,degradado,2025-08-17,2021-09-08,gabriela44@example.org
+srv-inf-0236,10.3.6.134,36:0c:c3:4a:1b:1c,Windows Server 2016,8,4,500,Infraestructura,mail,activo,2025-06-21,2024-01-09,magdalena44@example.net
+srv-rrh-0237,10.1.16.92,e7:34:72:c7:79:93,Ubuntu 22.04 LTS,8,16,2000,RRHH,web,mantenimiento,2025-11-19,2023-02-03,ovargas@example.net
+srv-seg-0238,10.0.128.52,e2:73:bc:64:63:96,Windows Server 2016,2,8,250,Seguridad,db,activo,2026-03-09,2022-07-19,gsolera@example.net
+srv-fin-0239,10.3.142.143,87:42:52:82:02:a9,Windows Server 2022,2,8,2000,Finanzas,mail,activo,2026-03-19,2023-08-15,amolins@example.com
+srv-des-0240,10.4.183.19,a2:70:5e:22:51:d4,Rocky Linux 9,64,8,1000,Desarrollo,dns,activo,2025-12-09,2024-03-09,estela77@example.net
+srv-mar-0241,10.2.150.56,f3:04:3a:b1:e4:7b,RHEL 9,16,16,1000,Marketing,ci-cd,activo,2026-05-16,2021-08-08,jose-angel58@example.com
+srv-seg-0242,10.3.131.139,90:0c:bf:e4:f9:16,Windows Server 2022,4,4,2000,Seguridad,proxy,activo,2025-09-15,2024-12-19,baudeliodomenech@example.org
+srv-fin-0243,10.5.33.54,6d:d9:35:69:de:24,Debian 12,2,16,2000,Finanzas,mail,activo,2025-10-13,2023-07-27,medinajorge@example.org
+srv-des-0244,10.0.91.204,80:24:74:84:d0:c6,Ubuntu 20.04 LTS,4,8,2000,Desarrollo,dns,mantenimiento,2025-12-26,2025-05-02,noeliaalberola@example.org
+srv-inf-0245,10.5.32.194,17:25:b7:36:94:9a,Ubuntu 20.04 LTS,2,8,100,Infraestructura,backup,mantenimiento,2025-11-22,2023-03-19,chuyprada@example.org
+srv-des-0246,10.4.112.35,c8:97:49:98:bf:05,Windows Server 2019,4,8,1000,Desarrollo,mail,activo,2026-05-15,2025-05-26,rodriguezetelvina@example.net
+srv-inf-0247,10.2.107.192,b0:6c:d3:48:52:5e,Windows Server 2016,4,4,1000,Infraestructura,backup,activo,2026-04-08,2024-05-30,rosalindasanmartin@example.com
+srv-des-0248,10.5.37.75,22:80:32:65:f9:a9,Windows Server 2016,64,4,250,Desarrollo,proxy,activo,2026-01-11,2021-12-15,isaurapaez@example.org
+srv-fin-0249,10.3.230.85,9c:4e:ba:a1:db:56,CentOS 7,16,2,500,Finanzas,proxy,activo,2025-06-06,2021-11-01,maria-carmen71@example.org
+srv-inf-0250,10.1.169.225,f5:ec:e4:b7:9c:f9,Rocky Linux 9,16,8,100,Infraestructura,mail,degradado,2026-04-25,2023-11-09,bmolins@example.com
+srv-rrh-0251,10.2.39.187,26:09:0f:cf:6c:12,Windows Server 2016,8,8,500,RRHH,ldap,degradado,2025-10-07,2021-10-05,gsalinas@example.com
+srv-rrh-0252,10.1.148.35,ed:2e:cb:ba:05:7a,RHEL 9,32,8,2000,RRHH,mail,degradado,2026-03-26,2022-12-05,garridoflora@example.org
+srv-rrh-0253,10.5.247.241,b7:14:70:f9:76:20,Debian 12,4,4,500,RRHH,proxy,activo,2025-06-28,2024-04-08,martirio19@example.com
+srv-seg-0254,10.3.23.11,a5:34:8c:86:59:c0,Windows Server 2022,64,16,500,Seguridad,monitor,degradado,2025-07-06,2024-12-28,qgordillo@example.org
+srv-ope-0255,10.4.207.91,b0:f9:f6:03:47:e1,Windows Server 2022,8,4,250,Operaciones,db,degradado,2025-07-11,2023-11-08,teofilo26@example.com
+srv-mar-0256,10.1.185.155,3c:75:d4:a9:3a:f6,Debian 12,4,16,500,Marketing,nfs,activo,2025-08-07,2024-07-10,ramissonia@example.net
+srv-inf-0257,10.0.65.147,52:44:14:4b:1c:55,Ubuntu 22.04 LTS,8,4,250,Infraestructura,ldap,mantenimiento,2025-08-03,2022-04-08,ana-sofia05@example.com
+srv-des-0258,10.1.229.156,f1:f6:57:70:d2:49,Rocky Linux 9,4,8,250,Desarrollo,ci-cd,degradado,2026-01-21,2024-06-27,gonigraciano@example.org
+srv-seg-0259,10.1.193.99,43:37:08:67:d6:4c,Windows Server 2019,4,8,100,Seguridad,mail,mantenimiento,2025-07-26,2022-01-24,tonoquero@example.org
+srv-des-0260,10.0.246.169,42:00:dc:d7:bd:16,Windows Server 2016,4,16,1000,Desarrollo,dns,activo,2025-10-02,2023-04-17,reyescornejo@example.org
+srv-seg-0261,10.1.130.123,77:2a:91:d1:83:60,Ubuntu 20.04 LTS,32,2,2000,Seguridad,web,degradado,2025-09-11,2024-10-07,fidelasalva@example.org
+srv-des-0262,10.5.161.105,b9:36:4f:da:81:85,Windows Server 2022,8,8,500,Desarrollo,ci-cd,activo,2025-07-27,2023-11-19,ledesmamarcio@example.com
+srv-inf-0263,10.4.247.46,bd:f7:81:9d:b0:cb,CentOS 7,32,16,250,Infraestructura,db,activo,2025-10-20,2021-07-04,cmuniz@example.com
+srv-rrh-0264,10.4.205.202,ad:1a:52:c7:02:2e,Ubuntu 20.04 LTS,8,4,500,RRHH,ci-cd,mantenimiento,2026-04-21,2025-01-25,jaroca@example.org
+srv-ope-0265,10.0.19.186,c4:cd:92:1d:59:fd,CentOS 7,16,8,100,Operaciones,proxy,degradado,2026-01-10,2024-05-03,gonzaloalfredo@example.com
+srv-des-0266,10.4.86.173,12:b8:7a:00:50:2c,Windows Server 2016,8,4,500,Desarrollo,monitor,mantenimiento,2025-11-10,2022-02-21,tlanda@example.net
+srv-mar-0267,10.5.35.236,2e:91:b2:b1:8d:73,Windows Server 2016,2,8,250,Marketing,nfs,mantenimiento,2025-08-15,2025-05-27,amigocustodia@example.org
+srv-ope-0268,10.4.54.144,25:96:ae:3b:83:80,Debian 12,32,16,500,Operaciones,dns,degradado,2025-10-01,2024-01-24,rosellrene@example.org
+srv-seg-0269,10.4.14.124,3b:84:22:c3:70:75,Windows Server 2019,64,4,500,Seguridad,monitor,degradado,2025-09-04,2025-05-17,amoasuncion@example.com
+srv-ope-0270,10.0.204.173,af:26:5b:f3:a0:b5,CentOS 7,8,4,1000,Operaciones,backup,activo,2025-06-21,2024-05-12,reguloibarra@example.org
+srv-i+d-0271,10.5.123.224,87:69:75:67:7f:b6,CentOS 7,8,4,100,I+D,db,activo,2025-06-24,2021-09-16,arturo16@example.org
+srv-i+d-0272,10.3.190.159,a1:fc:8c:fb:5d:8f,Ubuntu 22.04 LTS,2,8,250,I+D,ci-cd,activo,2026-05-09,2022-06-25,epifanio42@example.com
+srv-inf-0273,10.4.177.101,59:ea:3d:eb:a1:04,Windows Server 2019,2,2,2000,Infraestructura,proxy,mantenimiento,2025-08-12,2024-11-11,ramonbatalla@example.net
+srv-seg-0274,10.1.134.61,89:f1:af:bb:5e:ff,RHEL 9,8,8,250,Seguridad,dns,activo,2025-12-01,2023-03-08,albano70@example.org
+srv-ope-0275,10.4.67.251,75:33:8a:78:dd:c3,Windows Server 2019,4,4,250,Operaciones,mail,mantenimiento,2026-06-01,2024-06-09,campsoscar@example.com
+srv-inf-0276,10.5.161.202,f9:99:80:18:cb:32,Windows Server 2019,4,16,250,Infraestructura,web,activo,2026-01-26,2022-10-04,manolobello@example.org
+srv-fin-0277,10.2.184.93,83:b0:0a:d2:3e:b3,Windows Server 2019,16,16,1000,Finanzas,proxy,degradado,2025-08-15,2021-10-14,amilcarhernandez@example.net
+srv-rrh-0278,10.2.249.199,e4:28:c3:92:ed:4a,Rocky Linux 9,16,4,2000,RRHH,monitor,mantenimiento,2025-07-17,2021-12-29,rinconcalista@example.org
+srv-inf-0279,10.1.175.59,a0:a2:95:88:ca:8a,Ubuntu 20.04 LTS,4,8,500,Infraestructura,ci-cd,degradado,2025-10-18,2023-02-09,parejateresita@example.org
+srv-rrh-0280,10.1.120.170,80:28:6b:55:cb:34,Debian 12,2,2,100,RRHH,nfs,degradado,2026-05-09,2025-04-13,emmaurrutia@example.com
+srv-inf-0281,10.0.134.159,4f:2b:c7:9e:75:7e,Windows Server 2016,4,16,500,Infraestructura,nfs,activo,2026-03-30,2022-06-23,penasperlita@example.net
+srv-rrh-0282,10.5.182.221,a6:f3:ef:8b:e3:45,Ubuntu 22.04 LTS,2,16,1000,RRHH,mail,degradado,2025-08-04,2022-11-13,sanchotur@example.com
+srv-inf-0283,10.2.246.139,74:2d:e2:9d:bb:d3,Windows Server 2016,8,4,250,Infraestructura,backup,activo,2026-06-05,2022-06-30,diegodomingo@example.org
+srv-rrh-0284,10.3.4.177,fb:f4:99:04:dc:95,RHEL 9,8,8,250,RRHH,web,degradado,2025-11-26,2024-05-15,regueraerasmo@example.net
+srv-inf-0285,10.3.127.42,c7:c1:70:86:28:d8,Windows Server 2016,32,16,250,Infraestructura,ldap,degradado,2025-06-15,2021-08-03,cletosoto@example.com
+srv-ope-0286,10.3.96.219,23:5d:45:94:38:e9,Rocky Linux 9,8,8,500,Operaciones,backup,degradado,2025-09-27,2024-05-17,claraortuno@example.net
+srv-seg-0287,10.0.11.48,34:90:89:40:e0:04,Ubuntu 22.04 LTS,4,4,100,Seguridad,mail,activo,2025-09-26,2024-03-18,enrique10@example.net
+srv-seg-0288,10.3.190.119,10:a9:29:4a:1c:88,Windows Server 2022,8,8,100,Seguridad,ldap,mantenimiento,2026-03-05,2024-05-08,lorenzaecheverria@example.com
+srv-ope-0289,10.0.127.99,e2:7e:11:65:eb:30,Windows Server 2022,2,8,2000,Operaciones,proxy,mantenimiento,2025-11-18,2021-08-10,duranainoa@example.org
+srv-ope-0290,10.5.21.191,3e:81:f6:98:65:b8,RHEL 9,4,2,2000,Operaciones,proxy,activo,2026-02-05,2021-11-17,jimena76@example.com
+srv-inf-0291,10.1.141.150,3d:ca:7c:04:15:f3,RHEL 9,2,16,1000,Infraestructura,mail,activo,2026-04-21,2024-01-13,peralfrancisco@example.net
+srv-rrh-0292,10.5.173.239,1e:1e:b6:4e:36:40,Windows Server 2019,4,8,250,RRHH,monitor,degradado,2025-07-10,2023-06-25,marinalerma@example.net
+srv-i+d-0293,10.5.193.92,44:80:14:f8:e0:96,CentOS 7,2,8,2000,I+D,nfs,activo,2025-08-19,2024-05-19,eduardo86@example.net
+srv-seg-0294,10.2.82.18,4f:e6:97:86:bb:e8,RHEL 9,64,2,2000,Seguridad,ldap,mantenimiento,2026-03-03,2025-04-28,pedrosanando@example.com
+srv-seg-0295,10.5.32.169,c6:61:fe:4e:90:a5,CentOS 7,16,8,2000,Seguridad,monitor,activo,2026-04-17,2022-06-30,arevaloemigdio@example.net
+srv-fin-0296,10.1.16.52,36:f8:62:32:10:c6,Ubuntu 22.04 LTS,4,16,500,Finanzas,ldap,degradado,2025-06-11,2022-02-13,augustomacias@example.net
+srv-ope-0297,10.1.36.4,6a:fb:28:ef:1f:b8,Ubuntu 22.04 LTS,16,8,2000,Operaciones,dns,activo,2025-06-08,2025-02-06,moises54@example.org
+srv-ope-0298,10.5.36.214,9b:27:6e:31:33:76,Windows Server 2016,2,8,500,Operaciones,proxy,activo,2025-09-09,2021-09-29,brunildacorral@example.net
+srv-mar-0299,10.5.54.197,b7:ea:da:35:55:5c,Debian 12,32,8,500,Marketing,ldap,activo,2025-07-04,2024-07-17,merchelujan@example.com
+srv-i+d-0300,10.4.166.217,be:d3:dc:a5:7b:6d,RHEL 9,16,8,1000,I+D,backup,activo,2025-10-17,2022-12-02,ubermudez@example.net
+srv-inf-0301,10.2.8.133,45:9a:03:99:71:6d,Ubuntu 22.04 LTS,2,4,100,Infraestructura,backup,degradado,2025-09-17,2022-04-23,vinasjoel@example.net
+srv-rrh-0302,10.3.182.40,46:87:bb:7f:77:83,Ubuntu 20.04 LTS,2,4,100,RRHH,ci-cd,mantenimiento,2025-08-18,2024-03-17,vilmaarellano@example.net
+srv-fin-0303,10.1.249.212,30:99:13:c3:28:1c,RHEL 9,64,4,500,Finanzas,dns,mantenimiento,2026-04-05,2024-02-27,julie78@example.org
+srv-des-0304,10.2.21.82,4c:a7:71:4e:19:c9,Windows Server 2022,2,8,1000,Desarrollo,ci-cd,degradado,2026-04-20,2024-03-08,maria-cristinacespedes@example.org
+srv-inf-0305,10.1.67.87,2a:f3:19:cc:86:2b,Rocky Linux 9,32,8,1000,Infraestructura,dns,activo,2026-03-28,2022-09-25,odalys01@example.com
+srv-mar-0306,10.5.100.144,7e:7c:24:88:dc:a5,Windows Server 2019,32,16,1000,Marketing,db,activo,2025-06-27,2023-02-09,mchico@example.net
+srv-inf-0307,10.1.164.89,0c:9c:56:b3:e2:4a,RHEL 9,16,8,100,Infraestructura,proxy,activo,2025-06-20,2023-05-02,hierroreina@example.net
+srv-rrh-0308,10.5.27.63,4b:93:07:af:38:9c,Ubuntu 20.04 LTS,4,8,500,RRHH,web,activo,2026-02-18,2022-05-31,rosaura62@example.net
+srv-mar-0309,10.4.247.160,48:09:c0:16:82:57,CentOS 7,8,2,500,Marketing,proxy,degradado,2026-01-18,2025-02-17,izquierdojose@example.org
+srv-i+d-0310,10.3.138.170,b8:37:09:95:c5:76,Ubuntu 22.04 LTS,4,8,1000,I+D,db,activo,2025-09-30,2022-01-30,usimo@example.com
+srv-fin-0311,10.4.234.144,0b:14:7e:9c:aa:fa,Debian 12,8,8,2000,Finanzas,mail,activo,2025-12-10,2021-08-04,genoveva56@example.org
+srv-seg-0312,10.1.141.208,1f:83:c6:0f:8f:73,RHEL 9,8,4,500,Seguridad,dns,activo,2026-04-22,2023-04-15,abrahamjaen@example.com
+srv-mar-0313,10.4.78.110,9f:a8:e5:43:69:46,Windows Server 2022,8,8,1000,Marketing,proxy,activo,2025-12-29,2021-07-26,luisenriquez@example.com
+srv-rrh-0314,10.5.80.82,22:3c:5e:a2:4a:0f,Windows Server 2022,4,4,500,RRHH,dns,activo,2025-10-22,2021-11-09,gaspartudela@example.com
+srv-ope-0315,10.0.67.48,0d:88:76:76:76:0d,Debian 12,8,4,100,Operaciones,nfs,activo,2025-09-21,2022-01-14,plazahernan@example.com
+srv-i+d-0316,10.3.251.122,46:53:62:73:10:d1,RHEL 9,4,2,500,I+D,dns,activo,2025-06-27,2024-04-16,panfilo40@example.org
+srv-mar-0317,10.3.250.177,a6:ea:7e:da:cf:15,Ubuntu 20.04 LTS,4,8,2000,Marketing,dns,activo,2025-11-16,2021-12-31,luzyolanda@example.org
+srv-des-0318,10.3.233.212,15:7d:ca:14:c6:19,Windows Server 2016,4,4,500,Desarrollo,nfs,mantenimiento,2026-01-01,2023-10-29,reinaldo72@example.net
+srv-i+d-0319,10.2.27.177,48:ed:e7:2e:39:5c,Debian 12,32,8,2000,I+D,ldap,activo,2025-11-16,2023-02-10,pradoherberto@example.net
+srv-seg-0320,10.1.232.152,67:e8:2e:80:a5:53,Windows Server 2019,2,16,2000,Seguridad,db,activo,2026-04-08,2021-06-20,nabella@example.org
+srv-i+d-0321,10.4.196.187,51:c1:c2:16:57:ab,RHEL 9,4,8,2000,I+D,mail,activo,2026-03-23,2024-06-04,palauleopoldo@example.net
+srv-des-0322,10.2.228.74,5c:3c:43:67:01:81,Windows Server 2022,8,2,500,Desarrollo,nfs,mantenimiento,2025-08-31,2025-05-25,maite29@example.com
+srv-i+d-0323,10.4.243.117,d1:e2:28:03:7d:8e,CentOS 7,8,8,2000,I+D,ldap,activo,2026-05-11,2024-05-23,manriqueluciano@example.org
+srv-rrh-0324,10.0.74.219,10:98:a9:2c:19:37,Ubuntu 22.04 LTS,16,8,250,RRHH,mail,activo,2025-07-28,2021-09-21,edelmiramanzanares@example.org
+srv-rrh-0325,10.0.47.197,99:a5:bc:c2:22:da,Windows Server 2019,16,8,100,RRHH,backup,mantenimiento,2026-03-29,2024-09-29,samperemigdio@example.net
+srv-ope-0326,10.4.107.179,6b:1d:37:2c:f7:93,RHEL 9,32,8,1000,Operaciones,monitor,activo,2025-09-09,2022-03-16,ofeliamata@example.org
+srv-seg-0327,10.4.254.127,5c:77:94:63:00:3c,Debian 12,64,2,500,Seguridad,db,activo,2025-07-25,2023-02-07,nelida31@example.com
+srv-inf-0328,10.2.108.3,67:90:82:22:9d:99,Ubuntu 22.04 LTS,16,8,1000,Infraestructura,monitor,activo,2026-04-08,2021-08-01,quiquemontserrat@example.com
+srv-seg-0329,10.5.14.214,59:63:a9:ad:f5:f2,RHEL 9,32,2,2000,Seguridad,mail,mantenimiento,2026-03-18,2021-11-29,azaharaesteban@example.net
+srv-i+d-0330,10.3.211.238,1c:99:a1:09:6a:a9,Windows Server 2016,16,4,100,I+D,mail,activo,2026-05-21,2023-07-12,judith38@example.com
+srv-inf-0331,10.4.199.48,3b:9d:a1:10:8b:d3,Windows Server 2016,4,2,500,Infraestructura,proxy,activo,2025-10-17,2023-09-25,petrona35@example.com
+srv-mar-0332,10.1.57.96,13:67:2f:e3:0c:f7,Windows Server 2016,8,8,250,Marketing,proxy,activo,2025-10-01,2022-06-29,canellasinmaculada@example.com
+srv-ope-0333,10.0.67.53,12:eb:c6:3b:02:9f,RHEL 9,4,2,2000,Operaciones,ci-cd,activo,2025-12-17,2022-10-23,falconalexandra@example.com
+srv-des-0334,10.0.159.164,6b:a4:66:62:92:8d,Ubuntu 20.04 LTS,8,8,500,Desarrollo,nfs,activo,2026-01-17,2024-08-04,escrivawalter@example.org
+srv-rrh-0335,10.0.52.53,b3:a3:8a:48:91:7d,Rocky Linux 9,4,4,100,RRHH,backup,degradado,2025-12-14,2022-05-25,hmartin@example.net
+srv-i+d-0336,10.0.241.232,19:36:c4:1b:2c:da,Ubuntu 22.04 LTS,4,8,250,I+D,ci-cd,degradado,2025-07-18,2021-07-23,azeneth41@example.org
+srv-i+d-0337,10.2.101.183,28:ee:43:2f:ef:31,RHEL 9,8,8,500,I+D,nfs,mantenimiento,2026-02-07,2024-03-04,vvidal@example.com
+srv-rrh-0338,10.3.93.180,a9:a6:e8:f9:0f:21,Rocky Linux 9,16,8,100,RRHH,monitor,mantenimiento,2025-10-12,2024-06-21,noeliamendez@example.net
+srv-ope-0339,10.4.52.104,36:a6:24:9a:ec:cd,RHEL 9,4,8,500,Operaciones,proxy,degradado,2026-02-01,2022-05-10,romannydia@example.net
+srv-rrh-0340,10.0.174.54,dc:de:af:78:58:27,Windows Server 2019,32,16,2000,RRHH,ci-cd,mantenimiento,2026-04-08,2022-02-09,reyes39@example.com
+srv-i+d-0341,10.3.90.79,cf:23:37:c2:a7:fd,RHEL 9,4,16,2000,I+D,web,activo,2026-02-14,2024-08-25,abarcelo@example.net
+srv-des-0342,10.3.149.100,e4:64:69:a2:99:9b,Debian 12,4,8,2000,Desarrollo,monitor,activo,2025-08-11,2025-05-20,azenethcid@example.org
+srv-inf-0343,10.0.189.231,1b:00:b7:38:90:0f,Debian 12,8,4,500,Infraestructura,ci-cd,mantenimiento,2025-07-20,2023-08-24,gfortuny@example.com
+srv-inf-0344,10.3.108.170,58:f3:47:60:c4:b8,Windows Server 2022,32,8,250,Infraestructura,backup,activo,2026-03-29,2025-05-13,javiocana@example.com
+srv-fin-0345,10.5.249.169,df:45:2b:46:d4:e9,Ubuntu 22.04 LTS,4,16,1000,Finanzas,dns,degradado,2026-03-05,2022-11-18,carmenjaume@example.net
+srv-inf-0346,10.3.181.58,5f:d9:03:ff:79:89,Windows Server 2016,64,8,1000,Infraestructura,ci-cd,activo,2026-05-19,2025-03-20,amadornilda@example.com
+srv-i+d-0347,10.4.246.247,28:48:8f:ee:28:2d,RHEL 9,4,4,500,I+D,db,degradado,2025-08-13,2023-09-05,america23@example.com
+srv-des-0348,10.3.232.132,f0:a9:d7:b4:96:94,RHEL 9,2,4,100,Desarrollo,ci-cd,activo,2025-08-21,2023-12-20,ppinol@example.com
+srv-des-0349,10.4.26.169,95:0d:92:f8:2a:40,Windows Server 2019,4,8,100,Desarrollo,backup,activo,2026-03-30,2021-12-22,tsalvador@example.net
+srv-ope-0350,10.0.57.155,59:4d:e4:bd:59:85,Rocky Linux 9,8,16,250,Operaciones,nfs,activo,2025-09-08,2025-03-30,maria-luisa31@example.com
+srv-seg-0351,10.4.78.215,fd:d3:c4:79:e1:55,Ubuntu 20.04 LTS,4,4,1000,Seguridad,monitor,activo,2025-07-12,2023-12-12,reina00@example.net
+srv-fin-0352,10.3.204.122,9a:f3:77:c2:c7:f2,Ubuntu 22.04 LTS,4,4,250,Finanzas,ldap,mantenimiento,2026-05-30,2023-10-23,fiolfrancisca@example.net
+srv-i+d-0353,10.4.21.25,b5:dd:8b:ab:8a:88,Windows Server 2022,16,2,500,I+D,ci-cd,mantenimiento,2025-10-12,2021-08-23,salachema@example.com
+srv-mar-0354,10.5.92.81,05:04:22:06:d2:32,CentOS 7,16,8,100,Marketing,nfs,activo,2026-02-13,2023-11-03,dcasares@example.org
+srv-ope-0355,10.0.47.15,6f:3e:3d:2c:42:c0,CentOS 7,2,16,2000,Operaciones,ci-cd,activo,2026-04-10,2021-07-12,ksalinas@example.net
+srv-rrh-0356,10.3.38.164,e8:8d:da:a5:83:52,Rocky Linux 9,8,2,500,RRHH,web,mantenimiento,2025-11-19,2023-07-25,yesica83@example.org
+srv-des-0357,10.1.225.18,fb:66:c9:5b:fb:37,Rocky Linux 9,8,4,1000,Desarrollo,dns,activo,2025-07-26,2021-10-27,cuetobasilio@example.net
+srv-fin-0358,10.0.17.19,24:80:e4:09:fe:4c,Windows Server 2019,8,16,2000,Finanzas,web,activo,2025-06-30,2023-03-29,yvillaverde@example.org
+srv-ope-0359,10.3.1.132,fb:f4:df:ce:23:73,Debian 12,16,2,500,Operaciones,nfs,activo,2025-08-19,2022-06-05,pepemorante@example.net
+srv-seg-0360,10.3.28.162,2e:bb:ae:29:eb:94,RHEL 9,8,16,250,Seguridad,mail,degradado,2026-05-16,2023-04-11,chitaluz@example.org
+srv-mar-0361,10.0.183.125,2b:e0:61:47:12:62,Rocky Linux 9,32,2,2000,Marketing,ci-cd,activo,2025-09-28,2023-04-01,hildasaldana@example.com
+srv-fin-0362,10.3.230.248,08:12:ad:1c:ac:15,Windows Server 2016,8,8,100,Finanzas,proxy,degradado,2025-10-14,2021-08-17,rocareyes@example.org
+srv-rrh-0363,10.0.72.126,09:f1:17:7c:42:07,CentOS 7,4,4,2000,RRHH,web,activo,2026-04-17,2022-11-14,pinedapancho@example.org
+srv-rrh-0364,10.0.254.153,70:20:67:da:ac:cd,Ubuntu 20.04 LTS,4,4,100,RRHH,ci-cd,degradado,2026-03-27,2023-08-17,milagros63@example.com
+srv-mar-0365,10.2.32.31,8c:48:d4:56:bd:54,Ubuntu 22.04 LTS,4,8,250,Marketing,ci-cd,activo,2026-03-29,2024-11-13,crosello@example.org
+srv-inf-0366,10.3.41.2,03:5b:2d:91:d5:f3,Debian 12,2,16,250,Infraestructura,proxy,activo,2025-07-13,2023-11-29,monrealalfonso@example.net
+srv-i+d-0367,10.1.19.153,5c:ff:2d:9a:b2:d6,Windows Server 2022,8,2,1000,I+D,proxy,activo,2026-04-06,2022-06-16,esthernovoa@example.org
+srv-fin-0368,10.3.106.71,1b:63:39:4c:f2:fe,RHEL 9,8,4,250,Finanzas,web,activo,2025-07-10,2023-05-22,haydee48@example.org
+srv-ope-0369,10.2.171.158,e8:16:35:1a:5a:50,CentOS 7,32,2,500,Operaciones,ldap,activo,2026-04-30,2024-02-10,agueda61@example.org
+srv-i+d-0370,10.1.166.59,38:a6:74:32:79:d3,RHEL 9,32,4,500,I+D,proxy,activo,2025-10-07,2022-02-23,sedanomanuel@example.org
+srv-i+d-0371,10.1.110.238,e8:5b:c6:bf:45:ea,Ubuntu 22.04 LTS,32,16,250,I+D,monitor,activo,2026-02-22,2023-07-19,apolinar40@example.org
+srv-rrh-0372,10.2.69.29,ee:ea:d6:57:af:70,Ubuntu 22.04 LTS,2,4,1000,RRHH,mail,degradado,2026-03-10,2022-03-10,cristianlamas@example.net
+srv-mar-0373,10.4.250.221,6e:f2:ec:8e:07:db,Ubuntu 20.04 LTS,32,16,250,Marketing,proxy,activo,2025-10-26,2022-03-07,bartolomemarino@example.org
+srv-mar-0374,10.3.22.11,f0:11:d9:c9:f5:32,Debian 12,2,8,500,Marketing,proxy,activo,2025-08-24,2025-05-11,uhuguet@example.net
+srv-inf-0375,10.2.151.62,2e:08:f5:9c:52:eb,CentOS 7,4,8,2000,Infraestructura,ci-cd,activo,2025-10-16,2022-10-30,marciogamez@example.net
+srv-rrh-0376,10.2.237.181,00:24:c5:aa:10:97,Windows Server 2022,4,8,500,RRHH,ci-cd,degradado,2025-08-15,2024-04-07,iban52@example.com
+srv-fin-0377,10.4.186.228,1a:38:c4:bb:ee:14,RHEL 9,2,4,500,Finanzas,mail,degradado,2025-06-10,2025-01-19,armengollino@example.com
+srv-mar-0378,10.1.58.167,f4:6b:73:a4:b4:88,Debian 12,16,8,2000,Marketing,dns,activo,2026-05-09,2025-01-27,rtomas@example.org
+srv-seg-0379,10.3.62.121,95:e7:bc:21:60:ea,RHEL 9,64,2,100,Seguridad,dns,activo,2026-01-09,2024-12-30,mvila@example.org
+srv-fin-0380,10.0.75.128,4d:68:0b:96:d5:43,Debian 12,8,8,500,Finanzas,dns,mantenimiento,2025-07-10,2025-04-23,pozueloquique@example.org
+srv-ope-0381,10.0.118.214,ab:d2:af:a7:f8:e3,CentOS 7,4,8,500,Operaciones,ci-cd,activo,2025-12-31,2024-06-19,bserra@example.org
+srv-ope-0382,10.2.147.198,18:4b:b4:91:e9:55,CentOS 7,64,8,250,Operaciones,ldap,activo,2026-03-04,2024-06-11,kserna@example.org
+srv-rrh-0383,10.0.21.82,40:e1:85:bd:5e:69,Debian 12,8,8,2000,RRHH,web,activo,2025-12-11,2024-08-07,zcampo@example.net
+srv-seg-0384,10.4.154.32,0c:cf:ff:4a:ea:a3,Windows Server 2019,4,4,100,Seguridad,ldap,degradado,2025-12-18,2021-10-19,marisamontoya@example.net
+srv-ope-0385,10.4.75.205,e2:ad:39:f5:14:47,Windows Server 2019,8,16,1000,Operaciones,db,activo,2026-05-24,2023-03-06,pintoteresa@example.org
+srv-mar-0386,10.0.167.15,63:71:8e:64:0b:2a,Windows Server 2019,16,8,500,Marketing,db,degradado,2025-11-16,2024-05-03,palmerglauco@example.org
+srv-i+d-0387,10.5.184.102,4b:da:bd:c5:be:06,RHEL 9,2,4,500,I+D,monitor,activo,2025-10-20,2022-04-14,francisco-javier62@example.com
+srv-fin-0388,10.5.212.206,e2:93:53:d9:d4:47,CentOS 7,64,8,1000,Finanzas,db,activo,2026-02-19,2023-09-23,omate@example.net
+srv-i+d-0389,10.0.192.23,03:d1:8b:d4:59:ec,Windows Server 2016,16,16,1000,I+D,mail,activo,2026-03-02,2023-04-16,gamigo@example.com
+srv-ope-0390,10.0.154.214,9b:fc:ed:72:0d:01,Windows Server 2016,64,4,500,Operaciones,backup,mantenimiento,2026-04-03,2021-10-05,laura93@example.com
+srv-ope-0391,10.3.125.8,3d:8d:fc:22:b9:f6,Windows Server 2022,4,8,500,Operaciones,backup,mantenimiento,2025-06-15,2024-10-04,tsegura@example.net
+srv-seg-0392,10.2.83.149,1d:4a:a3:ec:45:b6,Windows Server 2016,2,4,100,Seguridad,backup,activo,2025-11-03,2021-11-10,cervantesfulgencio@example.net
+srv-seg-0393,10.2.39.132,63:5d:30:55:a5:a1,Ubuntu 22.04 LTS,8,16,500,Seguridad,backup,activo,2026-04-17,2022-06-07,manu57@example.net
+srv-seg-0394,10.1.144.96,f8:d2:ae:53:34:6f,Debian 12,2,4,1000,Seguridad,proxy,activo,2025-08-23,2021-12-27,ygomez@example.net
+srv-fin-0395,10.0.59.210,43:08:f5:b2:9f:b9,Windows Server 2022,64,4,500,Finanzas,ci-cd,degradado,2025-12-12,2024-06-18,maximino08@example.com
+srv-ope-0396,10.1.65.220,48:74:9d:40:6b:42,Ubuntu 22.04 LTS,4,2,500,Operaciones,db,activo,2026-05-27,2022-09-18,epoza@example.com
+srv-inf-0397,10.0.16.204,1e:f0:3c:81:16:21,Ubuntu 22.04 LTS,8,4,2000,Infraestructura,web,activo,2026-04-03,2022-01-20,visitacion55@example.net
+srv-mar-0398,10.5.179.8,2e:4a:8e:b2:b4:52,CentOS 7,4,8,2000,Marketing,ci-cd,activo,2025-09-20,2022-03-26,enriquemari@example.org
+srv-fin-0399,10.4.111.184,62:90:57:02:32:6d,Ubuntu 20.04 LTS,2,8,2000,Finanzas,nfs,activo,2025-06-13,2022-02-14,cmurillo@example.net
+srv-rrh-0400,10.1.181.252,c2:d9:6d:74:d0:39,Windows Server 2019,4,4,100,RRHH,nfs,activo,2025-09-12,2024-08-31,ruy54@example.net
+srv-i+d-0401,10.4.20.22,a7:fc:3b:c5:91:e9,RHEL 9,8,8,2000,I+D,backup,mantenimiento,2026-02-10,2022-04-28,davilaandres@example.net
+srv-inf-0402,10.1.35.230,f3:bc:5b:06:fb:35,Rocky Linux 9,32,8,500,Infraestructura,ldap,activo,2026-04-05,2024-08-16,rcabanas@example.org
+srv-inf-0403,10.5.86.17,ba:65:ad:66:ce:3e,Windows Server 2022,4,4,500,Infraestructura,nfs,activo,2025-06-05,2022-03-02,paezcatalina@example.com
+srv-ope-0404,10.3.207.253,f8:8e:4b:e8:37:3e,Windows Server 2022,16,4,500,Operaciones,nfs,activo,2025-07-19,2024-09-03,simoviviana@example.org
+srv-des-0405,10.0.255.174,0d:5b:c3:a7:4e:9b,Ubuntu 20.04 LTS,2,8,1000,Desarrollo,db,activo,2025-07-02,2022-07-07,escobarnidia@example.org
+srv-i+d-0406,10.2.254.126,85:af:09:10:dc:3c,Windows Server 2019,8,8,500,I+D,monitor,mantenimiento,2025-10-22,2022-11-07,haydeefiol@example.net
+srv-des-0407,10.4.155.227,54:fb:dc:44:9f:c7,Ubuntu 22.04 LTS,4,8,100,Desarrollo,ci-cd,mantenimiento,2025-07-03,2022-04-28,marijesus@example.net
+srv-i+d-0408,10.4.28.101,86:fd:c1:b4:91:a4,Windows Server 2019,4,2,100,I+D,ci-cd,activo,2026-04-01,2023-05-17,carrenoarmando@example.com
+srv-seg-0409,10.3.49.110,b0:b6:d2:b3:1c:7d,Ubuntu 22.04 LTS,16,4,250,Seguridad,backup,degradado,2026-04-23,2021-07-27,victor-manuelcanovas@example.com
+srv-fin-0410,10.2.86.6,a6:13:eb:d8:d7:88,Rocky Linux 9,4,2,2000,Finanzas,nfs,degradado,2026-05-25,2023-08-27,chitapujol@example.org
+srv-inf-0411,10.4.50.207,fa:33:69:ac:fe:ad,Windows Server 2022,16,4,1000,Infraestructura,backup,activo,2025-10-25,2024-04-18,monterocamilo@example.com
+srv-i+d-0412,10.2.135.13,98:cd:73:2f:30:ac,Ubuntu 20.04 LTS,8,4,100,I+D,ci-cd,degradado,2025-10-05,2023-01-13,iriarteconcha@example.org
+srv-mar-0413,10.5.154.130,99:dd:a0:66:d4:cd,RHEL 9,4,4,1000,Marketing,ldap,mantenimiento,2025-06-27,2022-05-11,carlito28@example.com
+srv-rrh-0414,10.4.255.55,ef:89:de:1e:66:ba,Ubuntu 22.04 LTS,4,8,250,RRHH,proxy,activo,2025-06-20,2023-09-30,agallardo@example.com
+srv-inf-0415,10.0.104.217,d3:88:92:52:83:78,Windows Server 2022,16,8,250,Infraestructura,db,activo,2026-02-27,2025-04-10,vergaraambar@example.org
+srv-mar-0416,10.3.223.109,12:67:51:8b:45:0e,Rocky Linux 9,64,4,500,Marketing,ldap,activo,2025-07-11,2025-03-11,borjabenavides@example.net
+srv-i+d-0417,10.0.160.155,98:20:d0:ba:2e:cb,Ubuntu 22.04 LTS,2,16,250,I+D,proxy,activo,2025-08-17,2022-08-16,rochapascuala@example.com
+srv-fin-0418,10.3.46.61,3e:a0:a8:c7:78:d8,Windows Server 2016,8,4,250,Finanzas,db,activo,2026-02-16,2023-11-21,sanjuanbenita@example.com
+srv-i+d-0419,10.4.28.126,bf:39:a2:d8:f3:7e,Windows Server 2022,8,4,250,I+D,monitor,mantenimiento,2025-11-29,2023-09-13,valcarcelmatilde@example.org
+srv-des-0420,10.5.122.65,c4:9e:b9:3e:79:e2,Ubuntu 22.04 LTS,2,8,100,Desarrollo,dns,activo,2026-01-02,2024-12-03,kberenguer@example.com
+srv-mar-0421,10.1.224.162,a2:d0:11:8c:29:fb,Rocky Linux 9,8,8,2000,Marketing,dns,activo,2025-11-01,2024-11-12,benita76@example.net
+srv-rrh-0422,10.2.215.155,a7:e8:0e:1a:5e:e3,Rocky Linux 9,4,16,250,RRHH,web,mantenimiento,2026-02-23,2021-11-27,piquerestrella@example.com
+srv-ope-0423,10.0.80.64,42:d2:a3:e7:f4:44,RHEL 9,4,4,250,Operaciones,ci-cd,activo,2026-01-12,2024-04-25,susanita11@example.net
+srv-fin-0424,10.1.201.225,c1:72:0a:0b:75:2d,Windows Server 2022,16,8,250,Finanzas,backup,activo,2026-05-11,2023-03-07,fernandobejarano@example.net
+srv-inf-0425,10.0.188.44,3c:07:de:e8:fd:3c,Rocky Linux 9,4,4,2000,Infraestructura,proxy,activo,2026-01-20,2023-10-25,bgallo@example.net
+srv-i+d-0426,10.3.105.154,6e:90:60:d6:5c:d1,Windows Server 2022,4,4,100,I+D,backup,activo,2026-02-05,2021-12-18,rita31@example.net
+srv-i+d-0427,10.4.234.22,05:f0:44:a5:cb:6c,CentOS 7,16,16,500,I+D,dns,degradado,2026-01-25,2025-01-07,beldaroque@example.net
+srv-fin-0428,10.0.170.239,78:f1:b5:17:02:81,Windows Server 2016,2,8,1000,Finanzas,dns,activo,2025-11-15,2021-08-31,carvajalramiro@example.org
+srv-seg-0429,10.4.91.67,56:fc:ad:ef:43:2d,Debian 12,2,4,2000,Seguridad,ldap,mantenimiento,2026-03-25,2023-12-20,segismundocarpio@example.net
+srv-fin-0430,10.1.255.224,8f:b8:dc:90:86:87,RHEL 9,2,8,500,Finanzas,dns,activo,2025-12-26,2022-09-03,olimpia85@example.org
+srv-rrh-0431,10.0.96.39,1b:75:5d:12:f0:85,Windows Server 2016,64,4,2000,RRHH,nfs,mantenimiento,2026-04-07,2022-08-27,eliasprada@example.net
+srv-des-0432,10.5.248.118,fc:39:4b:3f:b2:2f,Windows Server 2019,16,4,500,Desarrollo,mail,activo,2025-09-18,2023-11-25,solsonacloe@example.net
+srv-mar-0433,10.3.39.64,ff:30:a8:0d:91:3e,Ubuntu 22.04 LTS,4,8,500,Marketing,ci-cd,activo,2025-12-22,2024-07-26,velazquezpili@example.net
+srv-des-0434,10.5.245.117,89:02:a8:16:e7:a6,Ubuntu 20.04 LTS,64,16,2000,Desarrollo,ci-cd,activo,2026-02-17,2025-02-26,aguedavicente@example.com
+srv-ope-0435,10.5.36.141,c3:2f:cc:82:5b:7a,RHEL 9,2,8,100,Operaciones,web,activo,2026-03-14,2023-04-02,rodenaslalo@example.com
+srv-inf-0436,10.0.152.126,dd:9e:43:b7:31:bc,Rocky Linux 9,4,8,250,Infraestructura,nfs,mantenimiento,2025-11-19,2022-10-04,alegrialaura@example.net
+srv-ope-0437,10.3.188.158,5f:de:da:2f:14:ae,Windows Server 2022,4,8,2000,Operaciones,proxy,activo,2025-09-25,2022-06-22,machadojuan-manuel@example.net
+srv-fin-0438,10.3.40.233,f4:99:4c:41:99:7f,Rocky Linux 9,64,8,500,Finanzas,backup,degradado,2026-05-12,2022-05-04,spaniagua@example.org
+srv-fin-0439,10.4.217.106,30:ed:81:b5:82:29,Ubuntu 22.04 LTS,4,8,100,Finanzas,db,mantenimiento,2026-03-06,2024-05-28,romanmodesta@example.net
+srv-inf-0440,10.3.152.81,e8:e6:87:ae:5f:6c,Ubuntu 22.04 LTS,4,4,100,Infraestructura,ci-cd,activo,2025-06-26,2024-10-31,azahara14@example.org
+srv-inf-0441,10.0.202.30,06:57:f4:eb:cf:f9,Windows Server 2016,2,4,1000,Infraestructura,ci-cd,activo,2025-06-17,2021-08-26,jose-angelmoreno@example.org
+srv-inf-0442,10.1.69.4,61:39:08:60:0d:6b,Rocky Linux 9,4,8,2000,Infraestructura,mail,activo,2025-10-25,2021-12-01,efrainpavon@example.net
+srv-mar-0443,10.3.75.122,d8:0b:3b:55:4e:e3,Ubuntu 20.04 LTS,8,8,500,Marketing,web,mantenimiento,2025-08-10,2024-01-26,rperello@example.org
+srv-mar-0444,10.0.170.3,34:dd:d4:fd:94:12,Rocky Linux 9,32,8,500,Marketing,nfs,degradado,2025-08-07,2021-12-31,jolivares@example.com
+srv-i+d-0445,10.4.9.109,a1:20:89:d5:f2:3b,CentOS 7,2,8,1000,I+D,monitor,mantenimiento,2025-06-13,2022-12-25,llanosdionisio@example.com
+srv-des-0446,10.5.98.121,b0:e0:76:70:ad:ef,Debian 12,8,4,500,Desarrollo,dns,mantenimiento,2025-06-26,2021-10-08,icarbajo@example.org
+srv-seg-0447,10.4.106.73,2c:f7:42:58:66:50,Windows Server 2019,4,8,500,Seguridad,db,mantenimiento,2025-09-26,2023-09-23,canetealvaro@example.net
+srv-mar-0448,10.0.183.226,85:b6:51:59:10:20,CentOS 7,2,4,500,Marketing,db,degradado,2026-02-09,2024-10-01,oamor@example.net
+srv-mar-0449,10.2.181.197,17:88:4d:35:19:e0,Windows Server 2019,8,8,100,Marketing,db,degradado,2025-07-28,2024-11-09,jeremias05@example.com
+srv-des-0450,10.1.60.223,69:b9:50:95:e2:ff,Windows Server 2016,4,16,100,Desarrollo,mail,activo,2025-12-16,2024-08-27,pedrosaalbert@example.org
+srv-fin-0451,10.3.3.63,f2:ae:92:57:2b:88,CentOS 7,64,4,2000,Finanzas,dns,activo,2025-07-18,2021-09-13,melisabarranco@example.net
+srv-mar-0452,10.1.70.206,db:d3:d1:ea:b9:0f,Debian 12,32,8,250,Marketing,web,degradado,2026-05-01,2024-12-14,lupita92@example.org
+srv-seg-0453,10.1.222.16,c9:12:4d:1d:97:d6,RHEL 9,32,8,2000,Seguridad,ldap,activo,2025-12-27,2023-07-02,juan-carlosaramburu@example.org
+srv-des-0454,10.5.206.115,69:e2:b0:cf:65:9a,Rocky Linux 9,4,2,100,Desarrollo,ldap,activo,2025-11-18,2024-09-20,modestoexposito@example.com
+srv-ope-0455,10.4.159.134,ae:51:0b:0e:84:7b,CentOS 7,4,4,2000,Operaciones,dns,degradado,2026-04-10,2025-02-03,morenacolomer@example.com
+srv-seg-0456,10.0.24.194,3f:e5:98:02:e8:ad,Rocky Linux 9,16,4,2000,Seguridad,ci-cd,degradado,2025-06-05,2021-11-28,maria-carmenarellano@example.net
+srv-mar-0457,10.2.71.183,c1:7e:35:a7:62:b8,RHEL 9,8,8,100,Marketing,mail,mantenimiento,2025-11-07,2024-12-20,porcelmar@example.net
+srv-fin-0458,10.1.243.55,e4:27:bd:ce:ca:87,Ubuntu 22.04 LTS,32,8,500,Finanzas,dns,mantenimiento,2025-06-18,2022-09-07,nicolasa77@example.net
+srv-inf-0459,10.4.65.125,ea:42:3c:6c:e9:f2,Debian 12,4,2,2000,Infraestructura,mail,degradado,2025-11-28,2024-10-05,abrilcorominas@example.com
+srv-inf-0460,10.2.148.11,4e:3c:be:9c:bf:9b,Ubuntu 20.04 LTS,4,4,500,Infraestructura,web,activo,2026-03-25,2022-02-14,pablobarranco@example.org
+srv-inf-0461,10.2.110.47,fa:01:3e:b2:22:16,Ubuntu 22.04 LTS,8,8,500,Infraestructura,ci-cd,activo,2025-08-20,2022-11-22,jimenezchus@example.com
+srv-seg-0462,10.5.67.196,46:eb:e6:e5:4c:a6,Windows Server 2022,64,2,1000,Seguridad,ci-cd,mantenimiento,2025-11-19,2024-02-15,smerino@example.net
+srv-inf-0463,10.5.226.189,8e:2d:54:0c:9e:3f,RHEL 9,2,16,1000,Infraestructura,db,activo,2025-07-24,2022-05-23,prudencio64@example.com
+srv-des-0464,10.3.9.31,5c:09:8c:69:7d:e3,Windows Server 2016,8,2,1000,Desarrollo,ci-cd,activo,2025-11-12,2022-02-15,andresisidoro@example.net
+srv-des-0465,10.2.223.47,d4:0c:a2:c3:83:2e,Windows Server 2019,2,2,100,Desarrollo,ldap,activo,2026-01-10,2024-08-15,caridad39@example.com
+srv-rrh-0466,10.1.157.244,d0:56:1e:a6:5c:0d,Rocky Linux 9,4,16,100,RRHH,backup,mantenimiento,2026-04-16,2023-08-20,bpaz@example.org
+srv-rrh-0467,10.2.192.242,3d:1a:67:7a:79:fc,Windows Server 2022,16,8,1000,RRHH,dns,activo,2026-01-19,2025-02-01,dorotea18@example.org
+srv-seg-0468,10.0.247.8,d0:77:09:89:33:7e,Windows Server 2019,32,8,2000,Seguridad,mail,activo,2025-08-19,2023-02-23,ruben93@example.com
+srv-i+d-0469,10.1.191.139,56:7d:d8:e7:15:00,Ubuntu 20.04 LTS,8,8,1000,I+D,backup,activo,2026-06-05,2025-02-02,mayoraleligia@example.org
+srv-i+d-0470,10.5.194.90,6c:90:17:52:23:99,Rocky Linux 9,8,2,500,I+D,db,activo,2025-08-25,2023-11-11,serranomaricruz@example.org
+srv-inf-0471,10.5.175.163,85:e7:8b:7d:a4:ae,CentOS 7,16,4,500,Infraestructura,ci-cd,activo,2026-05-28,2021-07-20,eroda@example.com
+srv-rrh-0472,10.0.4.173,58:d3:fa:c9:29:27,Ubuntu 22.04 LTS,64,8,100,RRHH,nfs,activo,2025-12-07,2023-04-27,amilcarllorente@example.net
+srv-seg-0473,10.5.4.32,ec:bd:62:e3:04:71,Windows Server 2022,4,16,100,Seguridad,backup,activo,2026-02-27,2024-12-03,cerromarino@example.com
+srv-ope-0474,10.3.185.10,8f:fc:6b:03:64:ca,CentOS 7,8,2,500,Operaciones,ci-cd,degradado,2025-09-26,2024-06-21,adelina16@example.net
+srv-mar-0475,10.4.65.191,21:41:84:74:8c:62,Debian 12,4,16,100,Marketing,ldap,degradado,2026-01-27,2021-08-11,valerio16@example.com
+srv-i+d-0476,10.5.26.219,a5:dd:d0:8c:3e:ee,Ubuntu 22.04 LTS,32,8,500,I+D,ldap,activo,2026-02-11,2025-03-01,mesteban@example.com
+srv-ope-0477,10.2.2.101,63:ab:29:0c:73:d8,Windows Server 2022,64,2,250,Operaciones,proxy,activo,2025-12-19,2023-09-08,suareznicolasa@example.net
+srv-fin-0478,10.3.221.207,0c:ab:80:7e:37:f2,Ubuntu 20.04 LTS,2,4,500,Finanzas,web,activo,2025-09-12,2024-02-07,sigfridoacedo@example.com
+srv-fin-0479,10.5.228.149,3f:2b:1f:11:c1:a0,Windows Server 2019,4,16,100,Finanzas,mail,activo,2025-10-22,2025-02-13,sanchoaznar@example.org
+srv-ope-0480,10.0.28.144,1a:96:c3:cd:31:d2,Windows Server 2022,4,4,1000,Operaciones,ci-cd,activo,2025-10-16,2023-04-11,brionesvaleria@example.com
+srv-i+d-0481,10.2.13.117,a8:62:37:34:06:22,Windows Server 2022,4,8,250,I+D,ci-cd,activo,2025-07-14,2022-07-29,estradadelia@example.org
+srv-ope-0482,10.3.227.48,7c:46:16:1e:41:9f,RHEL 9,32,8,500,Operaciones,ldap,activo,2025-12-28,2022-02-26,tatiana53@example.net
+srv-rrh-0483,10.2.175.75,bc:04:4a:1d:79:1b,Debian 12,64,8,500,RRHH,proxy,activo,2025-07-13,2024-04-19,erincon@example.net
+srv-fin-0484,10.5.243.178,ef:a9:ab:99:d6:a8,RHEL 9,8,4,100,Finanzas,nfs,activo,2025-09-25,2024-03-13,leocadiogomis@example.net
+srv-des-0485,10.3.109.62,f6:a9:c0:69:cc:5e,CentOS 7,8,2,500,Desarrollo,web,activo,2025-12-04,2025-04-05,dafne23@example.org
+srv-fin-0486,10.3.99.162,b8:16:0f:65:65:91,Debian 12,8,4,250,Finanzas,backup,activo,2025-12-14,2022-04-27,qrocamora@example.com
+srv-mar-0487,10.0.90.216,86:33:0a:46:c2:38,Debian 12,8,4,250,Marketing,backup,mantenimiento,2026-02-03,2023-05-10,hroman@example.net
+srv-seg-0488,10.5.33.31,49:42:61:62:c1:bf,Debian 12,32,4,1000,Seguridad,dns,activo,2026-05-13,2021-12-22,donatoferrandiz@example.com
+srv-mar-0489,10.1.167.64,1b:8f:40:fa:6b:29,Windows Server 2016,8,8,2000,Marketing,ci-cd,activo,2026-03-12,2022-07-30,patricio25@example.org
+srv-inf-0490,10.3.237.46,a4:bf:f7:fd:f2:89,Windows Server 2016,16,8,500,Infraestructura,ci-cd,activo,2026-02-19,2024-03-13,menendezroberta@example.com
+srv-mar-0491,10.3.111.79,d9:c1:50:bf:82:2b,Windows Server 2019,8,4,100,Marketing,backup,mantenimiento,2025-09-13,2023-06-16,gracia45@example.com
+srv-mar-0492,10.4.172.110,e6:ef:dd:d1:bc:fe,Ubuntu 22.04 LTS,64,4,500,Marketing,dns,activo,2026-03-06,2022-12-14,encarnacion87@example.org
+srv-mar-0493,10.2.42.76,28:8d:74:32:3c:24,Rocky Linux 9,4,4,100,Marketing,ldap,activo,2025-12-17,2024-04-29,marcio10@example.com
+srv-seg-0494,10.5.140.49,46:85:04:99:90:b1,Rocky Linux 9,8,8,500,Seguridad,ci-cd,activo,2025-10-07,2021-10-05,mriera@example.org
+srv-rrh-0495,10.1.107.122,77:ef:ec:ae:2b:a0,Windows Server 2022,8,4,500,RRHH,dns,activo,2025-10-24,2022-11-27,naranjojuan-bautista@example.org
+srv-des-0496,10.4.65.79,04:ff:b5:ad:73:d6,RHEL 9,4,8,2000,Desarrollo,dns,degradado,2026-01-03,2023-08-08,tomasdalila@example.org
+srv-des-0497,10.1.169.146,c8:c3:68:c8:20:c5,Ubuntu 22.04 LTS,4,4,500,Desarrollo,db,activo,2025-08-18,2022-11-24,joanocana@example.com
+srv-ope-0498,10.0.90.9,fa:0d:5f:65:23:c5,Ubuntu 20.04 LTS,4,4,250,Operaciones,proxy,activo,2025-07-03,2022-06-28,damiansolsona@example.net
+srv-fin-0499,10.2.5.44,a7:d2:c8:50:38:42,Windows Server 2019,2,8,500,Finanzas,nfs,activo,2025-11-18,2024-04-09,eugeniaarco@example.net
+srv-rrh-0500,10.3.243.41,9e:67:ea:8d:67:03,CentOS 7,8,4,500,RRHH,db,mantenimiento,2025-07-31,2024-01-17,irma72@example.com
+srv-seg-0501,10.3.20.189,2e:93:e9:b1:98:c8,Windows Server 2019,64,8,250,Seguridad,dns,activo,2026-03-06,2021-12-18,narcisosantana@example.org
+srv-inf-0502,10.5.93.179,30:c9:16:7a:50:8c,Windows Server 2019,32,16,1000,Infraestructura,backup,activo,2025-06-13,2024-03-18,jpages@example.net
+srv-i+d-0503,10.2.39.194,35:a6:d1:e6:54:81,Windows Server 2022,4,4,1000,I+D,web,mantenimiento,2026-05-23,2025-01-07,cespedeschuy@example.net
+srv-i+d-0504,10.5.204.220,63:cb:13:05:80:3a,Windows Server 2022,16,16,250,I+D,monitor,mantenimiento,2025-09-30,2022-11-04,basilio94@example.com
+srv-fin-0505,10.5.224.36,f1:8e:52:57:09:33,Ubuntu 20.04 LTS,8,4,500,Finanzas,db,degradado,2025-11-17,2024-06-26,sotosalomon@example.com
+srv-fin-0506,10.1.225.92,5b:6e:11:6e:e2:18,Ubuntu 22.04 LTS,8,16,1000,Finanzas,db,mantenimiento,2025-06-17,2023-09-13,xarroyo@example.org
+srv-i+d-0507,10.0.193.197,67:7f:bf:7a:66:2e,Ubuntu 22.04 LTS,2,2,500,I+D,web,activo,2025-12-15,2024-05-08,verapalomar@example.org
+srv-fin-0508,10.5.85.186,55:16:d4:37:a7:a5,CentOS 7,4,8,2000,Finanzas,proxy,degradado,2026-02-19,2022-05-23,grius@example.net
+srv-inf-0509,10.1.109.28,b6:a5:58:07:cd:a1,Windows Server 2022,4,2,500,Infraestructura,proxy,mantenimiento,2026-02-13,2025-01-21,marita29@example.com
+srv-ope-0510,10.0.111.106,9a:ff:34:57:80:30,RHEL 9,2,8,500,Operaciones,dns,activo,2025-12-17,2024-06-11,prietoprimitivo@example.org
+srv-seg-0511,10.2.9.156,e5:c3:77:06:77:0a,Windows Server 2019,4,8,100,Seguridad,backup,activo,2025-10-29,2024-01-24,olga97@example.org
+srv-fin-0512,10.2.255.76,67:4d:c0:68:13:79,Ubuntu 22.04 LTS,4,16,1000,Finanzas,nfs,activo,2026-03-29,2023-11-14,gibertjose-antonio@example.org
+srv-seg-0513,10.5.147.193,0c:75:a9:af:7c:69,Ubuntu 22.04 LTS,32,8,100,Seguridad,proxy,activo,2025-07-29,2023-04-16,zgallardo@example.com
+srv-seg-0514,10.5.3.17,fb:23:62:1a:48:68,Debian 12,64,4,100,Seguridad,mail,degradado,2025-08-28,2024-04-13,ygilabert@example.org
+srv-mar-0515,10.3.239.80,54:65:7d:d9:5a:7f,Windows Server 2016,4,4,500,Marketing,ci-cd,mantenimiento,2025-07-15,2024-04-19,cristiansacristan@example.org
+srv-ope-0516,10.2.203.97,55:f1:e1:d8:dd:4f,Windows Server 2019,4,8,100,Operaciones,dns,mantenimiento,2026-04-24,2023-09-30,felisa15@example.com
+srv-rrh-0517,10.2.194.119,9c:e8:91:c0:f6:24,Windows Server 2016,4,4,250,RRHH,nfs,activo,2026-03-18,2024-05-13,qcoca@example.net
+srv-des-0518,10.3.207.237,d4:ca:bf:c4:fa:9d,Ubuntu 22.04 LTS,16,16,1000,Desarrollo,db,mantenimiento,2026-05-17,2024-09-24,montanaeusebia@example.net
+srv-inf-0519,10.3.130.198,b2:fa:bc:1d:c5:d9,Debian 12,8,16,250,Infraestructura,proxy,mantenimiento,2026-05-19,2023-05-27,olegario99@example.net
+srv-des-0520,10.4.233.242,4b:82:7e:52:06:3b,Debian 12,8,2,2000,Desarrollo,dns,mantenimiento,2025-06-09,2022-02-21,araujomaria@example.net
+srv-fin-0521,10.3.84.213,da:81:9a:c3:9d:d2,Windows Server 2016,8,16,100,Finanzas,db,degradado,2025-12-11,2024-08-17,ignacio29@example.net
+srv-ope-0522,10.5.157.2,56:fb:00:31:23:d5,CentOS 7,32,8,500,Operaciones,backup,mantenimiento,2026-03-10,2024-06-09,itziarcano@example.net
+srv-seg-0523,10.1.249.47,38:e6:6c:5f:66:1e,Debian 12,4,16,250,Seguridad,proxy,activo,2025-11-08,2022-12-16,ibenito@example.com
+srv-fin-0524,10.2.43.97,3f:8d:20:af:0f:78,Debian 12,4,8,500,Finanzas,db,activo,2026-05-05,2023-12-09,csedano@example.org
+srv-des-0525,10.1.3.97,88:f8:f2:ac:db:ac,Ubuntu 22.04 LTS,4,4,2000,Desarrollo,monitor,activo,2026-02-03,2023-05-28,casandra82@example.com
+srv-inf-0526,10.2.169.207,33:01:e9:cd:47:0d,Windows Server 2022,2,8,100,Infraestructura,ldap,activo,2025-06-12,2024-01-13,gamaya@example.com
+srv-seg-0527,10.4.211.170,60:01:a4:08:b8:17,Windows Server 2019,64,16,500,Seguridad,nfs,activo,2025-07-30,2022-09-17,cespinosa@example.org
+srv-inf-0528,10.3.243.253,33:c5:96:63:49:10,Ubuntu 20.04 LTS,16,4,500,Infraestructura,db,activo,2025-06-26,2022-05-09,fortunata63@example.com
+srv-i+d-0529,10.0.246.170,7b:7c:6c:57:2d:36,Debian 12,64,8,2000,I+D,web,activo,2025-12-20,2023-04-12,consuelasaez@example.org
+srv-ope-0530,10.5.243.244,3f:45:fb:2e:aa:72,CentOS 7,8,8,1000,Operaciones,db,activo,2025-11-24,2023-04-16,hernan47@example.com
+srv-inf-0531,10.2.59.75,2c:39:2d:ae:60:3b,CentOS 7,8,8,500,Infraestructura,mail,activo,2025-11-23,2022-03-12,ferreraema@example.com
+srv-des-0532,10.4.97.217,c6:d8:a3:ba:40:71,Rocky Linux 9,2,2,500,Desarrollo,web,degradado,2025-10-13,2023-08-28,nicolasa27@example.org
+srv-rrh-0533,10.3.233.38,91:4a:11:a3:9e:3f,Rocky Linux 9,8,4,2000,RRHH,ci-cd,mantenimiento,2025-07-17,2024-03-21,prudencioalmazan@example.org
+srv-i+d-0534,10.0.170.40,6b:73:1a:5b:f9:c8,Rocky Linux 9,32,4,2000,I+D,mail,activo,2025-08-29,2023-03-25,calvetmanu@example.com
+srv-seg-0535,10.2.200.101,24:90:90:63:c9:31,Windows Server 2022,64,4,500,Seguridad,ci-cd,activo,2025-06-07,2023-09-22,martinezgisela@example.com
+srv-i+d-0536,10.3.247.75,4a:6b:6f:64:04:b9,Debian 12,4,16,1000,I+D,db,activo,2025-11-25,2023-01-13,kperez@example.net
+srv-rrh-0537,10.2.242.46,1a:3c:ad:de:4c:ce,Ubuntu 22.04 LTS,4,4,100,RRHH,db,activo,2025-11-14,2022-09-09,chavessilvestre@example.org
+srv-ope-0538,10.5.45.200,ed:c3:8c:e3:bc:05,Debian 12,32,2,100,Operaciones,db,activo,2025-09-28,2021-10-31,espiridionalarcon@example.net
+srv-mar-0539,10.2.48.204,5c:c4:f7:de:98:40,Ubuntu 22.04 LTS,64,2,500,Marketing,db,degradado,2026-03-03,2023-02-26,spalomo@example.org
+srv-des-0540,10.0.63.193,6a:3c:5c:5c:02:e4,Windows Server 2022,64,4,100,Desarrollo,web,activo,2025-08-15,2024-04-09,pomaresroberto@example.net
+srv-rrh-0541,10.0.43.251,3f:98:ba:57:d8:00,Ubuntu 20.04 LTS,8,4,500,RRHH,web,degradado,2026-01-06,2021-09-25,concepcionbueno@example.com
+srv-i+d-0542,10.5.160.134,b4:6b:32:16:79:12,Debian 12,64,4,250,I+D,backup,activo,2026-03-29,2022-01-19,bescobar@example.net
+srv-mar-0543,10.1.216.20,82:85:c3:53:cc:e9,RHEL 9,8,2,500,Marketing,dns,activo,2025-09-04,2024-04-14,casanovastrinidad@example.net
+srv-fin-0544,10.5.190.145,53:d6:4e:a1:de:c2,Rocky Linux 9,8,2,1000,Finanzas,proxy,activo,2026-01-18,2024-09-23,marinlidia@example.net
+srv-fin-0545,10.0.168.164,2d:b9:aa:8b:4a:73,Windows Server 2016,32,4,100,Finanzas,db,mantenimiento,2026-02-12,2023-04-22,mariaporta@example.com
+srv-fin-0546,10.4.156.151,fa:30:b2:90:8a:32,Ubuntu 20.04 LTS,4,2,250,Finanzas,monitor,mantenimiento,2026-03-05,2023-06-30,qhurtado@example.net
+srv-inf-0547,10.2.4.176,4f:40:49:c1:88:1b,Windows Server 2019,4,16,2000,Infraestructura,monitor,activo,2025-06-23,2022-01-06,demetriosanmiguel@example.org
+srv-inf-0548,10.3.181.205,ef:92:8d:db:75:9c,Windows Server 2019,4,16,100,Infraestructura,backup,mantenimiento,2025-12-27,2024-12-03,pastora03@example.org
+srv-fin-0549,10.0.84.148,1d:2b:92:fc:05:d9,Ubuntu 20.04 LTS,8,16,1000,Finanzas,mail,mantenimiento,2025-09-24,2022-07-17,amado02@example.org
+srv-fin-0550,10.4.97.234,03:d9:b0:7d:15:e5,Windows Server 2022,2,4,2000,Finanzas,ldap,activo,2026-03-08,2025-01-03,wgodoy@example.com
+srv-seg-0551,10.0.216.127,c2:57:bf:39:ad:7f,Debian 12,16,8,100,Seguridad,backup,activo,2025-10-01,2023-10-13,rpeiro@example.org
+srv-ope-0552,10.5.201.56,9c:12:ed:f9:1d:b6,CentOS 7,2,2,1000,Operaciones,nfs,activo,2026-01-04,2023-06-12,sebastiangalindo@example.net
+srv-fin-0553,10.5.95.103,b5:04:33:dc:fb:65,Ubuntu 22.04 LTS,16,2,1000,Finanzas,ldap,activo,2025-11-07,2024-09-25,plazadulce@example.com
+srv-i+d-0554,10.5.128.58,f0:ca:bf:99:ba:db,Ubuntu 22.04 LTS,4,4,1000,I+D,backup,activo,2025-10-24,2021-09-30,osegarra@example.com
+srv-i+d-0555,10.2.222.2,b7:65:38:61:91:14,Debian 12,4,4,500,I+D,dns,activo,2026-05-20,2024-07-12,triquelme@example.org
+srv-mar-0556,10.0.215.126,fd:41:a6:cc:c7:43,Windows Server 2019,8,2,100,Marketing,web,activo,2026-03-18,2023-07-02,cornejovalentina@example.com
+srv-des-0557,10.5.175.110,04:de:f5:94:90:f8,CentOS 7,2,2,500,Desarrollo,proxy,degradado,2026-03-19,2022-07-24,azoringaspar@example.com
+srv-rrh-0558,10.0.134.180,7e:db:65:f2:34:5c,CentOS 7,8,4,1000,RRHH,mail,activo,2026-04-05,2024-09-08,smaestre@example.net
+srv-inf-0559,10.1.74.110,09:66:2e:1a:c2:d0,Ubuntu 22.04 LTS,8,8,500,Infraestructura,proxy,activo,2025-12-15,2023-01-15,chus30@example.org
+srv-i+d-0560,10.5.26.78,38:89:ba:8f:b3:d6,Ubuntu 22.04 LTS,32,4,500,I+D,web,activo,2026-05-16,2025-06-04,rosauraduarte@example.org
+srv-des-0561,10.2.241.72,33:dc:5e:81:fb:ba,RHEL 9,8,4,500,Desarrollo,db,activo,2025-06-28,2025-05-09,lupe41@example.org
+srv-rrh-0562,10.5.185.191,be:79:8d:6b:c4:2c,RHEL 9,16,2,250,RRHH,ci-cd,activo,2026-05-15,2022-02-20,hipolito49@example.com
+srv-mar-0563,10.0.38.242,af:9a:f2:67:4e:16,CentOS 7,64,4,250,Marketing,dns,degradado,2025-06-06,2024-01-05,hsuarez@example.net
+srv-seg-0564,10.5.60.234,df:22:f7:d6:0b:55,RHEL 9,64,8,500,Seguridad,mail,activo,2026-05-13,2022-04-03,vvilanova@example.com
+srv-des-0565,10.3.38.43,e0:c4:c7:cd:8b:69,CentOS 7,32,4,100,Desarrollo,mail,degradado,2026-02-14,2022-02-09,mateosteodosio@example.net
+srv-des-0566,10.4.132.78,70:97:89:3c:57:72,Windows Server 2016,64,2,1000,Desarrollo,proxy,activo,2026-05-16,2021-11-04,acostaestefania@example.org
+srv-rrh-0567,10.2.26.165,7f:6b:3b:00:b1:bc,Rocky Linux 9,4,4,100,RRHH,ldap,activo,2026-03-29,2023-02-20,hernandoraimundo@example.org
+srv-ope-0568,10.5.5.211,b6:70:8f:5a:83:08,RHEL 9,2,8,2000,Operaciones,ci-cd,activo,2025-06-18,2023-04-15,lsalgado@example.net
+srv-ope-0569,10.3.112.84,89:68:ca:4f:e4:76,Windows Server 2016,8,16,2000,Operaciones,dns,activo,2026-03-22,2022-09-28,norberto08@example.com
+srv-fin-0570,10.3.94.209,5a:60:fb:5c:90:0a,Windows Server 2019,4,4,250,Finanzas,mail,mantenimiento,2025-06-19,2022-01-08,jose-luis51@example.net
+srv-mar-0571,10.0.218.63,e8:ce:33:46:06:33,Ubuntu 20.04 LTS,4,8,500,Marketing,web,activo,2026-05-30,2021-10-25,angelicatur@example.org
+srv-des-0572,10.0.137.37,06:04:36:ad:2b:67,Debian 12,8,4,500,Desarrollo,ci-cd,mantenimiento,2026-03-14,2023-09-15,hidalgonorberto@example.net
+srv-seg-0573,10.1.28.140,88:3f:0a:16:34:97,Windows Server 2019,4,2,1000,Seguridad,dns,activo,2026-06-05,2024-03-03,solllamas@example.org
+srv-des-0574,10.3.75.91,92:73:c4:39:fb:56,CentOS 7,32,2,250,Desarrollo,db,activo,2025-12-05,2024-12-31,giralttrinidad@example.org
+srv-seg-0575,10.0.22.155,4d:5b:db:ab:5c:d9,Ubuntu 20.04 LTS,16,4,2000,Seguridad,backup,degradado,2026-01-10,2023-06-23,wbarrios@example.org
+srv-fin-0576,10.5.188.239,87:27:01:4c:4b:a3,Rocky Linux 9,64,4,500,Finanzas,nfs,mantenimiento,2026-05-02,2024-10-17,aaronvidal@example.net
+srv-inf-0577,10.0.165.33,5d:c5:b4:a3:fd:d9,Rocky Linux 9,4,8,2000,Infraestructura,dns,degradado,2025-07-15,2023-07-24,talegria@example.org
+srv-rrh-0578,10.3.254.138,fc:75:c4:2a:d7:70,CentOS 7,32,16,100,RRHH,proxy,activo,2026-06-04,2024-04-15,joel93@example.com
+srv-des-0579,10.1.56.16,b2:b8:47:96:eb:49,RHEL 9,64,8,500,Desarrollo,proxy,activo,2026-02-11,2025-02-11,emma62@example.org
+srv-rrh-0580,10.3.13.179,d9:be:1b:36:25:f4,Ubuntu 20.04 LTS,4,8,250,RRHH,web,activo,2025-11-30,2024-08-20,elbafrancisco@example.com
+srv-fin-0581,10.0.213.39,5d:f0:47:99:f0:d2,CentOS 7,4,16,500,Finanzas,nfs,activo,2026-01-10,2024-10-21,asenjoemperatriz@example.com
+srv-rrh-0582,10.4.88.129,52:05:ca:d8:e8:84,Ubuntu 22.04 LTS,2,8,1000,RRHH,backup,activo,2025-11-01,2024-07-19,piquerainoa@example.net
+srv-ope-0583,10.1.108.103,1c:70:c8:5e:27:ef,Ubuntu 20.04 LTS,32,8,500,Operaciones,dns,mantenimiento,2026-03-13,2025-02-14,morillomerche@example.org
+srv-seg-0584,10.2.55.27,27:b9:ab:0e:7a:90,Windows Server 2022,8,4,1000,Seguridad,db,activo,2026-02-17,2022-01-30,espanolalex@example.com
+srv-des-0585,10.4.103.164,10:7b:89:2b:16:f7,Rocky Linux 9,8,2,100,Desarrollo,monitor,activo,2025-12-29,2025-05-19,corderotoribio@example.net
+srv-seg-0586,10.4.99.81,c8:b6:42:31:a9:d0,Rocky Linux 9,32,16,1000,Seguridad,db,degradado,2026-03-21,2025-04-18,abenitez@example.org
+srv-inf-0587,10.2.82.39,ed:28:2f:76:6e:48,Windows Server 2019,2,16,250,Infraestructura,ldap,degradado,2025-07-29,2021-10-10,becerraatilio@example.com
+srv-seg-0588,10.2.148.93,dc:14:c6:7a:6a:26,Windows Server 2019,4,4,1000,Seguridad,nfs,activo,2026-05-29,2024-08-17,vilafidela@example.net
+srv-ope-0589,10.3.48.117,a0:56:97:52:22:8f,Windows Server 2016,4,8,500,Operaciones,monitor,activo,2026-04-30,2024-06-04,olegarioexposito@example.net
+srv-i+d-0590,10.2.226.167,47:3f:f9:14:ba:92,Rocky Linux 9,64,8,500,I+D,ci-cd,activo,2025-10-23,2023-05-16,nataliaayllon@example.com
+srv-seg-0591,10.5.211.130,e6:86:15:1d:7d:04,RHEL 9,4,4,100,Seguridad,backup,mantenimiento,2026-03-16,2022-03-26,thervas@example.net
+srv-inf-0592,10.3.236.172,2f:b2:ee:ef:ee:37,Ubuntu 20.04 LTS,8,2,250,Infraestructura,db,mantenimiento,2025-10-27,2024-04-23,xacuna@example.net
+srv-inf-0593,10.2.175.155,f8:6c:f3:3a:8e:e8,RHEL 9,4,2,1000,Infraestructura,mail,mantenimiento,2026-03-23,2021-11-02,lucila56@example.org
+srv-mar-0594,10.4.194.16,b9:dc:f2:6d:1b:6c,RHEL 9,2,2,2000,Marketing,dns,activo,2026-01-27,2021-11-12,icortes@example.net
+srv-rrh-0595,10.0.140.104,29:98:e7:d6:6d:84,Ubuntu 20.04 LTS,4,4,100,RRHH,db,mantenimiento,2025-12-12,2023-10-06,tescamilla@example.com
+srv-rrh-0596,10.3.246.122,52:df:b5:c7:05:65,CentOS 7,16,2,2000,RRHH,ci-cd,degradado,2026-03-23,2023-08-12,salonso@example.com
+srv-seg-0597,10.3.75.128,a2:3a:d0:86:01:e6,Ubuntu 22.04 LTS,4,4,2000,Seguridad,nfs,degradado,2026-04-17,2025-03-23,cuervoalfonso@example.com
+srv-mar-0598,10.5.85.154,c1:6e:b2:6b:61:07,CentOS 7,32,4,500,Marketing,web,activo,2025-12-30,2022-08-12,nataliacanet@example.net
+srv-fin-0599,10.3.210.91,b4:da:ab:3a:5a:ea,Windows Server 2019,64,8,500,Finanzas,mail,degradado,2025-08-05,2024-07-07,faustomayoral@example.com
+srv-inf-0600,10.5.223.163,91:32:2c:35:2d:08,Windows Server 2022,8,8,500,Infraestructura,db,mantenimiento,2025-07-21,2022-05-17,manolocarbajo@example.org
+srv-fin-0601,10.5.148.219,d7:6c:72:e8:c3:3a,Windows Server 2019,2,4,500,Finanzas,db,activo,2025-10-11,2023-02-11,delia72@example.net
+srv-inf-0602,10.1.145.69,87:9d:d4:7b:02:d4,Ubuntu 22.04 LTS,16,2,100,Infraestructura,web,activo,2025-11-26,2022-07-09,lino82@example.org
+srv-seg-0603,10.4.220.62,c8:62:c9:1a:db:41,RHEL 9,4,16,500,Seguridad,mail,mantenimiento,2025-12-25,2022-07-12,lupe38@example.net
+srv-rrh-0604,10.0.64.130,3c:c8:85:51:a5:68,Windows Server 2022,8,2,100,RRHH,web,mantenimiento,2026-05-31,2021-11-26,zamoranocandelaria@example.net
+srv-rrh-0605,10.4.195.7,42:e8:b7:5f:7a:71,Ubuntu 22.04 LTS,4,4,250,RRHH,ldap,activo,2025-11-24,2023-12-20,renata56@example.net
+srv-des-0606,10.1.11.164,34:38:eb:3e:36:48,Rocky Linux 9,4,4,500,Desarrollo,mail,activo,2026-04-27,2022-08-28,florentina59@example.com
+srv-seg-0607,10.0.251.204,0b:d3:25:f9:27:6b,CentOS 7,32,16,500,Seguridad,dns,activo,2025-07-16,2022-11-25,candido51@example.net
+srv-rrh-0608,10.0.91.169,10:3c:af:b1:f7:02,Debian 12,8,4,1000,RRHH,backup,activo,2026-02-27,2022-01-11,armandoescamilla@example.org
+srv-des-0609,10.4.78.56,ba:3a:6f:0f:a7:46,Windows Server 2016,2,4,100,Desarrollo,mail,activo,2026-01-16,2022-09-23,adan25@example.org
+srv-mar-0610,10.5.150.120,fd:df:cc:62:80:58,Ubuntu 20.04 LTS,16,4,2000,Marketing,backup,mantenimiento,2026-04-14,2022-02-26,juanselena@example.com
+srv-ope-0611,10.5.249.111,e4:d8:8b:a3:37:c4,Debian 12,8,8,250,Operaciones,ci-cd,activo,2025-11-26,2021-11-18,zvazquez@example.org
+srv-fin-0612,10.0.129.151,d1:96:b4:cb:0f:3a,Windows Server 2019,4,4,500,Finanzas,dns,activo,2025-12-04,2024-01-20,albanomarquez@example.com
+srv-fin-0613,10.2.74.200,a0:3e:04:a3:05:a8,CentOS 7,16,4,500,Finanzas,ci-cd,activo,2026-02-06,2022-04-12,olivaresdamian@example.net
+srv-fin-0614,10.4.108.135,6f:34:8e:26:d7:de,Windows Server 2022,8,4,500,Finanzas,proxy,activo,2026-05-11,2022-08-29,lmacias@example.net
+srv-i+d-0615,10.3.61.32,e7:57:a7:c4:79:0a,Ubuntu 22.04 LTS,8,4,100,I+D,ci-cd,activo,2025-10-12,2023-11-01,goicoecheaonofre@example.org
+srv-rrh-0616,10.4.20.87,08:23:f0:30:d4:9a,Windows Server 2022,2,4,500,RRHH,monitor,mantenimiento,2026-04-26,2022-04-23,zuritajosue@example.com
+srv-seg-0617,10.3.152.179,e8:fc:3e:bf:34:0e,Windows Server 2019,2,4,100,Seguridad,web,activo,2026-04-13,2023-08-14,gomisbernarda@example.com
+srv-inf-0618,10.0.97.186,bc:02:1a:84:16:38,CentOS 7,4,2,500,Infraestructura,db,activo,2025-12-19,2021-07-28,benitezernesto@example.net
+srv-inf-0619,10.1.235.31,40:a3:4b:d3:e4:3e,Rocky Linux 9,4,8,1000,Infraestructura,proxy,degradado,2025-10-04,2021-09-20,wmoran@example.org
+srv-i+d-0620,10.5.247.58,2f:87:97:2a:b4:7c,Rocky Linux 9,16,16,2000,I+D,proxy,activo,2026-04-28,2022-08-28,barberalina@example.org
+srv-des-0621,10.5.110.120,c5:60:f9:35:ae:6a,CentOS 7,2,8,1000,Desarrollo,ldap,activo,2025-12-28,2021-06-15,apolonia81@example.org
+srv-i+d-0622,10.1.112.235,ba:c5:e7:67:cc:60,Debian 12,4,2,500,I+D,dns,activo,2025-06-19,2023-09-15,marcossantiago@example.com
+srv-fin-0623,10.0.56.62,08:eb:5f:88:0e:f3,Debian 12,64,16,1000,Finanzas,nfs,activo,2026-01-21,2024-10-06,perlita04@example.com
+srv-fin-0624,10.1.77.102,dc:aa:1b:e1:8b:bd,RHEL 9,32,2,100,Finanzas,dns,mantenimiento,2026-02-26,2023-10-12,nogueslidia@example.org
+srv-mar-0625,10.4.141.136,fc:dd:37:19:7f:38,Windows Server 2022,4,4,100,Marketing,web,activo,2025-08-15,2023-12-08,obadia@example.net
+srv-mar-0626,10.2.115.226,cf:c8:c9:33:70:89,Ubuntu 20.04 LTS,4,8,250,Marketing,mail,activo,2025-12-10,2021-11-09,prudenciaramirez@example.com
+srv-ope-0627,10.0.94.129,f4:9c:7a:57:a1:23,Rocky Linux 9,2,4,250,Operaciones,monitor,mantenimiento,2026-03-25,2025-05-10,osunaileana@example.org
+srv-i+d-0628,10.0.90.250,87:27:57:04:b4:f2,Windows Server 2022,16,8,100,I+D,nfs,activo,2025-10-07,2024-10-24,gropero@example.net
+srv-des-0629,10.1.85.194,4b:30:33:9b:ab:e7,Ubuntu 22.04 LTS,8,8,2000,Desarrollo,monitor,degradado,2026-01-25,2021-09-16,bsolano@example.org
+srv-i+d-0630,10.3.6.212,b4:9a:aa:f7:39:8a,Rocky Linux 9,16,16,1000,I+D,web,activo,2025-11-07,2024-03-11,gabriela24@example.net
+srv-rrh-0631,10.0.125.148,dc:b8:69:2d:63:c1,RHEL 9,64,16,100,RRHH,backup,degradado,2025-10-18,2022-06-22,tandres@example.com
+srv-rrh-0632,10.2.200.151,d5:8d:9e:61:15:af,Rocky Linux 9,16,8,100,RRHH,dns,mantenimiento,2025-08-19,2023-06-26,marciano64@example.net
+srv-ope-0633,10.3.75.120,4c:94:53:9b:f9:93,Ubuntu 20.04 LTS,2,2,500,Operaciones,web,mantenimiento,2026-05-16,2024-03-17,rosaurarosado@example.org
+srv-ope-0634,10.3.156.2,dc:b4:00:19:80:46,Ubuntu 20.04 LTS,2,4,500,Operaciones,ldap,degradado,2026-03-18,2024-12-11,abraham33@example.net
+srv-ope-0635,10.3.41.75,70:10:f2:b5:7f:c5,Debian 12,8,8,500,Operaciones,db,activo,2026-01-02,2022-01-30,artemiobaquero@example.org
+srv-ope-0636,10.5.165.206,47:66:80:45:d5:66,Debian 12,32,4,500,Operaciones,db,activo,2025-08-19,2021-11-27,rosalinaelorza@example.com
+srv-i+d-0637,10.3.223.25,46:e2:a0:b7:ef:b5,Windows Server 2016,4,8,500,I+D,dns,mantenimiento,2025-10-12,2025-04-10,victor54@example.org
+srv-des-0638,10.1.154.202,7c:bf:41:96:1b:c9,Windows Server 2022,4,4,500,Desarrollo,web,mantenimiento,2025-09-13,2022-11-06,hnaranjo@example.net
+srv-des-0639,10.2.54.86,31:94:f6:a9:1f:3e,Ubuntu 20.04 LTS,2,16,1000,Desarrollo,ldap,activo,2025-06-11,2024-04-12,ezequiel51@example.com
+srv-rrh-0640,10.1.114.230,4f:9a:9f:03:f8:66,Windows Server 2016,64,2,100,RRHH,web,activo,2025-07-31,2024-10-01,agata41@example.com
+srv-fin-0641,10.0.242.7,e3:c8:1c:3e:99:cf,CentOS 7,8,8,250,Finanzas,proxy,degradado,2026-01-23,2021-12-29,rsancho@example.net
+srv-i+d-0642,10.1.11.48,48:7b:57:66:f3:f5,Ubuntu 20.04 LTS,32,4,500,I+D,db,degradado,2025-09-26,2023-05-15,aalbero@example.com
+srv-ope-0643,10.5.54.119,d5:d9:4b:0e:91:ea,Windows Server 2022,32,2,1000,Operaciones,dns,activo,2025-08-12,2023-09-24,venceslasperales@example.com
+srv-des-0644,10.2.71.120,ea:8d:04:51:b7:6b,Windows Server 2019,2,4,2000,Desarrollo,ldap,mantenimiento,2025-09-16,2025-01-28,santamariaemiliana@example.org
+srv-rrh-0645,10.5.173.118,47:8e:9b:c9:22:f7,Debian 12,16,8,500,RRHH,ci-cd,activo,2025-08-15,2021-06-15,vallpaula@example.net
+srv-ope-0646,10.4.178.150,ce:22:17:0f:51:76,Debian 12,16,2,2000,Operaciones,db,mantenimiento,2025-06-23,2022-10-04,busquetsjuan-luis@example.com
+srv-seg-0647,10.0.89.187,c4:d7:20:1f:80:3a,CentOS 7,8,2,2000,Seguridad,db,mantenimiento,2025-11-26,2022-01-10,fabriciochacon@example.org
+srv-des-0648,10.0.230.97,44:66:64:81:fb:e0,Debian 12,16,16,500,Desarrollo,proxy,activo,2026-03-15,2022-12-30,pcampoy@example.org
+srv-mar-0649,10.5.49.53,11:47:02:b8:d0:24,Ubuntu 20.04 LTS,2,4,250,Marketing,ldap,mantenimiento,2026-02-28,2024-04-07,chema79@example.org
+srv-i+d-0650,10.2.70.206,22:e0:da:c0:24:28,Windows Server 2016,16,4,1000,I+D,backup,activo,2026-04-06,2022-08-19,agustinamilla@example.com
+srv-mar-0651,10.0.114.211,94:80:c7:b7:22:50,Ubuntu 22.04 LTS,16,4,100,Marketing,ldap,degradado,2026-02-02,2022-07-11,lorenza29@example.net
+srv-ope-0652,10.4.56.150,f1:86:0f:10:ad:d7,Windows Server 2022,2,4,250,Operaciones,monitor,activo,2026-03-26,2024-04-13,patricio63@example.com
+srv-seg-0653,10.3.37.207,12:b1:24:d5:29:f5,Ubuntu 22.04 LTS,8,4,500,Seguridad,web,activo,2026-05-18,2022-08-23,nacio87@example.net
+srv-mar-0654,10.3.155.201,74:0a:1c:0d:64:c2,RHEL 9,32,16,2000,Marketing,web,degradado,2025-10-02,2025-02-19,bougraciano@example.net
+srv-inf-0655,10.3.218.141,46:3b:e0:3c:bc:b4,Windows Server 2022,4,4,500,Infraestructura,dns,activo,2026-02-04,2024-02-16,riquelmedamian@example.net
+srv-fin-0656,10.3.23.254,07:7f:1d:27:1d:40,Ubuntu 22.04 LTS,8,8,250,Finanzas,backup,activo,2025-12-27,2023-06-20,barcelomercedes@example.net
+srv-mar-0657,10.4.203.123,3e:27:27:80:69:fd,Rocky Linux 9,4,16,2000,Marketing,monitor,activo,2025-10-21,2021-06-06,rosariocorrea@example.com
+srv-ope-0658,10.5.125.135,88:a3:35:1b:b1:d2,RHEL 9,8,16,1000,Operaciones,nfs,activo,2026-04-26,2024-04-15,mpoza@example.net
+srv-rrh-0659,10.2.107.32,be:48:12:78:e1:e8,Windows Server 2016,8,2,100,RRHH,nfs,activo,2026-01-18,2023-11-14,nicolasjuana@example.com
+srv-inf-0660,10.0.142.219,c4:fd:09:c3:c4:e3,Rocky Linux 9,4,2,250,Infraestructura,proxy,mantenimiento,2026-03-03,2021-09-23,estevezloida@example.com
+srv-inf-0661,10.5.156.9,b2:0d:ac:86:6e:0e,Windows Server 2016,2,4,2000,Infraestructura,ci-cd,mantenimiento,2025-10-30,2025-02-09,cornelio33@example.net
+srv-fin-0662,10.5.147.220,ed:d9:85:53:c3:ef,Windows Server 2016,32,16,250,Finanzas,mail,activo,2026-01-13,2021-08-08,calderonmiguela@example.com
+srv-ope-0663,10.4.151.87,ca:13:8c:b9:89:80,Ubuntu 20.04 LTS,8,16,1000,Operaciones,web,activo,2025-12-30,2022-03-29,yesicagual@example.com
+srv-seg-0664,10.3.236.5,e1:04:ee:12:b7:f5,Rocky Linux 9,4,16,1000,Seguridad,proxy,mantenimiento,2026-05-07,2022-03-07,nydiagrande@example.net
+srv-fin-0665,10.0.225.47,84:8d:84:fd:41:74,Rocky Linux 9,16,16,250,Finanzas,mail,degradado,2025-07-05,2025-02-24,perezsoraya@example.org
+srv-mar-0666,10.1.225.149,a2:15:74:1f:84:83,Ubuntu 20.04 LTS,2,2,2000,Marketing,monitor,degradado,2026-05-14,2022-01-23,hoyosfeliciana@example.net
+srv-mar-0667,10.0.227.29,27:79:68:a6:be:d4,RHEL 9,4,2,2000,Marketing,dns,activo,2026-03-24,2025-04-16,roselljuanito@example.com
+srv-seg-0668,10.3.191.121,96:0f:52:bc:16:94,RHEL 9,16,4,1000,Seguridad,web,activo,2025-07-29,2024-03-29,puenteodalys@example.net
+srv-seg-0669,10.1.193.213,10:4c:c3:28:27:72,Windows Server 2016,16,8,1000,Seguridad,ci-cd,degradado,2025-11-03,2022-05-29,sevillanojessica@example.net
+srv-fin-0670,10.4.241.169,e1:a2:89:63:96:7c,Windows Server 2016,2,4,250,Finanzas,monitor,activo,2025-10-15,2023-08-31,martirio00@example.net
+srv-fin-0671,10.5.209.93,28:b4:27:b9:f7:75,CentOS 7,64,8,500,Finanzas,proxy,degradado,2026-04-02,2022-05-31,fannyalfonso@example.com
+srv-mar-0672,10.4.133.204,92:ae:a0:3c:29:d1,Windows Server 2022,4,8,1000,Marketing,mail,degradado,2025-09-25,2021-11-18,ferrandolupe@example.net
+srv-mar-0673,10.0.85.31,d6:86:f0:33:40:11,Debian 12,64,8,100,Marketing,mail,activo,2026-03-30,2022-07-17,bernabe76@example.org
+srv-inf-0674,10.1.205.179,7b:96:3c:ac:ac:37,Windows Server 2022,16,16,100,Infraestructura,db,activo,2025-10-19,2023-02-19,gabinoropero@example.org
+srv-i+d-0675,10.3.68.188,5d:2a:4d:03:bd:e8,Windows Server 2022,8,8,500,I+D,nfs,activo,2025-09-18,2022-02-17,raquelbarbero@example.com
+srv-ope-0676,10.2.252.88,18:da:92:a5:c4:a3,Ubuntu 20.04 LTS,8,4,250,Operaciones,web,activo,2025-10-28,2022-07-08,vluna@example.net
+srv-ope-0677,10.2.145.43,3c:93:8c:f9:e0:72,RHEL 9,4,4,500,Operaciones,backup,degradado,2026-04-12,2024-02-17,yessicaserra@example.net
+srv-ope-0678,10.1.86.8,14:63:03:fa:0d:bd,Debian 12,4,4,500,Operaciones,ci-cd,mantenimiento,2025-10-21,2022-07-05,ndiez@example.org
+srv-rrh-0679,10.0.61.114,dd:fc:86:2c:46:8e,Windows Server 2019,8,16,2000,RRHH,db,activo,2026-04-26,2024-03-07,upuente@example.net
+srv-fin-0680,10.4.171.71,e8:25:a1:13:dd:33,RHEL 9,4,16,1000,Finanzas,monitor,activo,2025-08-24,2021-09-21,armasapolinar@example.org
+srv-des-0681,10.1.192.224,70:64:87:f0:4d:f8,Ubuntu 22.04 LTS,8,4,2000,Desarrollo,nfs,activo,2026-03-30,2024-04-25,carmenvillalonga@example.net
+srv-fin-0682,10.0.222.18,fb:6a:5b:13:d6:86,Windows Server 2016,8,8,500,Finanzas,ci-cd,activo,2025-07-14,2023-06-22,mribera@example.net
+srv-i+d-0683,10.2.118.225,95:f8:fa:c8:b6:f6,Windows Server 2016,4,4,100,I+D,proxy,activo,2026-01-09,2023-01-28,adelia49@example.org
+srv-i+d-0684,10.5.217.30,5a:ed:a3:3a:b1:cb,RHEL 9,8,16,250,I+D,nfs,mantenimiento,2025-08-02,2023-02-13,juan-antonioasenjo@example.org
+srv-mar-0685,10.2.110.228,d1:1f:a5:85:a2:d2,Ubuntu 22.04 LTS,8,8,500,Marketing,dns,mantenimiento,2026-01-23,2025-02-14,roldannereida@example.com
+srv-ope-0686,10.2.23.79,e5:d1:71:55:69:38,Windows Server 2019,8,8,1000,Operaciones,monitor,activo,2025-07-31,2022-05-27,ecarrion@example.net
+srv-des-0687,10.0.170.234,b4:20:19:6b:b9:65,Ubuntu 22.04 LTS,32,4,1000,Desarrollo,dns,activo,2026-01-08,2024-07-10,coelloloreto@example.com
+srv-seg-0688,10.1.127.241,06:12:0a:34:cb:f8,RHEL 9,32,2,250,Seguridad,backup,activo,2026-05-24,2024-02-20,miriamlucena@example.net
+srv-mar-0689,10.5.63.209,c1:cd:43:8a:2b:27,Ubuntu 22.04 LTS,8,2,1000,Marketing,dns,activo,2026-05-29,2022-05-23,ssales@example.org
+srv-rrh-0690,10.1.159.201,a5:d9:0b:9a:8c:ea,Ubuntu 20.04 LTS,32,4,100,RRHH,backup,degradado,2025-10-07,2023-04-26,eabascal@example.net
+srv-ope-0691,10.1.208.144,8e:f7:91:7d:c3:08,Windows Server 2022,4,8,2000,Operaciones,dns,activo,2025-08-30,2024-10-27,barberoamancio@example.net
+srv-i+d-0692,10.3.118.115,bd:f4:37:9f:aa:49,CentOS 7,2,16,100,I+D,db,degradado,2026-03-11,2024-04-06,estebanarmida@example.net
+srv-i+d-0693,10.1.206.158,f2:77:1e:fc:81:d2,CentOS 7,4,4,2000,I+D,monitor,activo,2026-05-18,2023-08-17,pllorens@example.com
+srv-inf-0694,10.5.107.194,fa:ff:a0:78:a4:ec,Ubuntu 22.04 LTS,8,16,500,Infraestructura,ldap,degradado,2026-04-25,2024-11-02,cruztejedor@example.net
+srv-inf-0695,10.1.6.42,3e:55:65:e0:3a:13,Ubuntu 20.04 LTS,32,8,500,Infraestructura,mail,degradado,2025-09-29,2024-08-23,clarisa54@example.org
+srv-inf-0696,10.2.60.112,96:8a:a5:be:54:48,Windows Server 2022,2,4,1000,Infraestructura,proxy,degradado,2025-06-05,2023-05-07,miguel79@example.com
+srv-ope-0697,10.1.169.238,45:54:f2:05:a2:d5,Windows Server 2019,64,4,250,Operaciones,nfs,activo,2026-06-03,2023-09-06,ncadenas@example.net
+srv-mar-0698,10.4.234.85,30:1f:ef:50:22:b3,CentOS 7,4,16,1000,Marketing,proxy,activo,2025-07-19,2025-05-08,tquevedo@example.org
+srv-mar-0699,10.3.156.95,ce:82:67:27:4e:34,Rocky Linux 9,8,16,250,Marketing,backup,activo,2026-01-22,2022-04-08,luciana14@example.org
+srv-fin-0700,10.2.141.248,f2:6b:56:01:76:6e,Debian 12,32,2,1000,Finanzas,mail,activo,2026-03-13,2022-10-06,carlosandrade@example.net
+srv-des-0701,10.0.70.131,e1:d9:f1:a7:9a:3c,RHEL 9,4,4,1000,Desarrollo,dns,mantenimiento,2025-11-20,2021-06-20,mohamed40@example.net
+srv-i+d-0702,10.4.162.136,28:6d:55:8e:49:df,RHEL 9,8,8,500,I+D,nfs,activo,2025-06-20,2024-10-02,gmiguel@example.net
+srv-inf-0703,10.0.187.219,ee:b1:d9:6d:61:c3,RHEL 9,4,4,250,Infraestructura,web,activo,2025-10-22,2023-05-28,irma32@example.com
+srv-mar-0704,10.2.48.234,bc:81:06:8b:11:8c,Ubuntu 22.04 LTS,8,16,500,Marketing,dns,activo,2025-06-14,2021-06-24,trinidadroyo@example.com
+srv-ope-0705,10.4.15.221,f1:e8:fb:58:f2:35,Rocky Linux 9,2,2,500,Operaciones,web,degradado,2025-06-05,2024-07-27,rodrigo62@example.com
+srv-rrh-0706,10.3.61.15,e3:1f:a0:31:8e:63,Debian 12,4,16,1000,RRHH,web,activo,2025-06-26,2023-08-27,vangel@example.com
+srv-rrh-0707,10.5.206.107,1f:21:62:4b:88:2a,RHEL 9,2,4,500,RRHH,web,activo,2025-07-29,2024-04-25,porfirio38@example.net
+srv-inf-0708,10.2.140.144,b3:3c:ae:ee:2c:ed,Debian 12,2,2,100,Infraestructura,db,activo,2026-04-22,2024-05-21,nereidaagustin@example.net
+srv-seg-0709,10.0.111.164,bf:eb:29:7e:9d:61,Ubuntu 22.04 LTS,4,16,2000,Seguridad,mail,activo,2026-05-09,2023-04-21,gabaldonmaria@example.org
+srv-ope-0710,10.1.161.106,73:60:8b:66:5a:97,Debian 12,8,4,2000,Operaciones,nfs,activo,2026-04-19,2022-09-06,mendezmarcela@example.com
+srv-seg-0711,10.5.230.213,57:12:c5:4f:6b:de,RHEL 9,16,4,2000,Seguridad,backup,activo,2025-12-12,2021-07-04,maria-belenmacias@example.org
+srv-ope-0712,10.2.111.120,85:10:3b:5f:f3:47,Ubuntu 20.04 LTS,8,8,1000,Operaciones,monitor,activo,2025-08-21,2023-04-24,hbonilla@example.org
+srv-des-0713,10.5.183.223,04:51:d7:f3:ab:ac,RHEL 9,4,16,100,Desarrollo,mail,activo,2025-12-31,2024-07-07,chelovillaverde@example.net
+srv-i+d-0714,10.0.224.208,e9:de:cc:f2:7c:81,Windows Server 2016,4,16,500,I+D,ci-cd,activo,2025-10-01,2021-08-16,cayetanacerezo@example.org
+srv-inf-0715,10.1.55.108,da:89:cd:0e:53:55,Rocky Linux 9,2,4,1000,Infraestructura,ldap,activo,2025-08-19,2024-08-24,sbarral@example.net
+srv-rrh-0716,10.0.158.203,48:b1:ea:ca:54:eb,RHEL 9,2,2,2000,RRHH,mail,activo,2026-03-09,2023-09-27,malena96@example.org
+srv-ope-0717,10.1.104.112,2e:7d:4e:bf:02:f4,Ubuntu 20.04 LTS,4,4,500,Operaciones,db,mantenimiento,2025-08-28,2021-07-30,zrobledo@example.com
+srv-inf-0718,10.5.192.213,ed:7c:31:c6:41:a2,CentOS 7,64,4,500,Infraestructura,monitor,activo,2025-06-25,2023-01-18,malena67@example.com
+srv-inf-0719,10.2.250.172,0d:71:5b:78:bc:b9,Windows Server 2016,4,4,1000,Infraestructura,web,degradado,2025-08-03,2023-03-13,imeldanino@example.net
+srv-fin-0720,10.3.96.12,6c:9a:de:2f:ad:c4,CentOS 7,4,16,250,Finanzas,dns,activo,2026-01-11,2023-09-07,dsolana@example.org
+srv-inf-0721,10.2.215.46,53:cb:36:ee:2a:b1,Windows Server 2019,2,16,2000,Infraestructura,db,mantenimiento,2026-05-30,2024-07-11,toledoofelia@example.org
+srv-seg-0722,10.5.232.3,f8:cd:d8:1b:9b:d9,Debian 12,32,4,2000,Seguridad,db,degradado,2025-10-18,2022-08-12,adalbertoprat@example.net
+srv-seg-0723,10.4.186.29,5b:d9:c4:28:4c:03,Windows Server 2019,16,4,2000,Seguridad,ci-cd,activo,2026-02-24,2022-07-17,droldan@example.net
+srv-i+d-0724,10.3.144.11,3e:fa:eb:bb:19:bd,Windows Server 2022,2,4,500,I+D,monitor,activo,2026-05-24,2022-05-21,usolsona@example.net
+srv-ope-0725,10.2.213.5,e4:a6:98:12:39:b6,Debian 12,8,16,100,Operaciones,ldap,mantenimiento,2026-01-29,2024-06-12,martinafabra@example.net
+srv-fin-0726,10.1.74.163,fc:dc:8c:b0:ea:7c,Windows Server 2016,4,16,1000,Finanzas,ci-cd,mantenimiento,2026-05-16,2024-12-31,zalemany@example.net
+srv-seg-0727,10.1.51.98,28:ac:9a:d8:cd:0b,RHEL 9,2,4,2000,Seguridad,backup,activo,2025-10-27,2024-10-10,silviotello@example.org
+srv-mar-0728,10.4.124.178,19:bf:f2:6e:df:8c,Rocky Linux 9,8,16,2000,Marketing,mail,activo,2025-09-22,2021-08-30,rodrigo35@example.org
+srv-des-0729,10.5.145.70,02:d0:6a:09:d4:42,Windows Server 2022,4,4,500,Desarrollo,nfs,degradado,2025-07-15,2023-08-24,gilbertodiego@example.com
+srv-fin-0730,10.0.166.57,20:93:eb:d7:a8:c7,CentOS 7,8,8,1000,Finanzas,web,activo,2025-12-13,2023-08-21,asensiomarcelo@example.net
+srv-seg-0731,10.3.255.54,57:c7:82:ce:10:28,Windows Server 2019,4,16,500,Seguridad,ldap,activo,2026-04-24,2024-04-06,fernandobermejo@example.org
+srv-seg-0732,10.2.231.173,ef:0f:4f:55:b4:dc,Rocky Linux 9,8,8,100,Seguridad,backup,degradado,2025-09-27,2024-02-11,hipolitomarcos@example.com
+srv-inf-0733,10.3.63.25,ca:6f:6c:38:94:5b,Windows Server 2016,4,4,2000,Infraestructura,dns,degradado,2025-11-08,2023-06-16,lastraemigdio@example.com
+srv-mar-0734,10.2.185.162,36:a2:c8:73:ce:fd,Windows Server 2022,8,8,500,Marketing,nfs,activo,2026-03-07,2023-03-09,agudofeliciana@example.net
+srv-ope-0735,10.3.88.175,32:c4:d6:d6:d2:60,Ubuntu 22.04 LTS,16,16,100,Operaciones,ci-cd,activo,2026-03-27,2022-01-04,anselmaplaza@example.net
+srv-fin-0736,10.2.127.43,f1:2e:bd:0b:c7:62,Windows Server 2022,2,4,500,Finanzas,monitor,activo,2026-03-08,2022-10-12,lucia76@example.org
+srv-mar-0737,10.2.33.229,0f:69:ec:eb:7d:e3,RHEL 9,4,4,250,Marketing,nfs,degradado,2025-07-12,2024-10-21,toribiocabello@example.com
+srv-seg-0738,10.3.35.2,10:d0:f0:c5:24:d5,Debian 12,8,4,2000,Seguridad,ldap,activo,2025-07-30,2021-10-19,miguel-angel72@example.com
+srv-des-0739,10.5.30.75,cb:14:ba:cc:e1:db,Windows Server 2019,64,2,100,Desarrollo,mail,activo,2025-08-13,2024-10-20,marisolbenavente@example.com
+srv-rrh-0740,10.5.173.37,7c:f7:6b:87:31:a8,RHEL 9,32,16,2000,RRHH,db,mantenimiento,2025-06-07,2022-09-03,lmiranda@example.com
+srv-mar-0741,10.2.227.85,e6:84:8c:12:47:4b,Rocky Linux 9,16,8,500,Marketing,web,activo,2025-11-28,2022-04-08,aroa97@example.org
+srv-seg-0742,10.5.81.146,9c:f3:e1:96:4f:41,Rocky Linux 9,8,4,1000,Seguridad,backup,mantenimiento,2026-01-25,2021-11-09,armengoldanilo@example.org
+srv-mar-0743,10.4.155.38,06:84:ba:cf:f4:57,Ubuntu 22.04 LTS,8,4,2000,Marketing,mail,degradado,2025-09-22,2023-09-01,sbecerra@example.com
+srv-seg-0744,10.5.86.223,f6:59:f7:c2:07:21,Windows Server 2022,64,4,250,Seguridad,backup,activo,2026-02-11,2024-08-02,eusebiollabres@example.com
+srv-ope-0745,10.2.255.118,06:74:67:ba:10:cc,Ubuntu 20.04 LTS,8,16,100,Operaciones,monitor,degradado,2026-05-02,2023-11-28,albertobadia@example.net
+srv-fin-0746,10.4.126.63,83:5d:7d:74:e9:5a,Ubuntu 22.04 LTS,64,2,1000,Finanzas,backup,degradado,2026-01-14,2024-11-30,dani49@example.net
+srv-mar-0747,10.4.155.16,6a:74:7c:f4:ed:32,Ubuntu 20.04 LTS,4,8,100,Marketing,monitor,activo,2026-02-25,2022-09-30,warrieta@example.org
+srv-fin-0748,10.3.101.26,6e:f9:99:04:dc:39,Windows Server 2019,4,16,500,Finanzas,proxy,degradado,2025-07-15,2021-12-25,gabrielaazcona@example.com
+srv-i+d-0749,10.3.138.127,5a:a8:f7:91:99:87,Ubuntu 22.04 LTS,8,8,250,I+D,monitor,activo,2025-06-23,2022-04-13,linagallart@example.net
+srv-ope-0750,10.1.249.2,a3:f0:fd:53:5b:21,Windows Server 2019,4,8,2000,Operaciones,backup,activo,2025-10-22,2023-07-05,custodioalcantara@example.org
+srv-rrh-0751,10.1.109.79,9c:a3:f1:34:99:6b,CentOS 7,4,8,2000,RRHH,mail,activo,2026-03-17,2024-05-08,cbeltran@example.org
+srv-inf-0752,10.4.80.84,f2:d5:89:75:86:f1,Debian 12,4,4,500,Infraestructura,mail,activo,2025-12-17,2023-06-12,constanzasaura@example.net
+srv-seg-0753,10.3.201.196,d5:02:ce:1c:d1:b5,Windows Server 2019,8,16,250,Seguridad,nfs,activo,2026-05-27,2021-06-24,wbartolome@example.net
+srv-mar-0754,10.2.191.7,a4:da:c3:a6:66:6e,CentOS 7,8,8,1000,Marketing,nfs,activo,2026-04-12,2025-01-04,pacocampillo@example.com
+srv-mar-0755,10.5.245.242,f0:17:c7:f9:7f:8f,Debian 12,16,8,1000,Marketing,dns,activo,2026-04-15,2025-02-11,cirino32@example.net
+srv-seg-0756,10.3.145.29,f1:44:25:a6:d3:4d,Rocky Linux 9,16,4,1000,Seguridad,backup,degradado,2026-02-23,2022-04-12,manu39@example.com
+srv-fin-0757,10.2.133.143,95:0b:47:22:a0:b8,Windows Server 2019,8,8,2000,Finanzas,proxy,activo,2025-12-23,2022-10-20,valeroildefonso@example.net
+srv-mar-0758,10.2.101.174,84:82:0b:47:3d:d2,Windows Server 2019,16,8,500,Marketing,nfs,activo,2025-09-08,2025-02-02,arcomanuelita@example.org
+srv-seg-0759,10.0.167.203,fb:90:aa:22:26:2f,Ubuntu 22.04 LTS,32,8,100,Seguridad,ldap,activo,2025-09-16,2024-12-08,fabregatgriselda@example.com
+srv-i+d-0760,10.5.220.210,8d:ee:e7:4d:a9:25,CentOS 7,4,4,2000,I+D,ci-cd,activo,2025-10-16,2022-06-21,oliverassalome@example.net
+srv-inf-0761,10.4.150.2,c7:09:04:73:a5:da,Ubuntu 22.04 LTS,32,4,500,Infraestructura,proxy,degradado,2025-06-25,2023-08-07,jagusti@example.org
+srv-i+d-0762,10.5.78.49,4b:69:9d:5c:33:0d,CentOS 7,16,8,1000,I+D,web,activo,2025-09-02,2023-06-23,nazario79@example.net
+srv-fin-0763,10.1.106.52,9b:53:d9:8a:77:6f,RHEL 9,16,4,100,Finanzas,mail,mantenimiento,2026-04-03,2023-04-29,wcoloma@example.net
+srv-des-0764,10.3.25.115,e0:cc:65:69:c2:3f,Windows Server 2019,8,2,250,Desarrollo,ldap,degradado,2025-09-14,2024-09-29,ortunomirta@example.com
+srv-rrh-0765,10.3.183.192,a2:d4:61:6b:2e:b8,CentOS 7,4,8,500,RRHH,ldap,activo,2025-10-15,2025-05-03,silvio22@example.net
+srv-des-0766,10.3.51.91,b8:9e:21:de:99:75,Windows Server 2022,32,16,100,Desarrollo,dns,mantenimiento,2026-05-28,2023-11-21,ferminseco@example.net
+srv-seg-0767,10.1.90.145,04:41:4f:47:f0:13,Ubuntu 22.04 LTS,4,2,1000,Seguridad,proxy,activo,2025-11-27,2021-12-19,aitanapoza@example.org
+srv-inf-0768,10.1.89.240,4d:5c:ba:38:53:0f,Debian 12,32,8,250,Infraestructura,backup,mantenimiento,2025-07-20,2023-05-03,anitaamigo@example.com
+srv-ope-0769,10.0.169.8,f0:11:49:d0:17:c1,RHEL 9,2,8,2000,Operaciones,ldap,activo,2026-03-17,2024-11-12,natalialobato@example.net
+srv-des-0770,10.0.214.253,21:39:f3:ed:d4:e1,RHEL 9,8,4,1000,Desarrollo,web,activo,2025-10-05,2022-10-18,vasco55@example.net
+srv-ope-0771,10.5.187.245,31:f4:fc:64:40:70,Debian 12,16,8,250,Operaciones,mail,activo,2025-07-03,2024-12-19,casandravillaverde@example.net
+srv-fin-0772,10.4.53.64,73:80:5e:9a:a8:ec,Windows Server 2022,8,16,1000,Finanzas,ldap,degradado,2025-08-14,2023-12-07,dionisiobarbera@example.net
+srv-rrh-0773,10.2.74.149,11:c5:18:65:5d:07,RHEL 9,32,4,2000,RRHH,web,activo,2026-03-15,2023-03-16,ogimeno@example.org
+srv-seg-0774,10.3.176.49,cf:e7:6d:e8:86:e1,Ubuntu 22.04 LTS,64,2,2000,Seguridad,backup,degradado,2025-12-15,2023-07-16,florteo@example.org
+srv-rrh-0775,10.3.233.170,31:af:86:20:bb:da,Rocky Linux 9,16,16,100,RRHH,ldap,activo,2026-04-18,2024-02-26,alejandro83@example.net
+srv-i+d-0776,10.4.151.33,b1:9d:e7:df:2a:5d,Ubuntu 20.04 LTS,4,8,1000,I+D,proxy,activo,2025-06-22,2024-03-08,dcollado@example.net
+srv-des-0777,10.4.77.145,18:b9:75:55:bf:51,CentOS 7,16,2,2000,Desarrollo,mail,degradado,2026-02-10,2024-07-29,fabian56@example.net
+srv-inf-0778,10.0.205.76,c7:d7:f3:ef:a4:45,CentOS 7,8,16,500,Infraestructura,web,activo,2026-01-28,2021-06-16,kochoa@example.net
+srv-ope-0779,10.0.210.36,49:f6:52:7c:c8:51,CentOS 7,4,16,500,Operaciones,dns,degradado,2026-02-26,2024-01-13,ciriaco59@example.com
+srv-seg-0780,10.2.71.229,cd:3f:4d:69:e3:48,Ubuntu 20.04 LTS,8,16,500,Seguridad,monitor,activo,2025-07-14,2024-10-08,josehidalgo@example.com
+srv-ope-0781,10.5.241.60,e0:98:3f:e8:4e:24,Windows Server 2016,4,16,500,Operaciones,backup,activo,2025-11-22,2023-12-30,azeneth27@example.com
+srv-fin-0782,10.4.86.225,f9:95:73:34:2d:b9,Windows Server 2019,32,4,2000,Finanzas,nfs,mantenimiento,2025-11-02,2025-02-09,julieta15@example.com
+srv-fin-0783,10.2.168.108,80:b6:2a:06:33:f8,Rocky Linux 9,8,4,1000,Finanzas,nfs,activo,2025-08-07,2022-12-30,barogenoveva@example.org
+srv-ope-0784,10.4.192.156,c3:15:37:32:30:3c,Ubuntu 20.04 LTS,64,4,500,Operaciones,ci-cd,degradado,2025-11-02,2023-03-22,ymorera@example.org
+srv-des-0785,10.3.19.241,cc:dd:0d:6e:5c:0c,RHEL 9,64,16,500,Desarrollo,db,activo,2025-11-06,2025-04-08,eyanez@example.net
+srv-i+d-0786,10.5.176.91,7f:8d:e4:18:a6:ea,Rocky Linux 9,16,16,2000,I+D,backup,activo,2026-02-18,2022-04-19,teodoroarnaiz@example.com
+srv-seg-0787,10.1.255.220,2d:aa:b4:74:a2:9c,Windows Server 2022,16,2,2000,Seguridad,db,mantenimiento,2025-12-27,2021-12-10,rrobledo@example.net
+srv-i+d-0788,10.1.135.220,f8:b3:ac:e0:b9:51,Debian 12,32,4,500,I+D,web,activo,2026-02-28,2022-03-02,ferrandojoel@example.net
+srv-ope-0789,10.4.91.102,26:65:2f:2e:cf:86,Windows Server 2016,8,4,2000,Operaciones,monitor,degradado,2025-12-06,2023-03-16,palmavictor@example.org
+srv-rrh-0790,10.5.150.158,2a:a5:73:e2:14:7d,Windows Server 2022,4,8,250,RRHH,backup,activo,2025-09-25,2024-03-03,ruy10@example.com
+srv-mar-0791,10.3.110.38,06:97:7c:0a:f7:e0,CentOS 7,8,8,1000,Marketing,ldap,degradado,2026-02-27,2023-02-12,abigail33@example.org
+srv-rrh-0792,10.5.198.192,85:ba:86:dc:bd:ba,Windows Server 2016,32,4,500,RRHH,ldap,activo,2026-04-27,2021-07-17,rodenasbernabe@example.org
+srv-rrh-0793,10.4.65.25,f3:a0:35:74:b2:72,RHEL 9,8,8,500,RRHH,ci-cd,activo,2025-10-13,2021-12-16,tamaritgodofredo@example.org
+srv-i+d-0794,10.0.87.6,e5:1d:b1:f4:4b:20,Windows Server 2019,32,16,500,I+D,db,activo,2025-08-18,2024-01-06,amaliaaviles@example.org
+srv-des-0795,10.5.68.253,ca:6e:e7:9e:9b:a9,Windows Server 2019,32,4,1000,Desarrollo,ldap,mantenimiento,2026-03-24,2022-05-27,pedrosaliliana@example.org
+srv-seg-0796,10.5.183.151,3d:24:20:d3:52:63,Ubuntu 22.04 LTS,2,4,1000,Seguridad,mail,activo,2026-05-21,2021-10-15,umiranda@example.net
+srv-i+d-0797,10.0.48.243,ce:c6:d0:c3:f2:46,Ubuntu 20.04 LTS,16,4,250,I+D,db,activo,2025-12-06,2024-06-07,kmorillo@example.org
+srv-inf-0798,10.0.94.67,cd:66:74:b3:29:ad,Rocky Linux 9,64,8,100,Infraestructura,ldap,activo,2026-05-26,2022-01-11,emur@example.com
+srv-des-0799,10.5.191.25,56:00:06:02:a7:c4,Windows Server 2016,2,4,100,Desarrollo,ci-cd,degradado,2025-11-26,2025-01-14,leocadio72@example.net
+srv-rrh-0800,10.1.111.250,b0:31:4f:bf:5a:e1,CentOS 7,64,16,250,RRHH,ldap,activo,2025-10-21,2025-04-04,silvamanola@example.net
+srv-des-0801,10.2.149.28,b2:5c:55:33:fe:62,Windows Server 2016,4,8,250,Desarrollo,ci-cd,activo,2025-10-16,2021-09-26,sosimopla@example.net
+srv-inf-0802,10.5.33.87,7e:bb:48:7a:fb:60,Windows Server 2019,4,8,100,Infraestructura,monitor,activo,2025-10-03,2021-09-24,garatepepe@example.net
+srv-fin-0803,10.5.164.234,c9:66:90:a4:45:e5,Windows Server 2016,4,4,500,Finanzas,dns,mantenimiento,2025-10-26,2023-04-25,asalinas@example.org
+srv-fin-0804,10.3.53.83,f7:c7:9c:fe:93:1c,Windows Server 2019,2,8,100,Finanzas,proxy,activo,2025-12-30,2022-02-18,cosmepina@example.org
+srv-rrh-0805,10.4.14.13,9b:c5:60:b4:1a:de,RHEL 9,2,16,1000,RRHH,ldap,activo,2025-09-18,2023-05-08,candelaria53@example.net
+srv-des-0806,10.3.95.229,71:a3:25:68:fd:69,CentOS 7,4,8,2000,Desarrollo,ci-cd,activo,2026-05-13,2023-04-16,fuentesselena@example.com
+srv-mar-0807,10.0.123.169,a9:5a:c7:74:be:cd,Ubuntu 20.04 LTS,8,2,250,Marketing,mail,degradado,2026-01-30,2021-12-10,kbarral@example.net
+srv-ope-0808,10.1.139.105,05:d4:d3:c1:8e:61,Windows Server 2022,8,8,500,Operaciones,ci-cd,activo,2025-07-20,2021-07-18,javiera51@example.com
+srv-inf-0809,10.1.114.19,3a:3b:51:fa:22:5d,Ubuntu 22.04 LTS,64,8,500,Infraestructura,mail,activo,2025-06-22,2021-07-13,lguitart@example.net
+srv-inf-0810,10.2.133.28,3d:ca:67:2c:fe:66,Rocky Linux 9,8,4,1000,Infraestructura,web,mantenimiento,2025-10-03,2024-10-25,lucio70@example.com
+srv-fin-0811,10.3.94.22,22:7b:df:bd:e0:49,CentOS 7,2,8,1000,Finanzas,web,degradado,2026-03-01,2024-04-01,elimariscal@example.net
+srv-seg-0812,10.1.174.221,80:59:b3:ec:66:1c,Ubuntu 22.04 LTS,2,8,500,Seguridad,mail,activo,2025-09-20,2025-01-26,zbotella@example.org
+srv-mar-0813,10.2.224.7,e1:23:7d:93:52:49,Debian 12,8,8,500,Marketing,web,activo,2025-06-20,2025-01-23,paula43@example.org
+srv-inf-0814,10.4.86.186,a4:bd:13:49:35:77,Windows Server 2016,2,2,500,Infraestructura,web,degradado,2026-05-07,2023-04-04,fbarroso@example.com
+srv-fin-0815,10.4.37.6,f3:c5:90:c6:e6:79,CentOS 7,2,16,500,Finanzas,ci-cd,activo,2025-12-11,2021-11-10,wilfredomiguel@example.net
+srv-i+d-0816,10.3.184.58,49:92:59:c6:83:52,Windows Server 2019,4,4,2000,I+D,web,mantenimiento,2026-01-03,2024-08-15,custodia43@example.net
+srv-des-0817,10.5.116.253,cd:40:b4:6a:cf:d7,Windows Server 2019,32,8,500,Desarrollo,nfs,mantenimiento,2025-11-19,2022-10-30,angelesmeralda@example.org
+srv-seg-0818,10.5.204.35,69:7d:6f:61:63:ba,RHEL 9,16,8,1000,Seguridad,dns,activo,2025-07-11,2023-09-16,nadiaarco@example.org
+srv-mar-0819,10.3.55.139,e7:99:d3:1a:66:6f,Windows Server 2022,4,4,1000,Marketing,mail,mantenimiento,2025-09-14,2023-01-03,samuelquiros@example.org
+srv-rrh-0820,10.5.105.99,58:8b:4f:cd:65:4d,Windows Server 2019,2,8,500,RRHH,nfs,activo,2026-03-31,2022-09-13,kporta@example.net
+srv-seg-0821,10.5.49.202,21:2b:0a:04:1b:a9,Windows Server 2016,2,2,500,Seguridad,monitor,activo,2026-03-20,2024-03-26,faustino54@example.org
+srv-ope-0822,10.4.161.150,e4:f3:ad:59:94:9b,Ubuntu 20.04 LTS,16,2,1000,Operaciones,mail,activo,2026-03-14,2023-02-06,nilomendez@example.com
+srv-fin-0823,10.1.240.180,8f:7f:3a:4b:e3:31,Windows Server 2016,32,2,250,Finanzas,dns,mantenimiento,2025-11-23,2022-10-03,saraviana@example.com
+srv-rrh-0824,10.3.93.115,0a:fb:b0:ad:2b:bd,Ubuntu 22.04 LTS,16,2,250,RRHH,mail,degradado,2026-01-03,2021-08-18,vascosalmeron@example.net
+srv-inf-0825,10.5.100.247,a4:95:2a:b5:fd:08,Debian 12,4,8,1000,Infraestructura,dns,activo,2025-12-01,2024-01-05,ajerez@example.com
+srv-mar-0826,10.4.12.126,a3:55:1a:7a:9c:86,Windows Server 2016,8,8,500,Marketing,monitor,activo,2026-01-17,2021-09-30,novoaceferino@example.com
+srv-i+d-0827,10.4.16.34,05:09:9a:c2:66:f0,Ubuntu 20.04 LTS,16,8,500,I+D,web,activo,2025-06-14,2023-04-29,selenarey@example.org
+srv-seg-0828,10.3.175.34,b1:85:62:fa:90:88,RHEL 9,32,2,500,Seguridad,db,activo,2025-09-18,2024-10-16,tarino@example.com
+srv-des-0829,10.1.38.46,bf:21:4e:79:2c:26,Debian 12,4,2,2000,Desarrollo,web,activo,2025-07-24,2025-01-12,pelaezvilma@example.com
+srv-rrh-0830,10.5.54.157,3e:1c:47:66:29:5f,Windows Server 2019,16,2,2000,RRHH,db,activo,2025-10-27,2021-08-01,ztejedor@example.com
+srv-mar-0831,10.5.40.100,a4:62:f3:65:fd:5f,CentOS 7,2,8,500,Marketing,ci-cd,activo,2025-10-22,2024-05-23,irisbernad@example.org
+srv-des-0832,10.1.134.37,60:3f:26:60:5f:a4,Ubuntu 20.04 LTS,4,4,250,Desarrollo,dns,degradado,2026-01-05,2022-01-21,juan-antonio68@example.com
+srv-inf-0833,10.1.218.65,b0:7b:03:80:90:52,Windows Server 2016,8,2,100,Infraestructura,db,mantenimiento,2025-12-11,2025-02-02,olga55@example.org
+srv-inf-0834,10.0.45.82,b9:21:86:a3:e6:b7,Ubuntu 20.04 LTS,64,16,500,Infraestructura,monitor,mantenimiento,2026-01-03,2022-09-08,jodarurbano@example.net
+srv-seg-0835,10.1.87.11,b4:d1:ee:ec:a6:ce,Windows Server 2016,8,8,500,Seguridad,nfs,activo,2026-03-25,2023-04-08,aelorza@example.org
+srv-inf-0836,10.2.195.254,4c:cc:bb:07:de:58,Ubuntu 22.04 LTS,4,4,1000,Infraestructura,mail,activo,2026-04-18,2025-05-03,arrietatito@example.net
+srv-inf-0837,10.2.172.51,0b:fe:c8:51:9b:8e,Windows Server 2019,4,4,250,Infraestructura,nfs,degradado,2025-09-23,2023-01-01,wfigueroa@example.net
+srv-inf-0838,10.5.30.91,36:22:a5:f4:94:48,Debian 12,64,4,1000,Infraestructura,nfs,activo,2025-11-04,2022-09-05,maricruz40@example.org
+srv-des-0839,10.2.159.176,db:3e:42:90:ae:bf,Rocky Linux 9,4,16,250,Desarrollo,monitor,degradado,2025-10-06,2025-01-27,kmontenegro@example.org
+srv-des-0840,10.3.126.54,a7:77:a0:f3:8f:ae,Windows Server 2019,16,8,500,Desarrollo,proxy,activo,2025-12-23,2021-11-18,lorenzo35@example.com
+srv-mar-0841,10.3.240.228,09:a0:30:c4:4b:a4,CentOS 7,8,2,1000,Marketing,nfs,mantenimiento,2025-08-01,2023-12-09,ligiaordonez@example.net
+srv-fin-0842,10.1.141.183,49:ba:1e:f2:7e:72,Windows Server 2019,32,16,100,Finanzas,monitor,activo,2025-07-23,2022-09-21,agapitotalavera@example.com
+srv-rrh-0843,10.3.160.155,66:60:3d:97:1f:63,Rocky Linux 9,16,8,1000,RRHH,backup,activo,2025-11-25,2023-01-21,miguelaguardiola@example.net
+srv-des-0844,10.1.73.76,0c:0e:d7:28:bc:ee,Rocky Linux 9,8,4,500,Desarrollo,dns,degradado,2026-03-17,2022-02-05,eli02@example.net
+srv-i+d-0845,10.2.233.71,65:e8:91:53:41:a5,RHEL 9,4,2,100,I+D,web,activo,2025-08-27,2022-10-02,blanesjose-francisco@example.org
+srv-seg-0846,10.5.192.141,0d:de:a5:ca:5b:a7,Debian 12,16,8,100,Seguridad,backup,activo,2025-08-20,2022-03-29,lgiralt@example.com
+srv-des-0847,10.5.67.128,20:22:47:4d:34:53,Windows Server 2016,2,16,250,Desarrollo,db,activo,2025-12-05,2023-07-14,maspacifica@example.com
+srv-fin-0848,10.0.252.103,1f:d5:ca:4f:2d:6a,Windows Server 2022,16,8,250,Finanzas,db,activo,2026-02-09,2024-02-01,arroyofeliciano@example.org
+srv-des-0849,10.0.115.123,15:15:70:77:4e:46,Windows Server 2016,2,8,500,Desarrollo,monitor,mantenimiento,2025-07-16,2021-09-02,wespinosa@example.net
+srv-inf-0850,10.3.12.172,d4:22:14:66:12:6a,Ubuntu 22.04 LTS,8,4,1000,Infraestructura,nfs,activo,2025-12-09,2021-06-29,priscila73@example.net
+srv-fin-0851,10.3.108.39,03:90:88:bf:c6:51,RHEL 9,4,4,1000,Finanzas,backup,activo,2026-02-25,2023-08-06,edelmirocarrillo@example.org
+srv-ope-0852,10.5.146.116,0e:e4:cf:68:5e:39,Windows Server 2022,4,2,500,Operaciones,db,activo,2026-02-23,2022-03-26,florinda44@example.com
+srv-ope-0853,10.2.237.14,75:81:6f:0c:9e:06,CentOS 7,8,4,250,Operaciones,monitor,activo,2025-09-23,2023-04-02,ligia49@example.net
+srv-seg-0854,10.4.84.236,fb:f5:92:7f:27:36,Windows Server 2019,32,2,100,Seguridad,ci-cd,activo,2026-05-31,2023-11-22,enrique52@example.org
+srv-des-0855,10.3.81.25,1b:bc:6e:61:d8:be,Rocky Linux 9,64,2,500,Desarrollo,dns,activo,2026-01-04,2025-03-26,gloriaferrera@example.org
+srv-fin-0856,10.2.233.239,68:3d:0f:f3:59:07,Rocky Linux 9,4,2,100,Finanzas,proxy,mantenimiento,2025-08-13,2021-07-13,qalarcon@example.com
+srv-ope-0857,10.5.245.17,4e:6e:21:cb:c1:0f,Rocky Linux 9,2,2,500,Operaciones,dns,mantenimiento,2025-11-06,2024-06-12,burrutia@example.net
+srv-des-0858,10.2.144.185,f5:67:88:0c:8b:60,Ubuntu 22.04 LTS,4,4,2000,Desarrollo,nfs,activo,2025-07-08,2025-03-07,redondocarmina@example.org
+srv-inf-0859,10.1.24.74,ba:2d:bc:e9:f1:53,Windows Server 2016,64,4,2000,Infraestructura,monitor,degradado,2025-09-02,2024-08-11,leoncio61@example.org
+srv-seg-0860,10.1.205.96,ef:b1:95:4b:fd:d0,RHEL 9,32,4,500,Seguridad,db,degradado,2026-01-27,2024-08-28,marmanuel@example.net
+srv-seg-0861,10.3.84.228,15:af:4a:ae:51:47,RHEL 9,64,4,2000,Seguridad,dns,activo,2025-11-03,2024-10-19,febe71@example.org
+srv-des-0862,10.4.2.66,54:74:ab:fa:3b:a6,Windows Server 2016,4,16,500,Desarrollo,ldap,mantenimiento,2025-09-11,2021-09-29,tomasmagdalena@example.org
+srv-inf-0863,10.5.208.177,36:73:e8:4f:60:00,CentOS 7,16,8,100,Infraestructura,nfs,activo,2026-04-30,2021-07-13,pribera@example.com
+srv-ope-0864,10.2.107.139,31:61:0c:08:0f:97,CentOS 7,32,2,250,Operaciones,mail,activo,2026-05-02,2024-01-03,silviapardo@example.com
+srv-i+d-0865,10.2.206.3,99:af:c6:bf:6a:9b,Ubuntu 20.04 LTS,32,8,1000,I+D,ci-cd,mantenimiento,2025-07-15,2021-12-24,ruperta97@example.net
+srv-des-0866,10.3.163.90,0f:82:f2:c4:32:d8,Windows Server 2019,2,16,1000,Desarrollo,ci-cd,activo,2025-06-20,2022-09-05,armidamata@example.org
+srv-des-0867,10.3.44.122,81:2f:2a:7d:30:e8,Windows Server 2022,2,8,2000,Desarrollo,monitor,activo,2025-07-31,2022-10-18,ramirezvictoria@example.org
+srv-des-0868,10.4.231.56,d2:30:05:41:0e:e3,RHEL 9,8,2,1000,Desarrollo,mail,mantenimiento,2026-01-16,2021-07-09,lbernad@example.com
+srv-inf-0869,10.2.60.179,fb:59:e7:96:53:14,Windows Server 2016,2,4,1000,Infraestructura,monitor,mantenimiento,2026-04-10,2021-07-30,qalcazar@example.org
+srv-rrh-0870,10.3.248.64,02:c6:5a:c0:16:9a,Ubuntu 20.04 LTS,8,4,250,RRHH,monitor,degradado,2025-09-26,2024-02-23,oferrera@example.org
+srv-i+d-0871,10.1.71.34,0c:e0:fe:bb:dc:0a,Ubuntu 20.04 LTS,4,16,1000,I+D,monitor,degradado,2026-04-12,2023-01-30,sfranco@example.net
+srv-i+d-0872,10.3.216.18,21:2c:86:b7:f3:cd,Ubuntu 22.04 LTS,8,8,250,I+D,mail,activo,2026-05-24,2024-07-09,portillojaime@example.net
+srv-fin-0873,10.3.191.143,86:f4:22:5e:d3:3b,Debian 12,8,8,100,Finanzas,proxy,activo,2026-03-22,2023-09-29,mesaconsuela@example.com
+srv-rrh-0874,10.2.30.131,06:39:88:04:9b:46,Windows Server 2022,2,4,250,RRHH,nfs,activo,2026-03-01,2021-09-15,lbermejo@example.com
+srv-i+d-0875,10.1.50.45,c6:24:4a:41:4a:22,Windows Server 2019,64,8,1000,I+D,db,degradado,2026-03-13,2024-01-17,angelicaferran@example.org
+srv-inf-0876,10.2.208.16,dd:15:a4:ca:0e:62,RHEL 9,8,16,2000,Infraestructura,monitor,mantenimiento,2025-10-18,2022-01-11,rsalom@example.com
+srv-mar-0877,10.4.208.166,50:7b:93:fe:26:dd,Debian 12,64,8,100,Marketing,dns,activo,2025-08-22,2024-12-14,emperatriz62@example.org
+srv-rrh-0878,10.2.201.72,ed:ae:9b:a7:9d:f0,Ubuntu 22.04 LTS,16,8,500,RRHH,dns,degradado,2025-06-15,2022-04-15,cponce@example.org
+srv-rrh-0879,10.0.250.250,af:20:80:89:8a:93,Windows Server 2019,16,8,1000,RRHH,proxy,activo,2025-12-22,2024-02-01,ghernandez@example.com
+srv-mar-0880,10.1.171.133,d2:8e:87:d9:60:47,RHEL 9,8,16,500,Marketing,proxy,activo,2025-06-06,2022-05-21,juan-bautista11@example.com
+srv-seg-0881,10.4.88.31,95:7e:69:ac:5d:fe,CentOS 7,64,4,250,Seguridad,dns,mantenimiento,2026-01-18,2022-03-30,agustina03@example.org
+srv-i+d-0882,10.1.130.156,24:81:3f:c0:c9:01,Windows Server 2016,16,2,250,I+D,backup,mantenimiento,2025-10-16,2022-05-05,chuybaquero@example.org
+srv-ope-0883,10.1.136.14,da:fa:37:f3:df:c6,Windows Server 2016,32,4,100,Operaciones,mail,activo,2026-04-04,2023-05-27,vito73@example.org
+srv-des-0884,10.2.55.141,89:41:31:d8:68:14,Ubuntu 22.04 LTS,4,16,1000,Desarrollo,web,activo,2026-04-09,2023-07-15,alexandra74@example.com
+srv-ope-0885,10.1.118.57,88:b5:79:4d:0b:a2,Rocky Linux 9,32,4,250,Operaciones,dns,activo,2025-09-01,2021-12-21,ester07@example.com
+srv-des-0886,10.4.138.208,f8:3f:30:7e:d0:71,Debian 12,4,4,500,Desarrollo,ci-cd,activo,2026-03-09,2024-03-11,sigfridocamacho@example.com
+srv-ope-0887,10.1.157.112,c5:e4:6d:76:33:29,Ubuntu 20.04 LTS,2,8,2000,Operaciones,nfs,mantenimiento,2026-03-21,2023-04-10,manjonaura@example.com
+srv-inf-0888,10.1.251.112,af:a4:0a:ff:c6:e2,Ubuntu 22.04 LTS,8,8,250,Infraestructura,monitor,activo,2025-06-10,2024-12-29,angelitabarranco@example.com
+srv-inf-0889,10.1.111.81,b4:cf:8c:7f:94:76,Debian 12,32,8,1000,Infraestructura,nfs,activo,2025-06-19,2022-04-09,perlitaiglesia@example.com
+srv-mar-0890,10.5.11.100,b0:b8:c3:0a:fb:df,Ubuntu 20.04 LTS,64,16,500,Marketing,dns,activo,2025-10-25,2023-12-31,perezjeremias@example.net
+srv-seg-0891,10.2.133.123,50:56:70:64:12:c3,CentOS 7,8,4,100,Seguridad,proxy,activo,2025-06-08,2024-07-15,wmontenegro@example.com
+srv-fin-0892,10.2.40.135,82:e7:4c:96:48:df,Windows Server 2016,2,4,250,Finanzas,proxy,mantenimiento,2025-12-28,2024-06-29,gustavo74@example.net
+srv-fin-0893,10.4.26.147,5a:93:f0:d8:55:78,CentOS 7,4,2,250,Finanzas,ci-cd,activo,2026-05-02,2024-11-10,simon16@example.com
+srv-ope-0894,10.3.188.186,5b:4e:5f:7d:04:a6,Debian 12,4,4,500,Operaciones,ldap,activo,2025-09-22,2022-08-07,estradajose-antonio@example.org
+srv-des-0895,10.1.24.121,4f:43:7b:bc:8e:ec,Windows Server 2022,4,4,500,Desarrollo,mail,activo,2025-06-05,2024-01-14,eutropioarregui@example.org
+srv-rrh-0896,10.3.69.1,93:eb:fa:ca:ce:ee,Ubuntu 22.04 LTS,4,16,1000,RRHH,monitor,degradado,2025-08-14,2023-02-27,sotero@example.net
+srv-ope-0897,10.1.255.33,12:69:25:bc:98:3b,Windows Server 2016,32,8,500,Operaciones,dns,mantenimiento,2026-01-03,2023-05-02,jacintacarrion@example.org
+srv-des-0898,10.1.8.56,de:4b:e6:47:9a:ca,RHEL 9,64,4,250,Desarrollo,web,activo,2025-10-24,2024-01-05,dominguezangela@example.com
+srv-i+d-0899,10.5.238.96,68:ed:42:d4:1a:7d,Windows Server 2022,64,4,2000,I+D,db,activo,2025-11-26,2025-02-17,almudenaguzman@example.org
+srv-seg-0900,10.5.221.20,96:b5:f4:14:f5:22,Windows Server 2019,32,4,500,Seguridad,proxy,activo,2025-09-19,2024-07-01,maria-carmenmata@example.com
+srv-des-0901,10.5.138.16,0c:6f:be:0c:e5:ce,Ubuntu 20.04 LTS,4,4,1000,Desarrollo,nfs,activo,2025-07-22,2023-08-07,roigroberta@example.com
+srv-ope-0902,10.4.63.227,e0:f9:dd:12:22:4e,RHEL 9,2,8,500,Operaciones,nfs,activo,2026-03-24,2024-08-18,renato57@example.org
+srv-mar-0903,10.2.201.57,15:16:9b:06:44:63,Ubuntu 20.04 LTS,32,8,1000,Marketing,proxy,mantenimiento,2026-03-20,2023-01-13,lorena27@example.com
+srv-ope-0904,10.0.83.220,13:87:f7:21:70:ef,CentOS 7,2,4,2000,Operaciones,nfs,activo,2026-04-26,2021-09-04,juan-carloscaceres@example.com
+srv-i+d-0905,10.3.132.148,a9:a7:4f:8e:7d:73,RHEL 9,16,2,500,I+D,nfs,activo,2025-12-19,2022-07-29,grandeandres@example.com
+srv-ope-0906,10.0.153.206,83:36:4b:72:70:7f,Windows Server 2019,32,8,250,Operaciones,db,degradado,2025-09-20,2023-05-24,brunilda92@example.org
+srv-inf-0907,10.4.169.77,29:7c:53:f6:21:a0,Windows Server 2022,32,2,500,Infraestructura,dns,mantenimiento,2026-03-19,2023-02-08,mirofederico@example.net
+srv-i+d-0908,10.2.60.79,78:f9:fb:ca:6d:cf,Ubuntu 22.04 LTS,16,8,250,I+D,backup,activo,2025-07-28,2024-07-03,garmendiaandres@example.net
+srv-seg-0909,10.4.192.219,2a:33:2a:2a:04:4c,Debian 12,16,8,500,Seguridad,nfs,activo,2025-06-13,2021-10-17,jsanmiguel@example.com
+srv-rrh-0910,10.3.90.9,44:95:bb:b6:2c:14,Ubuntu 22.04 LTS,2,4,500,RRHH,monitor,activo,2026-05-17,2022-02-28,hector70@example.org
+srv-fin-0911,10.1.87.230,c8:fb:37:88:95:24,Ubuntu 22.04 LTS,2,8,500,Finanzas,mail,activo,2025-10-12,2022-01-11,filomenaasensio@example.net
+srv-ope-0912,10.3.114.177,91:10:c9:ad:53:f2,Debian 12,4,8,500,Operaciones,ldap,activo,2026-01-06,2021-10-06,cristobal89@example.net
+srv-inf-0913,10.2.167.54,7b:ec:4c:4f:12:28,Windows Server 2022,8,2,1000,Infraestructura,db,activo,2026-04-11,2022-11-29,sebastianvillalonga@example.net
+srv-rrh-0914,10.2.170.177,a3:7a:f6:de:d1:3e,Debian 12,4,16,2000,RRHH,ldap,degradado,2026-01-02,2021-06-14,chusgonzalez@example.com
+srv-mar-0915,10.2.80.101,62:b0:21:19:10:81,Windows Server 2019,2,8,250,Marketing,nfs,mantenimiento,2025-07-03,2023-03-14,moreraconcha@example.net
+srv-seg-0916,10.2.216.169,a1:5e:03:54:80:d4,Windows Server 2019,4,2,500,Seguridad,monitor,activo,2026-05-15,2024-08-22,nicolasa61@example.org
+srv-mar-0917,10.2.103.185,5c:d5:13:04:b8:af,Windows Server 2016,64,8,500,Marketing,monitor,activo,2026-04-13,2022-09-21,eulalia92@example.net
+srv-mar-0918,10.2.140.136,c8:64:de:14:e8:94,CentOS 7,4,8,500,Marketing,web,activo,2025-12-17,2025-04-30,costaprudencia@example.org
+srv-inf-0919,10.3.237.235,76:a1:72:e6:87:99,Ubuntu 20.04 LTS,64,16,100,Infraestructura,proxy,degradado,2026-01-26,2023-03-20,rene64@example.com
+srv-ope-0920,10.0.113.244,e6:7a:cb:01:dc:18,Ubuntu 22.04 LTS,8,2,500,Operaciones,ldap,degradado,2025-11-04,2025-05-03,obdulia21@example.org
+srv-ope-0921,10.4.109.137,93:3b:78:c7:a8:5a,Ubuntu 22.04 LTS,64,8,2000,Operaciones,proxy,activo,2025-06-20,2023-01-08,asuncion15@example.org
+srv-fin-0922,10.3.10.26,42:84:56:95:83:d4,RHEL 9,8,4,500,Finanzas,proxy,activo,2025-12-02,2024-11-18,cisnerosmaria@example.net
+srv-ope-0923,10.0.79.224,3e:01:7a:21:8a:5b,Rocky Linux 9,4,2,500,Operaciones,monitor,activo,2025-09-22,2022-06-07,eustaquio51@example.com
+srv-i+d-0924,10.3.142.202,2a:b6:2f:b4:5a:c6,Windows Server 2016,4,4,1000,I+D,backup,activo,2025-07-23,2024-12-11,marinlazaro@example.com
+srv-fin-0925,10.2.82.134,63:f5:b3:0f:ae:c7,Debian 12,4,8,100,Finanzas,ldap,mantenimiento,2026-02-17,2024-06-27,onofrerey@example.org
+srv-mar-0926,10.5.116.214,fd:ea:c6:a4:bc:65,Windows Server 2019,4,2,100,Marketing,nfs,activo,2026-06-04,2022-03-24,valverdecandido@example.net
+srv-seg-0927,10.5.173.107,03:a1:ed:2b:44:31,Ubuntu 22.04 LTS,16,8,1000,Seguridad,ldap,activo,2025-08-06,2024-08-31,albacabeza@example.net
+srv-i+d-0928,10.0.16.202,a2:7d:9f:d9:96:13,Windows Server 2019,16,2,100,I+D,backup,activo,2025-06-14,2023-12-25,jose-manuelvalverde@example.net
+srv-inf-0929,10.2.210.252,26:ba:26:ff:9d:99,Debian 12,8,8,100,Infraestructura,web,activo,2025-12-20,2024-05-23,tolosafortunato@example.org
+srv-fin-0930,10.2.58.25,87:aa:a2:3f:5d:6c,Debian 12,4,8,100,Finanzas,proxy,activo,2026-01-15,2023-09-07,ambrosio03@example.com
+srv-fin-0931,10.4.152.26,ce:14:9f:d7:2f:aa,Windows Server 2016,8,4,2000,Finanzas,web,activo,2026-05-01,2024-11-24,pilarferrero@example.net
+srv-des-0932,10.0.240.208,b8:cf:36:87:51:7e,Ubuntu 20.04 LTS,64,2,500,Desarrollo,mail,activo,2025-07-08,2022-03-28,sanchezeli@example.com
+srv-fin-0933,10.1.64.44,7a:d0:02:8b:60:fc,Ubuntu 22.04 LTS,64,8,250,Finanzas,web,mantenimiento,2026-02-17,2021-12-28,pavonbaltasar@example.net
+srv-inf-0934,10.2.69.104,d2:93:89:7f:3f:d7,CentOS 7,8,4,2000,Infraestructura,ci-cd,mantenimiento,2026-06-05,2024-10-14,luna70@example.com
+srv-inf-0935,10.5.65.148,5e:3d:7f:43:14:76,CentOS 7,8,4,2000,Infraestructura,web,activo,2025-06-20,2023-03-20,teclaasensio@example.net
+srv-rrh-0936,10.0.1.167,6b:38:07:d3:36:ae,CentOS 7,8,4,500,RRHH,mail,activo,2025-07-09,2024-09-26,fortunata65@example.org
+srv-seg-0937,10.3.140.114,67:4a:69:c7:b4:60,RHEL 9,32,16,2000,Seguridad,proxy,mantenimiento,2025-09-28,2023-11-23,abrilemiliana@example.org
+srv-inf-0938,10.0.221.119,51:1f:1e:ea:94:68,Ubuntu 22.04 LTS,8,8,100,Infraestructura,backup,activo,2026-01-11,2023-11-11,icueto@example.net
+srv-rrh-0939,10.3.33.151,e8:b2:9b:72:e6:66,Windows Server 2022,2,16,500,RRHH,nfs,mantenimiento,2026-01-18,2024-07-12,qmiro@example.org
+srv-i+d-0940,10.1.8.200,78:f8:c4:70:4a:38,CentOS 7,64,4,2000,I+D,monitor,degradado,2026-01-26,2021-07-24,esoriano@example.com
+srv-fin-0941,10.5.206.6,20:36:7b:90:81:7d,Rocky Linux 9,8,16,1000,Finanzas,ci-cd,degradado,2025-09-07,2024-05-27,herminio44@example.net
+srv-i+d-0942,10.1.10.84,d6:ae:00:f6:63:5f,Windows Server 2016,2,2,2000,I+D,backup,mantenimiento,2026-01-28,2021-07-11,maestrealbert@example.org
+srv-ope-0943,10.5.182.25,c2:f1:64:7d:a6:17,CentOS 7,32,4,500,Operaciones,nfs,activo,2025-09-06,2023-07-24,aferrandez@example.net
+srv-i+d-0944,10.4.8.177,27:34:46:76:d2:16,CentOS 7,32,4,500,I+D,dns,degradado,2026-04-29,2024-11-07,zoliveras@example.org
+srv-i+d-0945,10.5.109.56,bd:31:12:83:05:d1,Debian 12,8,2,500,I+D,ci-cd,mantenimiento,2026-02-18,2024-11-26,veracatala@example.net
+srv-seg-0946,10.0.128.203,7b:16:f3:8d:55:03,CentOS 7,4,8,250,Seguridad,dns,activo,2026-04-15,2024-12-06,montesinossebastian@example.org
+srv-mar-0947,10.3.178.240,b6:e7:54:0d:31:0a,Rocky Linux 9,2,16,500,Marketing,proxy,activo,2026-03-17,2024-02-12,minguezagapito@example.net
+srv-des-0948,10.1.101.34,97:eb:1f:e6:73:44,Debian 12,8,2,100,Desarrollo,proxy,activo,2025-07-19,2023-10-01,hpalmer@example.org
+srv-inf-0949,10.1.242.97,03:57:bf:11:59:d7,Debian 12,4,2,100,Infraestructura,mail,activo,2026-04-29,2024-07-26,cristina04@example.net
+srv-inf-0950,10.1.85.69,a8:e7:50:6e:e5:d9,Ubuntu 20.04 LTS,32,4,1000,Infraestructura,nfs,activo,2025-12-26,2023-12-21,inigoblanca@example.net
+srv-mar-0951,10.3.151.97,ee:2e:3b:40:1b:75,Ubuntu 22.04 LTS,8,16,2000,Marketing,ldap,activo,2025-08-23,2022-09-28,jvaldes@example.org
+srv-inf-0952,10.4.92.138,76:40:7b:19:25:7b,Debian 12,2,8,1000,Infraestructura,db,activo,2025-09-10,2022-06-01,azucenamacias@example.org
+srv-fin-0953,10.2.69.212,5b:16:da:fb:69:47,Rocky Linux 9,8,4,2000,Finanzas,db,degradado,2026-03-22,2021-12-04,hramon@example.org
+srv-i+d-0954,10.5.41.189,a4:eb:54:8d:ac:0f,Ubuntu 20.04 LTS,32,2,100,I+D,web,activo,2026-05-21,2024-12-16,tsanabria@example.com
+srv-seg-0955,10.0.97.124,32:e0:be:1d:0d:4c,Debian 12,4,4,500,Seguridad,dns,activo,2025-09-20,2021-10-22,ecamacho@example.org
+srv-ope-0956,10.1.43.140,4b:f4:93:fb:27:4d,Rocky Linux 9,8,4,500,Operaciones,ldap,degradado,2026-05-15,2023-09-01,penaspalmira@example.org
+srv-inf-0957,10.4.222.120,0d:16:19:01:85:7d,Windows Server 2019,2,8,500,Infraestructura,monitor,activo,2025-12-02,2022-07-15,egarate@example.org
+srv-ope-0958,10.3.193.145,3e:78:d3:4c:89:74,Windows Server 2016,4,4,500,Operaciones,web,activo,2025-12-29,2024-06-22,vrequena@example.net
+srv-inf-0959,10.5.240.14,d0:6a:7b:d2:eb:b5,Ubuntu 22.04 LTS,2,2,1000,Infraestructura,ldap,activo,2026-04-02,2025-01-24,artigasroxana@example.com
+srv-des-0960,10.0.200.65,3f:02:85:84:5a:f2,Rocky Linux 9,2,8,250,Desarrollo,ldap,activo,2025-11-24,2024-05-17,isa13@example.com
+srv-fin-0961,10.1.79.173,21:48:cc:97:57:9d,Windows Server 2022,8,8,500,Finanzas,mail,activo,2026-02-01,2023-01-28,jonatan15@example.org
+srv-rrh-0962,10.1.53.80,80:2a:ec:14:c7:95,RHEL 9,32,16,500,RRHH,mail,activo,2025-11-26,2023-10-19,hcollado@example.net
+srv-des-0963,10.1.188.88,5f:96:62:0b:2b:f0,Debian 12,32,8,500,Desarrollo,dns,activo,2026-01-08,2022-07-21,lumbreraslucila@example.org
+srv-des-0964,10.2.123.143,5b:8d:a9:44:ee:1f,CentOS 7,4,16,2000,Desarrollo,monitor,activo,2026-01-08,2021-07-30,oabella@example.org
+srv-des-0965,10.1.110.54,b5:63:83:a1:3e:ca,Rocky Linux 9,8,16,250,Desarrollo,mail,activo,2026-04-20,2024-11-24,gayaaitor@example.org
+srv-i+d-0966,10.5.63.140,18:65:7b:2e:65:fc,Windows Server 2016,64,4,250,I+D,dns,activo,2026-02-10,2025-03-17,isaac66@example.org
+srv-inf-0967,10.0.254.195,a7:c7:30:ec:d0:04,Ubuntu 22.04 LTS,4,2,250,Infraestructura,proxy,activo,2026-05-21,2022-02-21,yusteaurea@example.org
+srv-fin-0968,10.0.65.215,06:7d:c1:aa:f1:fe,RHEL 9,32,4,2000,Finanzas,backup,degradado,2026-04-05,2023-02-06,leon70@example.com
+srv-des-0969,10.2.177.35,1d:27:9f:24:3f:92,CentOS 7,32,2,1000,Desarrollo,backup,activo,2026-02-07,2023-03-15,janaya@example.net
+srv-i+d-0970,10.4.71.194,d0:63:57:50:6e:4b,RHEL 9,2,2,250,I+D,nfs,activo,2025-12-16,2023-07-15,sabina44@example.org
+srv-inf-0971,10.2.18.179,96:42:d0:15:bb:0a,Ubuntu 20.04 LTS,4,4,250,Infraestructura,nfs,mantenimiento,2025-10-29,2022-12-27,uespinosa@example.net
+srv-des-0972,10.0.65.110,09:15:62:1c:68:b8,Windows Server 2016,4,8,500,Desarrollo,ci-cd,activo,2026-05-23,2023-04-06,goyo11@example.net
+srv-rrh-0973,10.2.108.26,59:6f:82:ae:b6:1a,Windows Server 2019,4,8,1000,RRHH,ldap,activo,2025-10-25,2022-03-22,calixtasoria@example.net
+srv-fin-0974,10.3.73.160,6b:87:94:14:3b:7b,Windows Server 2019,64,4,1000,Finanzas,web,degradado,2025-10-19,2024-05-04,expositojenaro@example.com
+srv-seg-0975,10.3.69.105,17:6c:77:bf:3f:1b,Rocky Linux 9,8,2,2000,Seguridad,monitor,mantenimiento,2025-06-17,2021-07-15,ferreroheliodoro@example.net
+srv-des-0976,10.4.33.206,94:92:5d:08:e7:82,Ubuntu 22.04 LTS,16,8,250,Desarrollo,dns,degradado,2025-06-09,2022-03-20,sofiagodoy@example.com
+srv-inf-0977,10.4.233.23,97:4a:bb:c4:7f:4b,Windows Server 2022,8,4,1000,Infraestructura,db,activo,2026-05-26,2022-08-16,osunaeva@example.org
+srv-ope-0978,10.1.55.48,72:96:48:dc:ce:1c,CentOS 7,4,8,1000,Operaciones,web,degradado,2025-10-06,2024-07-23,noaballesteros@example.net
+srv-inf-0979,10.3.15.165,e2:59:6e:9e:74:70,Ubuntu 20.04 LTS,64,4,2000,Infraestructura,ci-cd,activo,2025-07-08,2024-01-23,falcoaroa@example.com
+srv-rrh-0980,10.2.1.230,b0:d0:3c:48:de:ae,Windows Server 2016,2,2,1000,RRHH,mail,mantenimiento,2025-08-07,2023-06-02,mauriciosureda@example.net
+srv-rrh-0981,10.0.195.147,c1:b0:d0:25:6e:07,Windows Server 2022,8,8,500,RRHH,dns,activo,2025-06-26,2021-08-01,rodrigodiez@example.net
+srv-rrh-0982,10.4.172.252,3d:80:62:88:cc:4c,CentOS 7,16,4,1000,RRHH,backup,degradado,2026-01-17,2021-12-01,vilaeli@example.net
+srv-des-0983,10.3.114.1,03:de:c8:c7:20:1c,Ubuntu 22.04 LTS,4,2,500,Desarrollo,ldap,activo,2026-04-28,2024-12-21,rafael32@example.com
+srv-mar-0984,10.0.33.97,1c:8e:29:96:25:a4,RHEL 9,2,2,500,Marketing,dns,activo,2025-07-18,2022-07-03,amarogalvan@example.net
+srv-mar-0985,10.5.73.13,bc:70:8f:8a:08:fd,Windows Server 2019,32,8,500,Marketing,ci-cd,activo,2025-11-17,2024-07-08,vpareja@example.com
+srv-des-0986,10.5.206.196,d2:42:46:b0:09:2f,Windows Server 2019,4,16,500,Desarrollo,nfs,mantenimiento,2026-05-12,2024-07-11,monicagaliano@example.net
+srv-fin-0987,10.3.134.18,63:65:67:e8:76:2d,Rocky Linux 9,2,4,500,Finanzas,monitor,activo,2026-02-22,2023-06-30,loretoamoros@example.com
+srv-inf-0988,10.4.40.119,05:68:54:34:28:53,Ubuntu 20.04 LTS,64,2,500,Infraestructura,db,activo,2025-11-01,2024-02-04,pologonzalo@example.net
+srv-seg-0989,10.3.176.97,3e:61:6f:e5:26:97,Debian 12,64,4,500,Seguridad,ci-cd,activo,2026-03-11,2022-03-08,hectorpablo@example.org
+srv-seg-0990,10.3.150.131,16:30:dc:8d:91:1b,Ubuntu 22.04 LTS,4,4,500,Seguridad,proxy,activo,2026-04-14,2023-03-13,nazaret24@example.net
+srv-i+d-0991,10.1.237.190,ff:57:5f:26:07:52,Windows Server 2016,4,16,100,I+D,nfs,degradado,2025-09-04,2024-05-28,morenarodenas@example.net
+srv-fin-0992,10.4.214.44,ae:fb:e0:77:da:76,CentOS 7,8,8,250,Finanzas,db,degradado,2026-03-07,2022-05-19,vfuertes@example.com
+srv-seg-0993,10.2.117.147,e6:0b:fc:db:ce:3c,Windows Server 2022,2,8,500,Seguridad,web,mantenimiento,2025-09-24,2024-02-08,tcuadrado@example.com
+srv-inf-0994,10.0.186.196,01:c0:49:2b:57:5c,Windows Server 2016,4,4,2000,Infraestructura,monitor,activo,2025-06-25,2024-07-14,renataduque@example.net
+srv-fin-0995,10.0.171.139,e5:35:87:cf:4c:25,Windows Server 2022,16,8,2000,Finanzas,mail,activo,2025-08-17,2024-08-25,maciasricarda@example.net
+srv-seg-0996,10.4.20.143,89:78:dc:93:08:51,Windows Server 2022,64,4,100,Seguridad,monitor,activo,2025-07-31,2021-07-20,quirinosoto@example.com
+srv-mar-0997,10.5.128.130,95:42:98:ac:21:2b,Windows Server 2016,32,4,500,Marketing,nfs,degradado,2025-09-19,2022-11-11,silvia99@example.org
+srv-des-0998,10.2.91.61,cd:e5:c7:f4:64:5f,Windows Server 2019,4,2,1000,Desarrollo,nfs,activo,2025-11-23,2024-12-28,selena16@example.org
+srv-fin-0999,10.4.252.99,4c:df:fe:4e:42:a3,Windows Server 2019,64,8,1000,Finanzas,proxy,mantenimiento,2026-05-17,2021-10-27,maxi29@example.net
+srv-seg-1000,10.3.95.175,79:bc:1a:89:0f:b8,Windows Server 2016,2,8,500,Seguridad,ci-cd,activo,2025-06-19,2022-11-13,millaelpidio@example.org
