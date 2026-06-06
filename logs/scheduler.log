@@ -1,0 +1,19 @@
+2026-06-06 20:37:56,017 [INFO] ═══════════════════════════════════════════════════════
+2026-06-06 20:37:56,023 [INFO]   SYS TOOLKIT — Demonio de automatización activo
+2026-06-06 20:37:56,023 [INFO]   Informe Excel : cada mes el día 1 a las 08:00
+2026-06-06 20:37:56,024 [INFO]   Disco + Logs  : cada hora
+2026-06-06 20:37:56,024 [INFO]   Para detener  : Ctrl+C
+2026-06-06 20:37:56,024 [INFO] ═══════════════════════════════════════════════════════
+2026-06-06 20:37:56,025 [INFO] Ejecutando tareas iniciales...
+2026-06-06 20:37:56,025 [INFO] Comprobando espacio en disco...
+2026-06-06 20:37:56,025 [INFO] Analizando auth.log en busca de ataques SSH...
+2026-06-06 20:37:56,038 [INFO] IPs únicas con fallos: 20
+2026-06-06 20:37:56,038 [WARNING] IP sospechosa: 176.175.235.84 — 138 intentos fallidos
+2026-06-06 20:37:56,038 [WARNING] IP sospechosa: 139.46.200.192 — 137 intentos fallidos
+2026-06-06 20:37:56,038 [WARNING] IP sospechosa: 185.254.239.124 — 133 intentos fallidos
+2026-06-06 20:37:56,038 [WARNING] IP sospechosa: 51.36.91.212 — 133 intentos fallidos
+2026-06-06 20:37:56,038 [WARNING] IP sospechosa: 209.157.76.48 — 129 intentos fallidos
+2026-06-06 20:37:56,038 [INFO] Iniciando generación de informe mensual...
+2026-06-06 20:37:57,641 [INFO] Informe generado: reports/informe_202606.xlsx
+2026-06-06 20:37:57,641 [INFO] Demonio en espera. Próxima ejecución programada...
+2026-06-06 20:39:44,959 [INFO] Demonio detenido por el usuario.
