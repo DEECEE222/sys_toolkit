@@ -53,7 +53,7 @@ def check_disk_space(path: str = "/", threshold_pct: float = 20.0) -> None:
         print(f"  [!] La ruta '{path}' no existe.")
         return
 
-    usage: shutil.disk_usage = shutil.disk_usage(path)
+    usage = shutil.disk_usage(path)
     total_gb: float = usage.total / (1024 ** 3)
     used_gb: float = usage.used / (1024 ** 3)
     free_gb: float = usage.free / (1024 ** 3)

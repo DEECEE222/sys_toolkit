@@ -55,14 +55,14 @@ def geolocate_ip(ip: str) -> dict[str, str]:
             "org": "Sin conexión a la API",
         }
     except requests.HTTPError as e:
+        code = e.response.status_code if e.response is not None else "?"
         return {
             "ip": ip,
             "country": "ERROR",
             "city": "-",
             "region": "-",
-            "org": f"HTTP {e.response.status_code}",
+            "org": f"HTTP {code}",
         }
-
 
 def enrich_ips_table(ip_counts: dict[str, int]) -> list[dict[str, str | int]]:
     """
